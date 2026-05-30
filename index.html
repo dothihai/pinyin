@@ -199,6 +199,10 @@
     background:rgba(180,140,60,.2); border-color:rgba(180,140,60,.6);
     color:#d4a840; font-weight:bold;
   }
+  .level-btn:disabled { opacity:0.35; cursor:not-allowed; }
+  #mistakes-btn { border-color:rgba(248,113,113,.3); color:rgba(248,113,113,.55); }
+  #mistakes-btn:not(:disabled):hover { background:rgba(248,113,113,.1); color:#f87171; }
+  #mistakes-btn.active { background:rgba(248,113,113,.15); border-color:rgba(248,113,113,.6); color:#f87171; }
 
   /* Max streak */
   .max-streak {
@@ -239,6 +243,7 @@
       <button class="level-btn" data-level="5">HSK 5</button>
       <button class="level-btn" data-level="6">HSK 6</button>
       <button class="level-btn" data-level="7">HSK 7</button>
+      <button class="level-btn" id="mistakes-btn" data-level="mistakes">Đã sai (0)</button>
     </div>
 
     <!-- Stats -->
@@ -381,6 +386,12 @@ const ALL_PINYIN = [
   "lán","zǐ","hēi","huī","zōng","fěn",
 ];
 
+// ─── Mistakes (localStorage) ──────────────────────────────────────────────────
+const MISTAKES = new Set(JSON.parse(localStorage.getItem('pinyin_mistakes') || '[]'));
+function saveMistakes() {
+  localStorage.setItem('pinyin_mistakes', JSON.stringify([...MISTAKES]));
+}
+
 // ─── State ──────────────────────────────────────────────────────────────────
 const S = {
   currentIndex: 0,
@@ -409,18 +420,22 @@ function stripTones(s) {
 function getCharPool() {
   if (S.level === 'all') return CHARACTERS;
   if (S.level === '7') return CHARACTERS.filter(c => !ALL_HSK_SET.has(c.char));
+  if (S.level === 'mistakes') return CHARACTERS.filter(c => MISTAKES.has(c.char));
   const set = HSK_MAP[S.level];
   return CHARACTERS.filter(c => set.has(c.char));
 }
 
 function startLevel(level) {
-  S.level         = level;
+  const prevLevel = S.level;
+  S.level = level;
+  const pool = getCharPool();
+  if (pool.length === 0) { S.level = prevLevel; return; }
   S.currentIndex  = 0;
   S.score         = 0;
   S.streak        = 0;
   S.maxStreak     = 0;
   S.totalAnswered = 0;
-  S.shuffledChars = shuffle(getCharPool());
+  S.shuffledChars = shuffle(pool);
   generateOptions(0);
   render();
   document.querySelectorAll('.level-btn').forEach(b =>
@@ -486,6 +501,11 @@ function updateStats() {
   if (S.maxStreak >= 5) {
     elMaxBadge.style.display = "block";
     elMaxVal.textContent = S.maxStreak;
+  }
+  const elMistakesBtn = $('mistakes-btn');
+  if (elMistakesBtn) {
+    elMistakesBtn.textContent = `Đã sai (${MISTAKES.size})`;
+    elMistakesBtn.disabled = MISTAKES.size === 0;
   }
 }
 
@@ -605,30 +625,31 @@ function generateOptions(idx) {
   S.phase    = "question";
 }
 
-function handleSelect(opt) {
-  if (S.phase !== "question") return;
-  const cur     = S.shuffledChars[S.currentIndex];
-  const correct = cur?.pinyin[0];
-
-  S.selected = opt;
-  S.phase    = "feedback";
+function resolveAnswer(isCorrect, delay) {
+  const cur = S.shuffledChars[S.currentIndex];
+  S.phase = 'feedback';
   S.totalAnswered++;
-
-  // Play the character sound once (fixes double-sound bug)
   speak(cur.char);
-
-  if (opt === correct) {
-    S.result = "correct";
+  if (isCorrect) {
+    S.result = 'correct';
     S.score++;
     S.streak++;
     if (S.streak > S.maxStreak) S.maxStreak = S.streak;
+    if (S.level !== 'mistakes') { MISTAKES.delete(cur.char); saveMistakes(); }
     render();
-    setTimeout(nextCard, 900);
+    setTimeout(nextCard, delay);
   } else {
-    S.result = "wrong";
+    S.result = 'wrong';
     S.streak = 0;
+    if (S.level !== 'mistakes') { MISTAKES.add(cur.char); saveMistakes(); }
     render();
   }
+}
+
+function handleSelect(opt) {
+  if (S.phase !== 'question') return;
+  S.selected = opt;
+  resolveAnswer(opt === S.shuffledChars[S.currentIndex]?.pinyin[0], 900);
 }
 
 function nextCard() {
@@ -639,25 +660,10 @@ function nextCard() {
 
 function handleInputSubmit() {
   if (S.phase !== 'question') return;
-  const cur = S.shuffledChars[S.currentIndex];
   const val = elPinyinInp.value.trim();
   if (!val) { elPinyinInp.focus(); return; }
-  const correct = cur?.pinyin[0];
-  S.phase = 'feedback';
-  S.totalAnswered++;
-  speak(cur.char);
-  if (stripTones(val) === stripTones(correct)) {
-    S.result = 'correct';
-    S.score++;
-    S.streak++;
-    if (S.streak > S.maxStreak) S.maxStreak = S.streak;
-    render();
-    setTimeout(nextCard, 1200);
-  } else {
-    S.result = 'wrong';
-    S.streak = 0;
-    render();
-  }
+  const correct = S.shuffledChars[S.currentIndex]?.pinyin[0];
+  resolveAnswer(stripTones(val) === stripTones(correct), 1200);
 }
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
