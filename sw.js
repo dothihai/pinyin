@@ -1,9 +1,10 @@
-const CACHE = 'pinyin-v1';
+const CACHE = 'pinyin-v1.1';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './icon.svg',
+  './all_characters.json',
 ];
 
 self.addEventListener('install', e => {

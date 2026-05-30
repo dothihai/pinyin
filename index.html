@@ -148,6 +148,40 @@
   }
   .next-btn:hover { filter:brightness(1.15); }
 
+  /* Mode toggle */
+  .mode-row {
+    display:flex; gap:0; margin-bottom:14px; border-radius:12px; overflow:hidden;
+    border:1px solid rgba(180,140,60,.3); background:rgba(0,0,0,.2);
+  }
+  .mode-btn {
+    flex:1; padding:8px 0; font-size:13px; cursor:pointer;
+    font-family:Georgia,serif; letter-spacing:.5px;
+    background:transparent; border:none; color:rgba(220,190,120,.5);
+    transition:all .2s;
+  }
+  .mode-btn.active { background:rgba(180,140,60,.2); color:#d4a840; font-weight:bold; }
+  .pinyin-input-wrap {
+    display:flex; flex-direction:column; gap:12px; align-items:center;
+    padding:4px 0 20px;
+  }
+  .pinyin-input {
+    width:100%; background:rgba(255,255,255,.06); border:1.5px solid rgba(180,140,60,.3);
+    border-radius:14px; padding:16px; text-align:center;
+    font-size:26px; color:#e8dcc8; font-family:Georgia,serif;
+    letter-spacing:3px; outline:none; caret-color:#d4a840;
+    transition:border-color .2s, color .2s;
+  }
+  .pinyin-input:focus { border-color:rgba(180,140,60,.7); }
+  .pinyin-input.correct { border-color:rgba(74,222,128,.7); color:#4ade80; }
+  .pinyin-input.wrong   { border-color:rgba(248,113,113,.7); color:#f87171; }
+  .submit-btn {
+    background:rgba(180,140,60,.2); border:1px solid rgba(180,140,60,.5);
+    border-radius:12px; padding:12px 32px; color:#e8b84b; cursor:pointer;
+    font-size:15px; letter-spacing:1px; font-family:Georgia,serif;
+  }
+  .submit-btn:hover { filter:brightness(1.15); }
+  .submit-btn:disabled { background:rgba(180,140,60,.1); border-color:rgba(180,140,60,.2); color:rgba(232,184,75,.6); cursor:not-allowed; }
+
   /* Level selector */
   .level-row {
     display:flex; gap:8px; overflow-x:auto; padding:0 2px 10px;
@@ -187,6 +221,12 @@
         <div class="header-title">Pinyin Trainer</div>
       </div>
       <div id="streak-badge" class="streak-badge">🔥 0 streak</div>
+    </div>
+
+    <!-- Mode toggle -->
+    <div class="mode-row">
+      <button class="mode-btn active" data-mode="quiz">Trắc nghiệm</button>
+      <button class="mode-btn" data-mode="input">Nhập pinyin</button>
     </div>
 
     <!-- Level selector -->
@@ -231,6 +271,16 @@
 
     <!-- Options -->
     <div id="options" class="options"></div>
+
+    <!-- Input area (input mode) -->
+    <div id="input-area" style="display:none">
+      <div class="pinyin-input-wrap">
+        <input id="pinyin-input" class="pinyin-input" type="text"
+               placeholder="Nhập pinyin..." autocomplete="off"
+               autocorrect="off" autocapitalize="off" spellcheck="false" />
+        <button id="submit-btn" class="submit-btn">Kiểm tra →</button>
+      </div>
+    </div>
 
     <!-- Action -->
     <div id="action-row" class="action-row" style="display:none">
@@ -344,10 +394,17 @@ const S = {
   shuffledChars: [],
   totalAnswered: 0,
   level: 'all',
+  mode: 'quiz',
 };
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 function shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
+
+function stripTones(s) {
+  return s.replace(/[üǖǘǚǜ]/g, 'v')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().trim();
+}
 
 function getCharPool() {
   if (S.level === 'all') return CHARACTERS;
@@ -369,6 +426,15 @@ function startLevel(level) {
   document.querySelectorAll('.level-btn').forEach(b =>
     b.classList.toggle('active', b.dataset.level === level)
   );
+}
+
+function switchMode(mode) {
+  S.mode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.mode === mode)
+  );
+  generateOptions(S.currentIndex);
+  render();
 }
 
 function getWrongOptions(correct, count = 3) {
@@ -405,6 +471,9 @@ const elBar       = $("progress-bar");
 const elStreak    = $("streak-badge");
 const elMaxBadge  = $("max-streak-badge");
 const elMaxVal    = $("max-streak-val");
+const elInputArea = $("input-area");
+const elPinyinInp = $("pinyin-input");
+const elSubmitBtn = $("submit-btn");
 
 // ─── Render ───────────────────────────────────────────────────────────────────
 function updateStats() {
@@ -439,14 +508,18 @@ function renderCard() {
 
   elCard.className = "char-card " + (S.result === "correct" ? "correct" : S.result === "wrong" ? "wrong" : "neutral");
 
-  if (S.result === "correct") {
-    elPinyin.textContent  = cur.pinyin;
-    elMeaning.textContent = cur.meaning;
+  if (S.result === "correct" || (S.mode === 'input' && S.result === 'wrong')) {
+    elPinyin.textContent  = Array.isArray(cur.pinyin) ? cur.pinyin.join(' / ') : cur.pinyin;
+    elMeaning.textContent = cur.definition || cur.meaning || '';
     elReveal.style.display = "block";
-    elSparkle.style.display = "block";
-    elSparkle.style.animation = "none";
-    void elSparkle.offsetWidth; // reflow to restart animation
-    elSparkle.style.animation = "pop 0.5s ease forwards";
+    if (S.result === 'correct') {
+      elSparkle.style.display = "block";
+      elSparkle.style.animation = "none";
+      void elSparkle.offsetWidth; // reflow to restart animation
+      elSparkle.style.animation = "pop 0.5s ease forwards";
+    } else {
+      elSparkle.style.display = "none";
+    }
   } else {
     elReveal.style.display  = "none";
     elSparkle.style.display = "none";
@@ -454,6 +527,8 @@ function renderCard() {
 }
 
 function renderOptions() {
+  if (S.mode === 'input') { elOptions.style.display = 'none'; return; }
+  elOptions.style.display = '';
   const cur = S.shuffledChars[S.currentIndex];
   if (!cur) return;
   elOptions.innerHTML = "";
@@ -480,19 +555,43 @@ function renderOptions() {
   });
 }
 
+function renderInputArea() {
+  if (S.mode !== 'input') { elInputArea.style.display = 'none'; return; }
+  elInputArea.style.display = 'block';
+  if (S.phase === 'question') {
+    elPinyinInp.value = '';
+    elPinyinInp.className = 'pinyin-input';
+    elPinyinInp.disabled = false;
+    elSubmitBtn.disabled = false;
+    setTimeout(() => elPinyinInp.focus(), 50);
+  } else {
+    elPinyinInp.className = 'pinyin-input ' + (S.result || '');
+    elPinyinInp.disabled = true;
+    elSubmitBtn.disabled = true;
+  }
+}
+
 function renderActions() {
   if (S.phase === "feedback" && S.result === "wrong") {
     elActionRow.style.display = "flex";
   } else {
     elActionRow.style.display = "none";
   }
-  elHint.style.display = S.phase === "question" ? "block" : "none";
+  if (S.phase === "question") {
+    elHint.textContent = S.mode === 'input'
+      ? 'Nhập pinyin rồi nhấn Enter · Nhấn chữ để nghe'
+      : 'Chọn phiên âm đúng · Nhấn chữ để nghe';
+    elHint.style.display = "block";
+  } else {
+    elHint.style.display = "none";
+  }
 }
 
 function render() {
   updateStats();
   renderCard();
   renderOptions();
+  renderInputArea();
   renderActions();
 }
 
@@ -538,6 +637,29 @@ function nextCard() {
   render();
 }
 
+function handleInputSubmit() {
+  if (S.phase !== 'question') return;
+  const cur = S.shuffledChars[S.currentIndex];
+  const val = elPinyinInp.value.trim();
+  if (!val) { elPinyinInp.focus(); return; }
+  const correct = cur?.pinyin[0];
+  S.phase = 'feedback';
+  S.totalAnswered++;
+  speak(cur.char);
+  if (stripTones(val) === stripTones(correct)) {
+    S.result = 'correct';
+    S.score++;
+    S.streak++;
+    if (S.streak > S.maxStreak) S.maxStreak = S.streak;
+    render();
+    setTimeout(nextCard, 1200);
+  } else {
+    S.result = 'wrong';
+    S.streak = 0;
+    render();
+  }
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 (function init() {
   S.shuffledChars = shuffle(getCharPool());
@@ -553,6 +675,15 @@ function nextCard() {
   document.querySelectorAll('.level-btn').forEach(btn =>
     btn.addEventListener('click', () => startLevel(btn.dataset.level))
   );
+
+  document.querySelectorAll('.mode-btn').forEach(btn =>
+    btn.addEventListener('click', () => switchMode(btn.dataset.mode))
+  );
+
+  elSubmitBtn.addEventListener('click', handleInputSubmit);
+  elPinyinInp.addEventListener('keydown', e => {
+    if (e.key === 'Enter') handleInputSubmit();
+  });
 
   render();
 })();
