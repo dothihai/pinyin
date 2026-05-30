@@ -92,15 +92,19 @@
 
   .speaker-hint { position:absolute; top:14px; right:16px; font-size:14px; color:rgba(180,140,60,.5); }
   .char-glyph {
-    display:flex; align-items:flex-start; justify-content:center; gap:8px;
-    margin-bottom:12px; user-select:none;
+    position:relative; display:flex; justify-content:center; align-items:flex-start;
+    min-height:100px; margin-bottom:12px; user-select:none;
   }
   .char-main {
     font-size:96px; line-height:1;
     text-shadow:0 0 30px rgba(184,134,42,.3);
   }
   .char-trad {
-    font-size:22px; line-height:1; margin-top:10px;
+    position:absolute;
+    /* right edge of a 96px CJK char ≈ 50% + 48px; add 6px gap */
+    left:calc(50% + 54px);
+    top:10px;
+    font-size:22px; line-height:1;
     color:rgba(180,140,60,.55); font-family:'Noto Serif SC','STSong',serif;
     border-left:1px solid rgba(180,140,60,.2); padding-left:8px;
   }
