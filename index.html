@@ -2,8 +2,20 @@
 <html lang="zh">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Pinyin Trainer</title>
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#1a0f2e" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+<!-- iOS / Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Pinyin" />
+<link rel="apple-touch-icon" href="icon.svg" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet" />
 <style>
@@ -80,8 +92,17 @@
 
   .speaker-hint { position:absolute; top:14px; right:16px; font-size:14px; color:rgba(180,140,60,.5); }
   .char-glyph {
-    font-size:96px; line-height:1; margin-bottom:12px;
-    text-shadow:0 0 30px rgba(184,134,42,.3); user-select:none;
+    display:flex; align-items:flex-start; justify-content:center; gap:8px;
+    margin-bottom:12px; user-select:none;
+  }
+  .char-main {
+    font-size:96px; line-height:1;
+    text-shadow:0 0 30px rgba(184,134,42,.3);
+  }
+  .char-trad {
+    font-size:22px; line-height:1; margin-top:10px;
+    color:rgba(180,140,60,.55); font-family:'Noto Serif SC','STSong',serif;
+    border-left:1px solid rgba(180,140,60,.2); padding-left:8px;
   }
   .char-pinyin { font-size:22px; color:#d4a840; font-style:italic; letter-spacing:2px; font-family:Georgia,serif; margin-top:8px; animation:fadeIn .3s ease; }
   .char-meaning { font-size:13px; color:#8070a0; margin-top:6px; letter-spacing:1px; }
@@ -161,7 +182,10 @@
     <!-- Character card -->
     <div id="char-card" class="char-card neutral">
       <div class="speaker-hint">🔊</div>
-      <div id="char-glyph" class="char-glyph"></div>
+      <div id="char-glyph" class="char-glyph">
+        <span id="char-main" class="char-main"></span>
+        <span id="char-trad" class="char-trad" style="display:none"></span>
+      </div>
       <div id="char-reveal" style="display:none">
         <div id="char-pinyin" class="char-pinyin"></div>
         <div id="char-meaning" class="char-meaning"></div>
@@ -3764,6 +3788,8 @@ function speak(text) {
 const $ = id => document.getElementById(id);
 const elCard      = $("char-card");
 const elGlyph     = $("char-glyph");
+const elMain      = $("char-main");
+const elTrad      = $("char-trad");
 const elReveal    = $("char-reveal");
 const elPinyin    = $("char-pinyin");
 const elMeaning   = $("char-meaning");
@@ -3796,7 +3822,19 @@ function updateStats() {
 function renderCard() {
   const cur = S.shuffledChars[S.currentIndex];
   if (!cur) return;
-  elGlyph.textContent = cur.char;
+  elMain.textContent = cur.char;
+  const tradRaw = cur.traditional;
+  if (tradRaw) {
+    const tradChar = [...tradRaw].join("／"); // first char (handles multi-char strings like "發髮")
+    if (tradChar && tradChar !== cur.char) {
+      elTrad.textContent = tradChar;
+      elTrad.style.display = "inline";
+    } else {
+      elTrad.style.display = "none";
+    }
+  } else {
+    elTrad.style.display = "none";
+  }
 
   elCard.className = "char-card " + (S.result === "correct" ? "correct" : S.result === "wrong" ? "wrong" : "neutral");
 
@@ -3913,6 +3951,14 @@ function nextCard() {
 
   render();
 })();
+</script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(console.error);
+    });
+  }
 </script>
 </body>
 </html>
