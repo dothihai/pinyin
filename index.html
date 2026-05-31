@@ -281,13 +281,9 @@
     <div id="input-area" style="display:none">
       <div class="pinyin-input-wrap">
         <input id="pinyin-input" class="pinyin-input" type="text"
-              placeholder="Nhập pinyin..."
-              autocorrect="off" autocapitalize="off" spellcheck="false"
-              autocomplete="new-password"
-              autocapitalize="off"
-              inputmode="text"
-              content="telephone=no,address=no,email=no"
-               />
+               placeholder="Nhập pinyin..."
+               autocomplete="off" autocorrect="off" autocapitalize="off"
+               spellcheck="false" enterkeyhint="send" />
         <button id="submit-btn" class="submit-btn">Kiểm tra →</button>
       </div>
     </div>
@@ -583,16 +579,14 @@ function renderOptions() {
 function renderInputArea() {
   if (S.mode !== 'input') { elInputArea.style.display = 'none'; return; }
   elInputArea.style.display = 'block';
+  // Never disable or set readOnly — Android keyboard stays open as long as input is focused
+  elSubmitBtn.disabled = S.phase !== 'question';
+  elPinyinInp.className = 'pinyin-input' + (S.phase === 'feedback' ? ' ' + (S.result || '') : '');
   if (S.phase === 'question') {
     elPinyinInp.value = '';
-    elPinyinInp.className = 'pinyin-input';
-    elPinyinInp.disabled = false;
-    elSubmitBtn.disabled = false;
-    setTimeout(() => elPinyinInp.focus(), 50);
-  } else {
-    elPinyinInp.className = 'pinyin-input ' + (S.result || '');
-    elPinyinInp.disabled = true;
-    elSubmitBtn.disabled = true;
+    if (document.activeElement !== elPinyinInp) {
+      setTimeout(() => elPinyinInp.focus(), 50);
+    }
   }
 }
 
@@ -681,7 +675,9 @@ function handleInputSubmit() {
     if (cur) speak(cur.char);
   });
 
-  $("next-btn").addEventListener("click", nextCard);
+  // pointerdown prevention stops these buttons from stealing focus (which would close Android keyboard)
+  $('next-btn').addEventListener('pointerdown', e => e.preventDefault());
+  $('next-btn').addEventListener('click', nextCard);
 
   document.querySelectorAll('.level-btn').forEach(btn =>
     btn.addEventListener('click', () => startLevel(btn.dataset.level))
@@ -691,6 +687,7 @@ function handleInputSubmit() {
     btn.addEventListener('click', () => switchMode(btn.dataset.mode))
   );
 
+  elSubmitBtn.addEventListener('pointerdown', e => e.preventDefault());
   elSubmitBtn.addEventListener('click', handleInputSubmit);
   elPinyinInp.addEventListener('keydown', e => {
     if (e.key === 'Enter') handleInputSubmit();
