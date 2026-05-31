@@ -1,4 +1,4 @@
-const CACHE = 'pinyin-v1.2';
+const CACHE = 'pinyin-v1.2.1';
 const ASSETS = [
   './',
   './index.html',
