@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Phát âm theo Pinyin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: linear-gradient(135deg,#0f0f1a 0%,#1a0f2e 50%,#0f1a1a 100%);
+    min-height: 100vh;
+    font-family: 'Noto Serif SC','STSong', serif;
+    color: #e8dcc8;
+  }
+
+  .bg-deco {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      radial-gradient(ellipse at 20% 20%, rgba(180,120,60,.08) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 80%, rgba(60,120,180,.08) 0%, transparent 60%);
+    pointer-events: none; z-index: 0;
+  }
+
+  #app {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+
+  /* Header */
+  .page-header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(180,140,60,.2);
+  }
+  .page-header h1 {
+    font-size: 22px;
+    color: #e8dcc8;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+  }
+  .page-header .subtitle {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #b8a070;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  /* Search / filter bar */
+  .filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-bar input {
+    flex: 1;
+    min-width: 160px;
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(180,140,60,.25);
+    border-radius: 8px;
+    padding: 8px 14px;
+    color: #e8dcc8;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+  }
+  .filter-bar input::placeholder { color: #7a6a50; }
+  .filter-bar input:focus { border-color: rgba(212,168,64,.6); }
+  .stats {
+    font-size: 12px;
+    color: #b8a070;
+    white-space: nowrap;
+  }
+
+  /* Pinyin group */
+  .group {
+    margin-bottom: 20px;
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(180,140,60,.12);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .group-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: rgba(180,140,60,.08);
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid rgba(180,140,60,.12);
+    transition: background .15s;
+  }
+  .group-header:hover { background: rgba(180,140,60,.14); }
+
+  .pinyin-label {
+    font-size: 17px;
+    font-weight: 700;
+    color: #d4a840;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    min-width: 90px;
+  }
+
+  .count-badge {
+    font-size: 11px;
+    color: #8a7860;
+    background: rgba(180,140,60,.1);
+    border: 1px solid rgba(180,140,60,.2);
+    border-radius: 10px;
+    padding: 2px 9px;
+    letter-spacing: 1px;
+  }
+
+  .collapse-icon {
+    margin-left: auto;
+    font-size: 12px;
+    color: #7a6a50;
+    transition: transform .2s;
+  }
+  .group.collapsed .collapse-icon { transform: rotate(-90deg); }
+
+  .group-body {
+    padding: 12px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .group.collapsed .group-body { display: none; }
+
+  /* Character buttons */
+  .char-btn {
+    position: relative;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(180,140,60,.2);
+    border-radius: 8px;
+    width: 90px;
+    min-height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 8px 6px;
+    font-size: 22px;
+    color: #e8dcc8;
+    cursor: pointer;
+    transition: background .12s, border-color .12s, transform .1s;
+    font-family: 'Noto Serif SC','STSong', serif;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .char-def {
+    font-size: 9px;
+    color: #9a8a6a;
+    line-height: 1.3;
+    text-align: center;
+    font-family: Georgia, serif;
+    max-width: 84px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+  }
+  .char-btn:hover {
+    background: rgba(212,168,64,.15);
+    border-color: rgba(212,168,64,.5);
+  }
+  .char-btn:active { transform: scale(.9); }
+  .char-btn.playing {
+    background: rgba(212,168,64,.25);
+    border-color: #d4a840;
+    box-shadow: 0 0 10px rgba(212,168,64,.4);
+  }
+
+  /* Ripple flash on play */
+  @keyframes ripple {
+    from { opacity: .7; transform: scale(.8); }
+    to   { opacity: 0;  transform: scale(1.6); }
+  }
+  .char-btn::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    border: 2px solid #d4a840;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .char-btn.playing::after { animation: ripple .5s ease-out; }
+
+  /* Loading / error state */
+  .loading, .error {
+    text-align: center;
+    padding: 60px 20px;
+    color: #b8a070;
+    font-size: 15px;
+  }
+  .error { color: #e06060; }
+</style>
+</head>
+<body>
+<div class="bg-deco"></div>
+<div id="app">
+  <div class="page-header">
+    <h1>发音练习 · Phát Âm</h1>
+    <div class="subtitle">Nhóm theo Pinyin · Nhấn để nghe</div>
+  </div>
+
+  <div class="filter-bar">
+    <input id="search" type="text" placeholder="Tìm pinyin hoặc chữ Hán…" autocomplete="off" />
+    <span class="stats" id="stats"></span>
+  </div>
+
+  <div id="content"><div class="loading">Đang tải dữ liệu…</div></div>
+</div>
+
+<script>
+// ─── TTS helper ────────────────────────────────────────────────────────────────
+let voices = [];
+function loadVoices() {
+  voices = speechSynthesis.getVoices().filter(v =>
+    v.lang.startsWith('zh') || v.lang.startsWith('cmn')
+  );
+}
+loadVoices();
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+function speak(char, btn) {
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(char);
+  utt.lang = 'zh-CN';
+  utt.rate = 0.85;
+  if (voices.length) utt.voice = voices[0];
+
+  btn.classList.add('playing');
+  utt.onend = () => btn.classList.remove('playing');
+  utt.onerror = () => btn.classList.remove('playing');
+  speechSynthesis.speak(utt);
+}
+
+// ─── Pinyin helpers ────────────────────────────────────────────────────────────
+// Strip diacritics to get bare syllable for sorting (e.g. "zhōng" → "zhong")
+function stripTone(s) {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+// ─── Main ──────────────────────────────────────────────────────────────────────
+fetch('all_characters.json')
+  .then(r => r.json())
+  .then(data => {
+    // Build map: pinyin → [char, ...]
+    const map = new Map();
+    for (const item of data) {
+      const pinyins = Array.isArray(item.pinyin) ? item.pinyin : [item.pinyin];
+      for (const py of pinyins) {
+        if (!py) continue;
+        const key = py.trim();
+        if (!map.has(key)) map.set(key, []);
+        // Avoid duplicates
+        if (!map.get(key).find(c => c.char === item.char)) {
+          map.get(key).push(item);
+        }
+      }
+    }
+
+    // Sort pinyin groups alphabetically (by bare syllable then by tone mark order)
+    const toneOrder = c => ['ā','á','ǎ','à','ē','é','ě','è','ī','í','ǐ','ì','ō','ó','ǒ','ò','ū','ú','ǔ','ù','ǖ','ǘ','ǚ','ǜ'].indexOf(c) >= 0
+      ? Math.floor(['ā','á','ǎ','à','ē','é','ě','è','ī','í','ǐ','ì','ō','ó','ǒ','ò','ū','ú','ǔ','ù','ǖ','ǘ','ǚ','ǜ'].indexOf(c) / 4)
+      : -1;
+
+    const groups = [...map.entries()].sort((a, b) => {
+      const sa = stripTone(a[0]), sb = stripTone(b[0]);
+      if (sa !== sb) return sa.localeCompare(sb);
+      return a[0].localeCompare(b[0]);
+    });
+
+    // Compute cumulative index ranges
+    let cursor = 1;
+    const enriched = groups.map(([py, chars]) => {
+      const start = cursor;
+      const end   = cursor + chars.length - 1;
+      cursor = end + 1;
+      return { py, chars, start, end };
+    });
+
+    renderGroups(enriched);
+
+    // Search filter
+    document.getElementById('search').addEventListener('input', e => {
+      const q = e.target.value.trim().toLowerCase();
+      filterGroups(enriched, q);
+    });
+  })
+  .catch(err => {
+    document.getElementById('content').innerHTML =
+      `<div class="error">Không tải được dữ liệu: ${err.message}</div>`;
+  });
+
+// ─── Render ────────────────────────────────────────────────────────────────────
+function makeGroupEl({ py, chars, start, end }) {
+  const group = document.createElement('div');
+  group.className = 'group';
+  group.dataset.py = py;
+
+  const header = document.createElement('div');
+  header.className = 'group-header';
+  header.innerHTML = `
+    <span class="pinyin-label">${py}</span>
+    <span class="count-badge">${start}–${end}</span>
+    <span class="count-badge">${chars.length} từ</span>
+    <span class="collapse-icon">▾</span>
+  `;
+  header.addEventListener('click', () => group.classList.toggle('collapsed'));
+
+  const body = document.createElement('div');
+  body.className = 'group-body';
+
+  for (const item of chars) {
+    const btn = document.createElement('button');
+    btn.className = 'char-btn';
+    btn.title = `${item.char}  [${py}]  ${item.definition || ''}`;
+    const hanzi = document.createElement('span');
+    hanzi.className = 'char-hanzi';
+    hanzi.textContent = item.char;
+    btn.appendChild(hanzi);
+    if (item.definition) {
+      const def = document.createElement('span');
+      def.className = 'char-def';
+      def.textContent = item.definition;
+      btn.appendChild(def);
+    }
+    btn.addEventListener('click', () => speak(item.char, btn));
+    body.appendChild(btn);
+  }
+
+  group.appendChild(header);
+  group.appendChild(body);
+  return group;
+}
+
+let _allEls = [];
+
+function renderGroups(enriched) {
+  const content = document.getElementById('content');
+  content.innerHTML = '';
+  const frag = document.createDocumentFragment();
+  _allEls = enriched.map(g => {
+    const el = makeGroupEl(g);
+    frag.appendChild(el);
+    return { el, py: g.py, chars: g.chars };
+  });
+  content.appendChild(frag);
+  updateStats(enriched.length, enriched.reduce((s,g) => s + g.chars.length, 0));
+}
+
+function filterGroups(enriched, q) {
+  let shown = 0, shownChars = 0;
+  _allEls.forEach(({ el, py, chars }, i) => {
+    const matchPy = stripTone(py).includes(q) || py.includes(q);
+    const matchChar = chars.some(c => c.char.includes(q));
+    const visible = !q || matchPy || matchChar;
+    el.style.display = visible ? '' : 'none';
+    if (visible) { shown++; shownChars += chars.length; }
+
+    // Highlight matching chars when searching by hanzi
+    if (q && matchChar && !matchPy) {
+      el.querySelectorAll('.char-btn').forEach(btn => {
+        const h = btn.querySelector('.char-hanzi');
+        btn.style.borderColor = h && h.textContent.includes(q)
+          ? 'rgba(212,168,64,.7)' : '';
+      });
+    } else {
+      el.querySelectorAll('.char-btn').forEach(btn => btn.style.borderColor = '');
+    }
+  });
+  updateStats(shown, shownChars);
+}
+
+function updateStats(groups, chars) {
+  document.getElementById('stats').textContent =
+    `${groups} nhóm · ${chars} chữ`;
+}
+</script>
+</body>
+</html>
