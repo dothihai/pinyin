@@ -59,6 +59,14 @@
     background:rgba(180,140,60,.15); border:1px solid rgba(180,140,60,.3);
     border-radius:20px; padding:4px 14px; font-size:13px; color:#d4a840;
   }
+  .nav-link {
+    display:inline-flex; align-items:center; gap:6px;
+    background:rgba(60,100,160,.15); border:1px solid rgba(80,130,200,.3);
+    border-radius:20px; padding:4px 14px; font-size:12px; color:#8ab8e8;
+    text-decoration:none; font-family:Georgia,serif; letter-spacing:.5px;
+    transition:background .15s, border-color .15s;
+  }
+  .nav-link:hover { background:rgba(60,100,160,.28); border-color:rgba(80,130,200,.6); }
 
   /* Stats */
   .stats { display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:28px; }
@@ -224,7 +232,10 @@
         <div class="header-label">拼音学习</div>
         <div class="header-title">Pinyin Trainer</div>
       </div>
-      <div id="streak-badge" class="streak-badge">🔥 0 streak</div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+        <div id="streak-badge" class="streak-badge">🔥 0 streak</div>
+        <a href="phatam.html" class="nav-link">发音 · Phát âm →</a>
+      </div>
     </div>
 
     <!-- Mode toggle -->
