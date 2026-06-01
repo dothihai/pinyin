@@ -36,7 +36,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding:20px 16px;
+    padding:20px 16px 20vh;
     position:relative;
     min-height:100vh;
   }
@@ -588,7 +588,7 @@ function renderCard() {
     } else {
       elSparkle.style.display = "none";
     }
-  } else if (showHanviet && cur.han_viet) {
+  } else if (showHanviet) {
     // Question phase with hanviet enabled
     elHanviet.textContent = cur.han_viet || '';
     const ex = cur.han_viet_examples && cur.han_viet_examples[0];
@@ -715,11 +715,16 @@ function nextCard() {
 }
 
 function handleInputSubmit() {
-  if (S.phase !== 'question') return;
   const val = elPinyinInp.value.trim();
   if (!val) { elPinyinInp.focus(); return; }
   const correct = S.shuffledChars[S.currentIndex]?.pinyin[0];
-  resolveAnswer(stripTones(val) === stripTones(correct), 1200);
+
+  const isCorrect = stripTones(val) === stripTones(correct);
+  if (S.phase === 'question'){
+    resolveAnswer(isCorrect, 1200);
+  } else if (S.phase === 'feedback' && isCorrect) {
+    nextCard();
+  }
 }
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
