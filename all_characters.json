@@ -201,7 +201,15 @@
     ],
     "frequency": 192,
     "definition": "son, child; KangXi radical 10",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "兒",
+    "han_viet": "nhi",
+    "han_viet_examples": [
+      {
+        "zh": "儿童",
+        "vi": "nhi đồng"
+      }
+    ]
   },
   {
     "char": "匕",
@@ -698,7 +706,15 @@
     ],
     "frequency": 1109,
     "definition": "stream, river; flow; boil",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "川",
+    "han_viet": "xuyên",
+    "han_viet_examples": [
+      {
+        "zh": "四川",
+        "vi": "tứ xuyên"
+      }
+    ]
   },
   {
     "char": "亿",
@@ -835,7 +851,15 @@
     ],
     "frequency": 468,
     "definition": "wide, extensive, broad; rad. 53",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "廣",
+    "han_viet": "quảng",
+    "han_viet_examples": [
+      {
+        "zh": "广告",
+        "vi": "quảng cáo"
+      }
+    ]
   },
   {
     "char": "亡",
@@ -880,7 +904,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "丫",
+    "han_viet": "nha",
+    "han_viet_examples": [
+      {
+        "zh": "丫头",
+        "vi": "nha đầu"
+      }
+    ]
   },
   {
     "char": "义",
@@ -916,7 +948,15 @@
     ],
     "frequency": 1517,
     "definition": "corpse; to impersonate the dead; to preside; KangXi radical 44",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "屍",
+    "han_viet": "thi",
+    "han_viet_examples": [
+      {
+        "zh": "尸体",
+        "vi": "thi thể"
+      }
+    ]
   },
   {
     "char": "己",
@@ -942,7 +982,15 @@
     ],
     "frequency": 117,
     "definition": "already; finished; stop",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "已",
+    "han_viet": "dĩ",
+    "han_viet_examples": [
+      {
+        "zh": "已然",
+        "vi": "dĩ nhiên"
+      }
+    ]
   },
   {
     "char": "巳",
@@ -960,7 +1008,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "弓",
+    "han_viet": "cung",
+    "han_viet_examples": [
+      {
+        "zh": "弓箭",
+        "vi": "cung tiễn"
+      }
+    ]
   },
   {
     "char": "子",
@@ -1133,7 +1189,15 @@
     ],
     "frequency": 1189,
     "definition": "abundant, lush, bountiful, plenty",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "豐",
+    "han_viet": "phong",
+    "han_viet_examples": [
+      {
+        "zh": "丰富",
+        "vi": "phong phú"
+      }
+    ]
   },
   {
     "char": "王",
@@ -1284,7 +1348,15 @@
     ],
     "frequency": 485,
     "definition": "monopolize, take sole possession",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "專",
+    "han_viet": "chuyên",
+    "han_viet_examples": [
+      {
+        "zh": "专业",
+        "vi": "chuyên nghiệp"
+      }
+    ]
   },
   {
     "char": "丐",
@@ -1324,7 +1396,15 @@
     ],
     "frequency": 786,
     "definition": "art; talent, ability; craft",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "藝",
+    "han_viet": "nghệ",
+    "han_viet_examples": [
+      {
+        "zh": "艺术",
+        "vi": "nghệ thuật"
+      }
+    ]
   },
   {
     "char": "木",
@@ -1385,7 +1465,15 @@
     ],
     "frequency": 1217,
     "definition": "hall, central room",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "廳",
+    "han_viet": "sảnh",
+    "han_viet_examples": [
+      {
+        "zh": "大厅",
+        "vi": "đại sảnh"
+      }
+    ]
   },
   {
     "char": "不",
@@ -1458,7 +1546,15 @@
     ],
     "frequency": 480,
     "definition": "history; calendar",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "歷",
+    "han_viet": "lịch",
+    "han_viet_examples": [
+      {
+        "zh": "历史",
+        "vi": "lịch sử"
+      }
+    ]
   },
   {
     "char": "歹",
@@ -1615,7 +1711,15 @@
     ],
     "frequency": 199,
     "definition": "to compare, liken; comparison; than",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "比",
+    "han_viet": "tỉ",
+    "han_viet_examples": [
+      {
+        "zh": "比如",
+        "vi": "tỉ như"
+      }
+    ]
   },
   {
     "char": "互",
@@ -1882,7 +1986,15 @@
     ],
     "frequency": 217,
     "definition": "steam, vapor; KangXi radical 84",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "氣",
+    "han_viet": "khí",
+    "han_viet_examples": [
+      {
+        "zh": "生气",
+        "vi": "sinh khí"
+      }
+    ]
   },
   {
     "char": "毛",
@@ -1979,7 +2091,15 @@
     ],
     "frequency": 156,
     "definition": "file of ten soldiers; mixed, miscellaneous",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "什",
+    "han_viet": "thập",
+    "han_viet_examples": [
+      {
+        "zh": "什锦",
+        "vi": "thập cẩm"
+      }
+    ]
   },
   {
     "char": "片",
@@ -2173,7 +2293,15 @@
     ],
     "frequency": 98,
     "definition": "from, by, since, whence, through",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "從",
+    "han_viet": "tòng",
+    "han_viet_examples": [
+      {
+        "zh": "从军",
+        "vi": "tòng quân"
+      }
+    ]
   },
   {
     "char": "仑",
@@ -2306,7 +2434,15 @@
     ],
     "frequency": 1500,
     "definition": "clan, family; mister",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "氏",
+    "han_viet": "thị",
+    "han_viet_examples": [
+      {
+        "zh": "氏族",
+        "vi": "thị tộc"
+      }
+    ]
   },
   {
     "char": "勿",
@@ -2611,7 +2747,15 @@
     ],
     "frequency": 801,
     "definition": "door; family",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "戶",
+    "han_viet": "hộ",
+    "han_viet_examples": [
+      {
+        "zh": "户口",
+        "vi": "hộ khẩu"
+      }
+    ]
   },
   {
     "char": "认",
@@ -2826,7 +2970,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "鄧",
+    "han_viet": "đặng",
+    "han_viet_examples": [
+      {
+        "zh": "邓先生",
+        "vi": "đặng tiên sinh"
+      }
+    ]
   },
   {
     "char": "劝",
@@ -2836,7 +2988,15 @@
     ],
     "frequency": 1562,
     "definition": "recommend, advise, urge",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "勸",
+    "han_viet": "khuyến",
+    "han_viet_examples": [
+      {
+        "zh": "劝告",
+        "vi": "khuyến cáo"
+      }
+    ]
   },
   {
     "char": "双",
@@ -2915,7 +3075,15 @@
     ],
     "frequency": 1241,
     "definition": "publication, periodical; publish",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "刊",
+    "han_viet": "san",
+    "han_viet_examples": [
+      {
+        "zh": "月刊",
+        "vi": "nguyệt san"
+      }
+    ]
   },
   {
     "char": "未",
@@ -2924,7 +3092,15 @@
     ],
     "frequency": 385,
     "definition": "not yet; 8th terrestrial branch",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "未",
+    "han_viet": "vị",
+    "han_viet_examples": [
+      {
+        "zh": "未婚妻",
+        "vi": "vị hôn thê"
+      }
+    ]
   },
   {
     "char": "末",
@@ -2968,7 +3144,15 @@
     ],
     "frequency": 395,
     "definition": "strike, hit, beat; attack, fight",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "擊",
+    "han_viet": "kích",
+    "han_viet_examples": [
+      {
+        "zh": "打击",
+        "vi": "đả kích"
+      }
+    ]
   },
   {
     "char": "打",
@@ -3346,7 +3530,15 @@
     ],
     "frequency": 696,
     "definition": "dragon; symbolic of emperor",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "龍",
+    "han_viet": "long",
+    "han_viet_examples": [
+      {
+        "zh": "黑龙江",
+        "vi": "hắc long giang"
+      }
+    ]
   },
   {
     "char": "平",
@@ -3540,7 +3732,15 @@
     ],
     "frequency": 933,
     "definition": "return; return to, revert to",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "歸",
+    "han_viet": "quy",
+    "han_viet_examples": [
+      {
+        "zh": "归纳",
+        "vi": "quy nạp"
+      }
+    ]
   },
   {
     "char": "旦",
@@ -3771,7 +3971,15 @@
     ],
     "frequency": 800,
     "definition": "center, conclude, run out; beg",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "央",
+    "han_viet": "ương",
+    "han_viet_examples": [
+      {
+        "zh": "中央",
+        "vi": "trung ương"
+      }
+    ]
   },
   {
     "char": "兄",
@@ -3909,7 +4117,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "囚",
+    "han_viet": "tù",
+    "han_viet_examples": [
+      {
+        "zh": "死囚",
+        "vi": "tử tù"
+      }
+    ]
   },
   {
     "char": "四",
@@ -4298,7 +4514,15 @@
     ],
     "frequency": 619,
     "definition": "happy, glad; enjoyable; music",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "樂",
+    "han_viet": "nhạc",
+    "han_viet_examples": [
+      {
+        "zh": "音乐",
+        "vi": "âm nhạc"
+      }
+    ]
   },
   {
     "char": "句",
@@ -4398,7 +4622,15 @@
     ],
     "frequency": 206,
     "definition": "place, locale; department",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "處",
+    "han_viet": "xứ",
+    "han_viet_examples": [
+      {
+        "zh": "处理",
+        "vi": "xử lí/xử lý"
+      }
+    ]
   },
   {
     "char": "冬",
@@ -4703,7 +4935,15 @@
     ],
     "frequency": 1940,
     "definition": "cave, den, hole; KangXi radical 116",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "穴",
+    "han_viet": "huyệt",
+    "han_viet_examples": [
+      {
+        "zh": "穴位",
+        "vi": "huyệt vị"
+      }
+    ]
   },
   {
     "char": "它",
@@ -4758,7 +4998,15 @@
     ],
     "frequency": 339,
     "definition": "allow, permit, yield, concede",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "讓",
+    "han_viet": "nhượng",
+    "han_viet_examples": [
+      {
+        "zh": "转让",
+        "vi": "chuyển nhượng"
+      }
+    ]
   },
   {
     "char": "礼",
@@ -4979,7 +5227,15 @@
     ],
     "frequency": 2086,
     "definition": "distant, far",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "遼",
+    "han_viet": "liêu",
+    "han_viet_examples": [
+      {
+        "zh": "辽东",
+        "vi": "liêu đông"
+      }
+    ]
   },
   {
     "char": "奶",
@@ -5068,7 +5324,15 @@
     ],
     "frequency": 316,
     "definition": "edge, margin, side, border",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "邊",
+    "han_viet": "biên",
+    "han_viet_examples": [
+      {
+        "zh": "边境",
+        "vi": "biên cảnh"
+      }
+    ]
   },
   {
     "char": "孕",
@@ -5088,7 +5352,15 @@
     ],
     "frequency": 47,
     "definition": "issue, dispatch, send out; hair",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "發",
+    "han_viet": "phát",
+    "han_viet_examples": [
+      {
+        "zh": "发现",
+        "vi": "phát hiện"
+      }
+    ]
   },
   {
     "char": "圣",
@@ -5116,7 +5388,15 @@
     ],
     "frequency": 33,
     "definition": "correct, right; facing, opposed",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "對",
+    "han_viet": "đối",
+    "han_viet_examples": [
+      {
+        "zh": "对方",
+        "vi": "đối phương"
+      }
+    ]
   },
   {
     "char": "台",
@@ -5424,7 +5704,15 @@
     ],
     "frequency": 2384,
     "definition": "bind; firm, secure, strong",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鞏",
+    "han_viet": "củng",
+    "han_viet_examples": [
+      {
+        "zh": "巩固",
+        "vi": "củng cố"
+      }
+    ]
   },
   {
     "char": "圾",
@@ -5472,7 +5760,15 @@
     ],
     "frequency": 1435,
     "definition": "sweep, clear away; exterminate",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "掃",
+    "han_viet": "tảo",
+    "han_viet_examples": [
+      {
+        "zh": "扫清",
+        "vi": "tảo thanh"
+      }
+    ]
   },
   {
     "char": "地",
@@ -5536,7 +5832,15 @@
     ],
     "frequency": 887,
     "definition": "ear; merely, only; handle",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "耳",
+    "han_viet": "nhĩ",
+    "han_viet_examples": [
+      {
+        "zh": "土耳其",
+        "vi": "thổ nhĩ kỳ"
+      }
+    ]
   },
   {
     "char": "芋",
@@ -5590,7 +5894,15 @@
     ],
     "frequency": 420,
     "definition": "Asia; second",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "亞",
+    "han_viet": "á",
+    "han_viet_examples": [
+      {
+        "zh": "亚洲",
+        "vi": "á châu"
+      }
+    ]
   },
   {
     "char": "芝",
@@ -5673,7 +5985,15 @@
     ],
     "frequency": 297,
     "definition": "power, right, authority",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "權",
+    "han_viet": "quyền",
+    "han_viet_examples": [
+      {
+        "zh": "版权",
+        "vi": "bản quyền"
+      }
+    ]
   },
   {
     "char": "过",
@@ -5789,7 +6109,15 @@
     ],
     "frequency": 756,
     "definition": "press; oppress; crush; pressure",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "壓",
+    "han_viet": "áp",
+    "han_viet_examples": [
+      {
+        "zh": "压力",
+        "vi": "áp lực"
+      }
+    ]
   },
   {
     "char": "厌",
@@ -5932,7 +6260,15 @@
     "frequency": 1955,
     "traditional": "誇",
     "definition": "extravagant, luxurious; handsome",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "誇",
+    "han_viet": "khoa",
+    "han_viet_examples": [
+      {
+        "zh": "夸张",
+        "vi": "khoa trương"
+      }
+    ]
   },
   {
     "char": "夺",
@@ -6126,7 +6462,15 @@
     "frequency": 522,
     "traditional": "劃",
     "definition": "to row or paddle boat; to scratch",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "劃",
+    "han_viet": "hoạch",
+    "han_viet_examples": [
+      {
+        "zh": "计划",
+        "vi": "kế hoạch"
+      }
+    ]
   },
   {
     "char": "迈",
@@ -6400,7 +6744,15 @@
     ],
     "frequency": 405,
     "definition": "sphere, ball, circle; mass, lump",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "團",
+    "han_viet": "đoàn",
+    "han_viet_examples": [
+      {
+        "zh": "集团",
+        "vi": "tập đoàn"
+      }
+    ]
   },
   {
     "char": "吕",
@@ -6463,7 +6815,15 @@
     ],
     "frequency": 475,
     "definition": "eat; drink; suffer, endure, bear",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "吃",
+    "han_viet": "cật",
+    "han_viet_examples": [
+      {
+        "zh": "吃力",
+        "vi": "cật lực"
+      }
+    ]
   },
   {
     "char": "因",
@@ -6547,7 +6907,15 @@
     ],
     "frequency": 772,
     "definition": "year; age; harvest",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "歲",
+    "han_viet": "tuế",
+    "han_viet_examples": [
+      {
+        "zh": "万岁",
+        "vi": "vạn tuế"
+      }
+    ]
   },
   {
     "char": "帆",
@@ -6819,7 +7187,15 @@
     ],
     "frequency": 332,
     "definition": "summon; propagate, transmit",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "傳",
+    "han_viet": "truyền",
+    "han_viet_examples": [
+      {
+        "zh": "传统",
+        "vi": "truyền thống"
+      }
+    ]
   },
   {
     "char": "乒",
@@ -7032,7 +7408,15 @@
     ],
     "frequency": 409,
     "definition": "price, value",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "價",
+    "han_viet": "giới",
+    "han_viet_examples": [
+      {
+        "zh": "价格",
+        "vi": "giới cách"
+      }
+    ]
   },
   {
     "char": "伦",
@@ -7280,7 +7664,15 @@
     ],
     "frequency": 2224,
     "definition": "boat, ship; KangXi radical 137",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "舟",
+    "han_viet": "chu",
+    "han_viet_examples": [
+      {
+        "zh": "扁舟",
+        "vi": "thiên chu"
+      }
+    ]
   },
   {
     "char": "全",
@@ -7415,7 +7807,15 @@
     ],
     "frequency": 1007,
     "definition": "father, grandfather",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "爺",
+    "han_viet": "gia",
+    "han_viet_examples": [
+      {
+        "zh": "爷爷",
+        "vi": "gia gia"
+      }
+    ]
   },
   {
     "char": "伞",
@@ -7499,7 +7899,15 @@
     ],
     "frequency": 853,
     "definition": "mixed, blended; mix, mingle",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "雜",
+    "han_viet": "tạp",
+    "han_viet_examples": [
+      {
+        "zh": "杂志",
+        "vi": "tạp chí"
+      }
+    ]
   },
   {
     "char": "危",
@@ -7756,7 +8164,15 @@
     ],
     "frequency": 1024,
     "definition": "village, hamlet; villa, manor",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "莊",
+    "han_viet": "trang",
+    "han_viet_examples": [
+      {
+        "zh": "村庄",
+        "vi": "thôn trang"
+      }
+    ]
   },
   {
     "char": "庆",
@@ -7793,7 +8209,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "劉",
+    "han_viet": "lưu",
+    "han_viet_examples": [
+      {
+        "zh": "刘备",
+        "vi": "lưu bị"
+      }
+    ]
   },
   {
     "char": "齐",
@@ -7806,7 +8230,15 @@
     ],
     "frequency": 1063,
     "definition": "even, uniform, of equal length",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "齊",
+    "han_viet": "tề",
+    "han_viet_examples": [
+      {
+        "zh": "整齐",
+        "vi": "chỉnh tề"
+      }
+    ]
   },
   {
     "char": "交",
@@ -7849,7 +8281,15 @@
     ],
     "frequency": 183,
     "definition": "order, sequence; next",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "次",
+    "han_viet": "thứ",
+    "han_viet_examples": [
+      {
+        "zh": "次要",
+        "vi": "thứ yếu"
+      }
+    ]
   },
   {
     "char": "产",
@@ -7983,7 +8423,15 @@
     ],
     "frequency": 1337,
     "definition": "sheep, goat; KangXi radical 123",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "羊",
+    "han_viet": "dương",
+    "han_viet_examples": [
+      {
+        "zh": "山羊",
+        "vi": "sơn dương"
+      }
+    ]
   },
   {
     "char": "并",
@@ -8012,7 +8460,15 @@
     ],
     "frequency": 127,
     "definition": "frontier pass; close; relation",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "關",
+    "han_viet": "quan",
+    "han_viet_examples": [
+      {
+        "zh": "关系",
+        "vi": "quan hệ"
+      }
+    ]
   },
   {
     "char": "米",
@@ -8127,7 +8583,15 @@
     ],
     "frequency": 1709,
     "definition": "pool, pond; moat; cistern",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "池",
+    "han_viet": "trì",
+    "han_viet_examples": [
+      {
+        "zh": "天池",
+        "vi": "thiên trì"
+      }
+    ]
   },
   {
     "char": "汝",
@@ -8410,7 +8874,15 @@
     ],
     "frequency": 2322,
     "definition": "recite, incant; satirize",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "諷",
+    "han_viet": "phúng",
+    "han_viet_examples": [
+      {
+        "zh": "嘲讽",
+        "vi": "trào phúng"
+      }
+    ]
   },
   {
     "char": "设",
@@ -8474,7 +8946,15 @@
     ],
     "frequency": 962,
     "definition": "seek, search, look for; ancient",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "尋",
+    "han_viet": "tầm",
+    "han_viet_examples": [
+      {
+        "zh": "寻常",
+        "vi": "tầm thường"
+      }
+    ]
   },
   {
     "char": "那",
@@ -8624,7 +9104,15 @@
     ],
     "frequency": 351,
     "definition": "gather together, collect; harvest",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "收",
+    "han_viet": "thu",
+    "han_viet_examples": [
+      {
+        "zh": "收入",
+        "vi": "thu nhập"
+      }
+    ]
   },
   {
     "char": "阶",
@@ -8786,7 +9274,15 @@
     ],
     "frequency": 750,
     "definition": "mother, mama",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "媽",
+    "han_viet": "ma",
+    "han_viet_examples": [
+      {
+        "zh": "阿妈",
+        "vi": "a ma"
+      }
+    ]
   },
   {
     "char": "戏",
@@ -8797,7 +9293,15 @@
     ],
     "frequency": 1033,
     "definition": "theatrical play, show",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "戲",
+    "han_viet": "",
+    "han_viet_examples": [
+      {
+        "zh": "游戏",
+        "vi": "du hí/du hý"
+      }
+    ]
   },
   {
     "char": "羽",
@@ -8806,7 +9310,15 @@
     ],
     "frequency": 1865,
     "definition": "feather, plume; wings; rad. 124",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "羽",
+    "han_viet": "vũ",
+    "han_viet_examples": [
+      {
+        "zh": "关羽",
+        "vi": "quan vũ"
+      }
+    ]
   },
   {
     "char": "观",
@@ -8817,7 +9329,15 @@
     ],
     "frequency": 334,
     "definition": "see, observe, view; appearance",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "觀",
+    "han_viet": "quan",
+    "han_viet_examples": [
+      {
+        "zh": "观点",
+        "vi": "quan điểm"
+      }
+    ]
   },
   {
     "char": "欢",
@@ -8827,7 +9347,15 @@
     ],
     "frequency": 685,
     "definition": "happy, pleased, glad; joy; enjoy",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "歡",
+    "han_viet": "hoan",
+    "han_viet_examples": [
+      {
+        "zh": "欢迎",
+        "vi": "hoan nghênh"
+      }
+    ]
   },
   {
     "char": "买",
@@ -9160,7 +9688,15 @@
     ],
     "frequency": 1184,
     "definition": "disobey, violate, defy; be apart from",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "違",
+    "han_viet": "vi",
+    "han_viet_examples": [
+      {
+        "zh": "违犯",
+        "vi": "vi phạm"
+      }
+    ]
   },
   {
     "char": "韧",
@@ -9271,7 +9807,15 @@
     ],
     "frequency": 832,
     "definition": "rotten, spoilt, bad, broken down",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "壞",
+    "han_viet": "hoại",
+    "han_viet_examples": [
+      {
+        "zh": "破坏",
+        "vi": "phá hoại"
+      }
+    ]
   },
   {
     "char": "抠",
@@ -9397,7 +9941,15 @@
     ],
     "frequency": 207,
     "definition": "walk, go on foot; run; leave",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "走",
+    "han_viet": "tẩu",
+    "han_viet_examples": [
+      {
+        "zh": "行走",
+        "vi": "hành tẩu"
+      }
+    ]
   },
   {
     "char": "抄",
@@ -9574,7 +10126,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "坎",
+    "han_viet": "khảm",
+    "han_viet_examples": [
+      {
+        "zh": "心坎",
+        "vi": "tâm khảm"
+      }
+    ]
   },
   {
     "char": "均",
@@ -9583,7 +10143,15 @@
     ],
     "frequency": 903,
     "definition": "equal, even, fair; all, also",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "均",
+    "han_viet": "quân",
+    "han_viet_examples": [
+      {
+        "zh": "平均",
+        "vi": "bình quân"
+      }
+    ]
   },
   {
     "char": "抑",
@@ -9636,7 +10204,15 @@
     ],
     "frequency": 2370,
     "definition": "grave, mound; bulge; bulging",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "墳",
+    "han_viet": "phần",
+    "han_viet_examples": [
+      {
+        "zh": "坟墓",
+        "vi": "phần mộ"
+      }
+    ]
   },
   {
     "char": "坑",
@@ -9710,7 +10286,15 @@
     ],
     "frequency": 1937,
     "definition": "casing, shell, husk",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "殼",
+    "han_viet": "xác",
+    "han_viet_examples": [
+      {
+        "zh": "甲壳",
+        "vi": "giáp xác"
+      }
+    ]
   },
   {
     "char": "志",
@@ -9828,7 +10412,15 @@
     ],
     "frequency": 3071,
     "definition": "express; eliminate; relieve",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "抒",
+    "han_viet": "trữ",
+    "han_viet_examples": [
+      {
+        "zh": "抒情",
+        "vi": "trữ tình"
+      }
+    ]
   },
   {
     "char": "劫",
@@ -9857,7 +10449,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "蕪",
+    "han_viet": "vu",
+    "han_viet_examples": [
+      {
+        "zh": "荒芜",
+        "vi": "hoang vu"
+      }
+    ]
   },
   {
     "char": "苇",
@@ -9975,7 +10575,15 @@
     ],
     "frequency": 545,
     "definition": "strict, rigorous, rigid; stern",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "嚴",
+    "han_viet": "nghiêm",
+    "han_viet_examples": [
+      {
+        "zh": "严重",
+        "vi": "nghiêm trọng"
+      }
+    ]
   },
   {
     "char": "芦",
@@ -9985,7 +10593,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "蘆",
+    "han_viet": "lô",
+    "han_viet_examples": [
+      {
+        "zh": "葫芦",
+        "vi": "hồ lô"
+      }
+    ]
   },
   {
     "char": "芯",
@@ -10005,7 +10621,15 @@
     ],
     "frequency": 679,
     "definition": "labor, toil, do manual work",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "勞",
+    "han_viet": "lao",
+    "han_viet_examples": [
+      {
+        "zh": "劳动",
+        "vi": "lao động"
+      }
+    ]
   },
   {
     "char": "克",
@@ -10051,7 +10675,15 @@
     ],
     "frequency": 590,
     "definition": "",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "蘇",
+    "han_viet": "tô",
+    "han_viet_examples": [
+      {
+        "zh": "江苏",
+        "vi": "giang tô"
+      }
+    ]
   },
   {
     "char": "杆",
@@ -10061,7 +10693,15 @@
     ],
     "frequency": 2011,
     "definition": "pole; shaft of spear",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "杆",
+    "han_viet": "can",
+    "han_viet_examples": [
+      {
+        "zh": "栏杆",
+        "vi": "lan can"
+      }
+    ]
   },
   {
     "char": "杠",
@@ -10142,7 +10782,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "杏",
+    "han_viet": "hạnh",
+    "han_viet_examples": [
+      {
+        "zh": "杏仁",
+        "vi": "hạnh nhân"
+      }
+    ]
   },
   {
     "char": "杉",
@@ -10206,7 +10854,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "楊",
+    "han_viet": "dương",
+    "han_viet_examples": [
+      {
+        "zh": "杨柳",
+        "vi": "dương liễu"
+      }
+    ]
   },
   {
     "char": "求",
@@ -10314,7 +10970,15 @@
     ],
     "frequency": 133,
     "definition": "two, both, pair, couple; ounce",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "兩",
+    "han_viet": "lưỡng",
+    "han_viet_examples": [
+      {
+        "zh": "两性",
+        "vi": "lưỡng tính"
+      }
+    ]
   },
   {
     "char": "酉",
@@ -10334,7 +10998,15 @@
     ],
     "frequency": 834,
     "definition": "beautiful, magnificent, elegant",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "麗",
+    "han_viet": "lệ",
+    "han_viet_examples": [
+      {
+        "zh": "美丽",
+        "vi": "mỹ lệ"
+      }
+    ]
   },
   {
     "char": "医",
@@ -10361,7 +11033,15 @@
     ],
     "frequency": 2317,
     "definition": "early morning; 5th terrestrial branch",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "辰",
+    "han_viet": "thần",
+    "han_viet_examples": [
+      {
+        "zh": "星辰",
+        "vi": "tinh thần"
+      }
+    ]
   },
   {
     "char": "励",
@@ -10482,7 +11162,15 @@
     ],
     "frequency": 349,
     "definition": "step, pace; walk, stroll",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "步",
+    "han_viet": "bộ",
+    "han_viet_examples": [
+      {
+        "zh": "进步",
+        "vi": "tiến bộ"
+      }
+    ]
   },
   {
     "char": "卤",
@@ -10619,7 +11307,15 @@
     ],
     "frequency": 877,
     "definition": "county, district, subdivision",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "縣",
+    "han_viet": "huyện",
+    "han_viet_examples": [
+      {
+        "zh": "知县",
+        "vi": "tri huyện"
+      }
+    ]
   },
   {
     "char": "里",
@@ -10716,7 +11412,15 @@
     ],
     "frequency": 576,
     "definition": "surround, encircle, corral",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "圍",
+    "han_viet": "vi",
+    "han_viet_examples": [
+      {
+        "zh": "周围",
+        "vi": "chu vi"
+      }
+    ]
   },
   {
     "char": "呀",
@@ -10780,7 +11484,15 @@
     ],
     "frequency": 602,
     "definition": "male, man; son; baron; surname",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "男",
+    "han_viet": "nam",
+    "han_viet_examples": [
+      {
+        "zh": "男生",
+        "vi": "nam sinh"
+      }
+    ]
   },
   {
     "char": "困",
@@ -10857,7 +11569,15 @@
     ],
     "frequency": 285,
     "definition": "hear; understand; obey, comply",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "聽",
+    "han_viet": "thính",
+    "han_viet_examples": [
+      {
+        "zh": "听觉",
+        "vi": "thính giác"
+      }
+    ]
   },
   {
     "char": "吟",
@@ -10932,7 +11652,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "嗚",
+    "han_viet": "ô",
+    "han_viet_examples": [
+      {
+        "zh": "呜呼",
+        "vi": "ô hô"
+      }
+    ]
   },
   {
     "char": "吭",
@@ -11551,7 +12279,15 @@
     ],
     "frequency": 771,
     "definition": "Buddha; of Buddhism; merciful person; Buddhist image; the dead (Jap.)",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "佛",
+    "han_viet": "phất",
+    "han_viet_examples": [
+      {
+        "zh": "仿佛",
+        "vi": "phảng phất"
+      }
+    ]
   },
   {
     "char": "囱",
@@ -12229,7 +12965,15 @@
     ],
     "frequency": 949,
     "definition": "be healed, cured, recover",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "療",
+    "han_viet": "liệu",
+    "han_viet_examples": [
+      {
+        "zh": "治疗",
+        "vi": "trị liệu"
+      }
+    ]
   },
   {
     "char": "吝",
@@ -12258,7 +13002,15 @@
     ],
     "frequency": 144,
     "definition": "should, ought to, must",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "應",
+    "han_viet": "ứng",
+    "han_viet_examples": [
+      {
+        "zh": "反应",
+        "vi": "phản ứng"
+      }
+    ]
   },
   {
     "char": "这",
@@ -12358,7 +13110,15 @@
     ],
     "frequency": 1056,
     "definition": "forget; neglect; miss, omit",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "忘",
+    "han_viet": "vong",
+    "han_viet_examples": [
+      {
+        "zh": "忘情",
+        "vi": "vong tình"
+      }
+    ]
   },
   {
     "char": "闰",
@@ -12416,7 +13176,15 @@
     ],
     "frequency": 1830,
     "definition": "gloomy, depressed, melancholy",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "悶",
+    "han_viet": "muộn",
+    "han_viet_examples": [
+      {
+        "zh": "烦闷",
+        "vi": "phiền muộn"
+      }
+    ]
   },
   {
     "char": "判",
@@ -12480,7 +13248,15 @@
     ],
     "frequency": 2591,
     "definition": "vivid, illuminating; bright",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "燦",
+    "han_viet": "xán",
+    "han_viet_examples": [
+      {
+        "zh": "灿烂",
+        "vi": "xán lạn"
+      }
+    ]
   },
   {
     "char": "灼",
@@ -12754,7 +13530,15 @@
     ],
     "frequency": 762,
     "definition": "bosom, breast; carry in bosom",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "懷",
+    "han_viet": "hoài",
+    "han_viet_examples": [
+      {
+        "zh": "怀疑",
+        "vi": "hoài nghi"
+      }
+    ]
   },
   {
     "char": "忧",
@@ -12850,7 +13634,15 @@
     ],
     "frequency": 1696,
     "definition": "prison; stable, pen; secure",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "牢",
+    "han_viet": "lao",
+    "han_viet_examples": [
+      {
+        "zh": "牢狱",
+        "vi": "lao ngục"
+      }
+    ]
   },
   {
     "char": "究",
@@ -13027,7 +13819,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "祀",
+    "han_viet": "tự",
+    "han_viet_examples": [
+      {
+        "zh": "祭祀",
+        "vi": "tế tự"
+      }
+    ]
   },
   {
     "char": "识",
@@ -13137,7 +13937,15 @@
     ],
     "frequency": 1198,
     "definition": "translate; decode; encode",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "譯",
+    "han_viet": "dịch",
+    "han_viet_examples": [
+      {
+        "zh": "翻译",
+        "vi": "phiên dịch"
+      }
+    ]
   },
   {
     "char": "君",
@@ -13164,7 +13972,15 @@
     ],
     "frequency": 734,
     "definition": "spirit, soul; spiritual world",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "靈",
+    "han_viet": "linh",
+    "han_viet_examples": [
+      {
+        "zh": "心灵",
+        "vi": "tâm linh"
+      }
+    ]
   },
   {
     "char": "即",
@@ -13218,7 +14034,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "尿",
+    "han_viet": "niệu",
+    "han_viet_examples": [
+      {
+        "zh": "尿道",
+        "vi": "niệu đạo"
+      }
+    ]
   },
   {
     "char": "尾",
@@ -13246,7 +14070,15 @@
     ],
     "frequency": 1374,
     "definition": "late, tardy; slow; delay",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "遲",
+    "han_viet": "trì",
+    "han_viet_examples": [
+      {
+        "zh": "迟钝",
+        "vi": "trì độn"
+      }
+    ]
   },
   {
     "char": "局",
@@ -13396,7 +14228,15 @@
     ],
     "frequency": 1175,
     "definition": "impede, hinder, obstruct; oppose",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "阻",
+    "han_viet": "trở",
+    "han_viet_examples": [
+      {
+        "zh": "阻碍",
+        "vi": "trở ngại"
+      }
+    ]
   },
   {
     "char": "附",
@@ -13468,7 +14308,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "妖",
+    "han_viet": "yêu",
+    "han_viet_examples": [
+      {
+        "zh": "妖怪",
+        "vi": "yêu quái"
+      }
+    ]
   },
   {
     "char": "姊",
@@ -13478,7 +14326,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "姊",
+    "han_viet": "tỉ",
+    "han_viet_examples": [
+      {
+        "zh": "姊妹",
+        "vi": "tỉ muội"
+      }
+    ]
   },
   {
     "char": "妨",
@@ -13487,7 +14343,15 @@
     ],
     "frequency": 1873,
     "definition": "interfere with, impede, obstruct",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "妨",
+    "han_viet": "phương",
+    "han_viet_examples": [
+      {
+        "zh": "无妨",
+        "vi": "vô phương"
+      }
+    ]
   },
   {
     "char": "妒",
@@ -13514,7 +14378,15 @@
     ],
     "frequency": 1081,
     "definition": "to exert, strive, make an effort; to pout",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "努",
+    "han_viet": "nỗ",
+    "han_viet_examples": [
+      {
+        "zh": "努力",
+        "vi": "nỗ lực"
+      }
+    ]
   },
   {
     "char": "忍",
@@ -13597,7 +14469,15 @@
     ],
     "frequency": 1511,
     "definition": "spur a horse on; expel, drive away",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "驅",
+    "han_viet": "khu",
+    "han_viet_examples": [
+      {
+        "zh": "驱逐",
+        "vi": "khu trục"
+      }
+    ]
   },
   {
     "char": "纯",
@@ -13690,7 +14570,15 @@
     ],
     "frequency": 1236,
     "definition": "indulge in, give free reign to",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "縱",
+    "han_viet": "tung",
+    "han_viet_examples": [
+      {
+        "zh": "纵横",
+        "vi": "tung hoành"
+      }
+    ]
   },
   {
     "char": "纷",
@@ -13737,7 +14625,15 @@
     ],
     "frequency": 1768,
     "definition": "line, streak, stripe; wrinkle",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "紋",
+    "han_viet": "văn",
+    "han_viet_examples": [
+      {
+        "zh": "花纹",
+        "vi": "hoa văn"
+      }
+    ]
   },
   {
     "char": "纺",
@@ -13793,7 +14689,15 @@
     ],
     "frequency": 1072,
     "definition": "play with, joke, enjoy",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "玩",
+    "han_viet": "ngoạn",
+    "han_viet_examples": [
+      {
+        "zh": "游玩",
+        "vi": "du ngoạn"
+      }
+    ]
   },
   {
     "char": "环",
@@ -14011,7 +14915,15 @@
     ],
     "frequency": 1502,
     "definition": "uproot, pull out",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "拔",
+    "han_viet": "bạt",
+    "han_viet_examples": [
+      {
+        "zh": "提拔",
+        "vi": "đề bạt"
+      }
+    ]
   },
   {
     "char": "坪",
@@ -14039,7 +14951,15 @@
     ],
     "frequency": 1017,
     "definition": "flat, smooth; self-possessed",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "坦",
+    "han_viet": "thản",
+    "han_viet_examples": [
+      {
+        "zh": "坦然",
+        "vi": "thản nhiên"
+      }
+    ]
   },
   {
     "char": "担",
@@ -14196,7 +15116,15 @@
     ],
     "frequency": 1059,
     "definition": "embrace, hug, squeeze; crowd",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "擁",
+    "han_viet": "ủng",
+    "han_viet_examples": [
+      {
+        "zh": "拥护",
+        "vi": "ủng hộ"
+      }
+    ]
   },
   {
     "char": "抵",
@@ -14426,7 +15354,15 @@
     ],
     "frequency": 961,
     "definition": "select, choose, pick out",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "擇",
+    "han_viet": "trạch",
+    "han_viet_examples": [
+      {
+        "zh": "选择",
+        "vi": "tuyển trạch"
+      }
+    ]
   },
   {
     "char": "抬",
@@ -14536,7 +15472,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "苛",
+    "han_viet": "hà",
+    "han_viet_examples": [
+      {
+        "zh": "苛刻",
+        "vi": "hà khắc"
+      }
+    ]
   },
   {
     "char": "若",
@@ -14770,7 +15714,15 @@
     ],
     "frequency": 1491,
     "definition": "branches, limbs; branch off",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "枝",
+    "han_viet": "chi",
+    "han_viet_examples": [
+      {
+        "zh": "枝节",
+        "vi": "chi tiết"
+      }
+    ]
   },
   {
     "char": "杯",
@@ -14873,7 +15825,15 @@
     ],
     "frequency": 874,
     "definition": "spear, lance; gun, rifle",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "鎗",
+    "han_viet": "thương",
+    "han_viet_examples": [
+      {
+        "zh": "刀枪",
+        "vi": "đao thương"
+      }
+    ]
   },
   {
     "char": "枫",
@@ -14911,7 +15871,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "杭",
+    "han_viet": "hàng",
+    "han_viet_examples": [
+      {
+        "zh": "杭州",
+        "vi": "hàng châu"
+      }
+    ]
   },
   {
     "char": "杰",
@@ -15092,7 +16060,15 @@
     ],
     "frequency": 974,
     "definition": "sell; betray; show off",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "賣",
+    "han_viet": "mại",
+    "han_viet_examples": [
+      {
+        "zh": "卖淫",
+        "vi": "mại dâm"
+      }
+    ]
   },
   {
     "char": "郁",
@@ -15358,7 +16334,15 @@
     ],
     "frequency": 376,
     "definition": "shift, move, turn",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "轉",
+    "han_viet": "chuyển",
+    "han_viet_examples": [
+      {
+        "zh": "转载",
+        "vi": "chuyển tải"
+      }
+    ]
   },
   {
     "char": "斩",
@@ -15668,7 +16652,15 @@
     ],
     "frequency": 1759,
     "definition": "elder brother; descendants",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "昆",
+    "han_viet": "côn",
+    "han_viet_examples": [
+      {
+        "zh": "昆虫",
+        "vi": "côn trùng"
+      }
+    ]
   },
   {
     "char": "国",
@@ -16003,7 +16995,15 @@
     ],
     "frequency": 1423,
     "definition": "cliff; rocks; mountain",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "岩",
+    "han_viet": "nham",
+    "han_viet_examples": [
+      {
+        "zh": "岩石",
+        "vi": "nham thạch"
+      }
+    ]
   },
   {
     "char": "帖",
@@ -16182,7 +17182,15 @@
     ],
     "frequency": 476,
     "definition": "diagram; chart, map, picture",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "圖",
+    "han_viet": "đồ",
+    "han_viet_examples": [
+      {
+        "zh": "图案",
+        "vi": "đồ án"
+      }
+    ]
   },
   {
     "char": "钓",
@@ -16437,7 +17445,15 @@
     ],
     "frequency": 1844,
     "definition": "mountain peak; surname",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "岳",
+    "han_viet": "nhạc",
+    "han_viet_examples": [
+      {
+        "zh": "岳父",
+        "vi": "nhạc phụ"
+      }
+    ]
   },
   {
     "char": "供",
@@ -16654,7 +17670,15 @@
     ],
     "frequency": 1507,
     "definition": "belt ornament, pendant; wear at waist, tie to the belt; respect",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "佩",
+    "han_viet": "bội",
+    "han_viet_examples": [
+      {
+        "zh": "佩服",
+        "vi": "bội phục"
+      }
+    ]
   },
   {
     "char": "货",
@@ -16664,7 +17688,15 @@
     ],
     "frequency": 818,
     "definition": "goods, commodities, products",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "貨",
+    "han_viet": "hóa",
+    "han_viet_examples": [
+      {
+        "zh": "百货",
+        "vi": "bách hóa"
+      }
+    ]
   },
   {
     "char": "侈",
@@ -16887,7 +17919,15 @@
     ],
     "frequency": 1344,
     "definition": "house, dwelling; dwell, reside",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "捨",
+    "han_viet": "xả",
+    "han_viet_examples": [
+      {
+        "zh": "舍身",
+        "vi": "xả thân"
+      }
+    ]
   },
   {
     "char": "金",
@@ -16914,7 +17954,15 @@
     ],
     "frequency": 2249,
     "definition": "temple, shrine, monastary",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "剎",
+    "han_viet": "sát",
+    "han_viet_examples": [
+      {
+        "zh": "古刹",
+        "vi": "cổ sát"
+      }
+    ]
   },
   {
     "char": "命",
@@ -16975,7 +18023,15 @@
     ],
     "frequency": 1050,
     "definition": "father, papa",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "爸",
+    "han_viet": "ba",
+    "han_viet_examples": [
+      {
+        "zh": "爸爸",
+        "vi": "ba ba"
+      }
+    ]
   },
   {
     "char": "采",
@@ -17136,7 +18192,15 @@
     ],
     "frequency": 2335,
     "definition": "human limbs; animal feet",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "肢",
+    "han_viet": "chi",
+    "han_viet_examples": [
+      {
+        "zh": "四肢",
+        "vi": "tứ chi"
+      }
+    ]
   },
   {
     "char": "肿",
@@ -17156,7 +18220,15 @@
     ],
     "frequency": 2083,
     "definition": "swell, inflate, expand",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "脹",
+    "han_viet": "trướng",
+    "han_viet_examples": [
+      {
+        "zh": "膨胀",
+        "vi": "bành trướng"
+      }
+    ]
   },
   {
     "char": "朋",
@@ -17165,7 +18237,15 @@
     ],
     "frequency": 882,
     "definition": "friend, pal, acquaintance",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "朋",
+    "han_viet": "bằng",
+    "han_viet_examples": [
+      {
+        "zh": "朋友",
+        "vi": "bằng hữu"
+      }
+    ]
   },
   {
     "char": "股",
@@ -17299,7 +18379,15 @@
     ],
     "frequency": 852,
     "definition": "fish; surname; KangXi radical 195",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "魚",
+    "han_viet": "ngư",
+    "han_viet_examples": [
+      {
+        "zh": "金鱼",
+        "vi": "kim ngư"
+      }
+    ]
   },
   {
     "char": "兔",
@@ -17398,7 +18486,15 @@
     ],
     "frequency": 1604,
     "definition": "decorate, ornament, adorn",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "飾",
+    "han_viet": "sức",
+    "han_viet_examples": [
+      {
+        "zh": "装饰",
+        "vi": "trang sức"
+      }
+    ]
   },
   {
     "char": "饱",
@@ -17408,7 +18504,15 @@
     ],
     "frequency": 1998,
     "definition": "",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "飽",
+    "han_viet": "bão",
+    "han_viet_examples": [
+      {
+        "zh": "饱和",
+        "vi": "bão hòa"
+      }
+    ]
   },
   {
     "char": "饲",
@@ -17428,7 +18532,15 @@
     ],
     "frequency": 225,
     "definition": "change, transform, alter; rebel",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "變",
+    "han_viet": "biến",
+    "han_viet_examples": [
+      {
+        "zh": "改变",
+        "vi": "cải biến"
+      }
+    ]
   },
   {
     "char": "京",
@@ -17662,7 +18774,15 @@
     ],
     "frequency": 1376,
     "definition": "abrogate, terminate, discard",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "廢",
+    "han_viet": "phế",
+    "han_viet_examples": [
+      {
+        "zh": "废物",
+        "vi": "phế vật"
+      }
+    ]
   },
   {
     "char": "净",
@@ -17673,7 +18793,15 @@
     ],
     "frequency": 1377,
     "definition": "clean, pure; cleanse",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "淨",
+    "han_viet": "tịnh",
+    "han_viet_examples": [
+      {
+        "zh": "清净",
+        "vi": "thanh tịnh"
+      }
+    ]
   },
   {
     "char": "盲",
@@ -17771,7 +18899,15 @@
     ],
     "frequency": 1336,
     "definition": "quarrel; dispute hotly",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "鬧",
+    "han_viet": "náo",
+    "han_viet_examples": [
+      {
+        "zh": "喧闹",
+        "vi": "huyên náo"
+      }
+    ]
   },
   {
     "char": "郑",
@@ -17781,7 +18917,15 @@
     ],
     "frequency": 1132,
     "definition": "",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鄭",
+    "han_viet": "trịnh",
+    "han_viet_examples": [
+      {
+        "zh": "郑重",
+        "vi": "trịnh trọng"
+      }
+    ]
   },
   {
     "char": "券",
@@ -17897,7 +19041,15 @@
     ],
     "frequency": 1721,
     "definition": "shallow, not deep; superficial",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "淺",
+    "han_viet": "thiển",
+    "han_viet_examples": [
+      {
+        "zh": "粗浅",
+        "vi": "thô thiển"
+      }
+    ]
   },
   {
     "char": "法",
@@ -18195,7 +19347,15 @@
     ],
     "frequency": 2327,
     "definition": "pour, splash, water, sprinkle",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "潑",
+    "han_viet": "bát",
+    "han_viet_examples": [
+      {
+        "zh": "活泼",
+        "vi": "hoạt bát"
+      }
+    ]
   },
   {
     "char": "泽",
@@ -18535,7 +19695,15 @@
     ],
     "frequency": 100,
     "definition": "real, true; honest, sincere",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "實",
+    "han_viet": "thật",
+    "han_viet_examples": [
+      {
+        "zh": "其实",
+        "vi": "kỳ thật"
+      }
+    ]
   },
   {
     "char": "试",
@@ -18725,7 +19893,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "詭",
+    "han_viet": "quỷ",
+    "han_viet_examples": [
+      {
+        "zh": "诡计",
+        "vi": "quỷ kế"
+      }
+    ]
   },
   {
     "char": "询",
@@ -18799,7 +19975,15 @@
     ],
     "frequency": 1518,
     "definition": "pay respects; reverently",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "肅",
+    "han_viet": "túc",
+    "han_viet_examples": [
+      {
+        "zh": "严肃",
+        "vi": "nghiêm túc"
+      }
+    ]
   },
   {
     "char": "录",
@@ -18809,7 +19993,15 @@
     ],
     "frequency": 919,
     "definition": "copy, write down, record",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "錄",
+    "han_viet": "lục",
+    "han_viet_examples": [
+      {
+        "zh": "目录",
+        "vi": "mục lục"
+      }
+    ]
   },
   {
     "char": "隶",
@@ -18820,7 +20012,15 @@
     ],
     "frequency": 1801,
     "definition": "subservient; servant; KangXi radical 171",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "隸",
+    "han_viet": "lệ",
+    "han_viet_examples": [
+      {
+        "zh": "奴隶",
+        "vi": "nô lệ"
+      }
+    ]
   },
   {
     "char": "帚",
@@ -19042,7 +20242,15 @@
     ],
     "frequency": 744,
     "definition": "descend, fall, drop; lower, down",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "降",
+    "han_viet": "hàng",
+    "han_viet_examples": [
+      {
+        "zh": "投降",
+        "vi": "đầu hàng"
+      }
+    ]
   },
   {
     "char": "函",
@@ -19320,7 +20528,15 @@
     ],
     "frequency": 2554,
     "definition": "girdle; tie, bind; gentry",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "紳",
+    "han_viet": "thân",
+    "han_viet_examples": [
+      {
+        "zh": "绅士",
+        "vi": "thân sĩ"
+      }
+    ]
   },
   {
     "char": "细",
@@ -19413,7 +20629,15 @@
     ],
     "frequency": 1288,
     "definition": "to be stationed at, reside at; to stop",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "駐",
+    "han_viet": "trú",
+    "han_viet_examples": [
+      {
+        "zh": "常驻",
+        "vi": "thường trú"
+      }
+    ]
   },
   {
     "char": "绊",
@@ -19469,7 +20693,15 @@
     ],
     "frequency": 3015,
     "definition": "to unravel or unreel silk; to interpret",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "繹",
+    "han_viet": "dịch",
+    "han_viet_examples": [
+      {
+        "zh": "演绎",
+        "vi": "diễn dịch"
+      }
+    ]
   },
   {
     "char": "经",
@@ -19479,7 +20711,15 @@
     ],
     "frequency": 62,
     "definition": "classic works; pass through",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "經",
+    "han_viet": "kinh",
+    "han_viet_examples": [
+      {
+        "zh": "经济",
+        "vi": "kinh tế"
+      }
+    ]
   },
   {
     "char": "贯",
@@ -19746,7 +20986,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "拷",
+    "han_viet": "khảo",
+    "han_viet_examples": [
+      {
+        "zh": "拷问",
+        "vi": "khảo vấn"
+      }
+    ]
   },
   {
     "char": "拱",
@@ -19932,7 +21180,15 @@
     ],
     "frequency": 850,
     "definition": "include, embrace, enclose",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "括",
+    "han_viet": "quát",
+    "han_viet_examples": [
+      {
+        "zh": "包括",
+        "vi": "bao quát"
+      }
+    ]
   },
   {
     "char": "垢",
@@ -20140,7 +21396,15 @@
     ],
     "frequency": 517,
     "definition": "certain thing or person",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "某",
+    "han_viet": "mỗ",
+    "han_viet_examples": [
+      {
+        "zh": "陈某",
+        "vi": "trần mỗ"
+      }
+    ]
   },
   {
     "char": "甚",
@@ -20358,7 +21622,15 @@
     ],
     "frequency": 993,
     "definition": "glory, honor; flourish, prosper",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "榮",
+    "han_viet": "vinh",
+    "han_viet_examples": [
+      {
+        "zh": "荣誉",
+        "vi": "vinh dự"
+      }
+    ]
   },
   {
     "char": "荤",
@@ -20620,7 +21892,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "柳",
+    "han_viet": "liễu",
+    "han_viet_examples": [
+      {
+        "zh": "杨柳",
+        "vi": "dương liễu"
+      }
+    ]
   },
   {
     "char": "柱",
@@ -20657,7 +21937,15 @@
     ],
     "frequency": 2101,
     "definition": "railing, balustrade; animal pan",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "欄",
+    "han_viet": "lan",
+    "han_viet_examples": [
+      {
+        "zh": "栏杆",
+        "vi": "lan can"
+      }
+    ]
   },
   {
     "char": "柠",
@@ -20695,7 +21983,15 @@
     ],
     "frequency": 1533,
     "definition": "suddenly, sudden, quick",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "勃",
+    "han_viet": "bột",
+    "han_viet_examples": [
+      {
+        "zh": "蓬勃",
+        "vi": "bồng bột"
+      }
+    ]
   },
   {
     "char": "要",
@@ -20911,7 +22207,15 @@
     ],
     "frequency": 1409,
     "definition": "endure, bear; resist; patient",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "耐",
+    "han_viet": "nại",
+    "han_viet_examples": [
+      {
+        "zh": "忍耐",
+        "vi": "nhẫn nại"
+      }
+    ]
   },
   {
     "char": "耍",
@@ -20948,7 +22252,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "鷗",
+    "han_viet": "âu",
+    "han_viet_examples": [
+      {
+        "zh": "海鸥",
+        "vi": "hải âu"
+      }
+    ]
   },
   {
     "char": "残",
@@ -20996,7 +22308,15 @@
     ],
     "frequency": 460,
     "definition": "light; easy, simple; gentle",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "輕",
+    "han_viet": "khinh",
+    "han_viet_examples": [
+      {
+        "zh": "轻蔑",
+        "vi": "khinh miệt"
+      }
+    ]
   },
   {
     "char": "鸦",
@@ -21006,7 +22326,15 @@
     ],
     "frequency": 2397,
     "definition": "crow; Corvus species (various)",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鴉",
+    "han_viet": "nha",
+    "han_viet_examples": [
+      {
+        "zh": "鸦片",
+        "vi": "nha phiến"
+      }
+    ]
   },
   {
     "char": "皆",
@@ -21053,7 +22381,15 @@
     ],
     "frequency": 145,
     "definition": "war, fighting, battle",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "戰",
+    "han_viet": "chiến",
+    "han_viet_examples": [
+      {
+        "zh": "战争",
+        "vi": "chiến tranh"
+      }
+    ]
   },
   {
     "char": "点",
@@ -21116,7 +22452,15 @@
     ],
     "frequency": 1886,
     "definition": "look at, inspect; perceive",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "攬",
+    "han_viet": "lãm",
+    "han_viet_examples": [
+      {
+        "zh": "展览",
+        "vi": "triển lãm"
+      }
+    ]
   },
   {
     "char": "竖",
@@ -21251,7 +22595,15 @@
     ],
     "frequency": 2433,
     "definition": "vomit; cry of an infant",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "哇",
+    "han_viet": "oa",
+    "han_viet_examples": [
+      {
+        "zh": "哇哇",
+        "vi": "oa oa"
+      }
+    ]
   },
   {
     "char": "哄",
@@ -21283,7 +22635,15 @@
     ],
     "frequency": 469,
     "definition": "manifest, display; evident, clear",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "顯",
+    "han_viet": "hiển",
+    "han_viet_examples": [
+      {
+        "zh": "显然",
+        "vi": "hiển nhiên"
+      }
+    ]
   },
   {
     "char": "冒",
@@ -21563,7 +22923,15 @@
     ],
     "frequency": 1449,
     "definition": "accuse, blame, curse, scold",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "罵",
+    "han_viet": "mạ",
+    "han_viet_examples": [
+      {
+        "zh": "辱骂",
+        "vi": "nhục mạ"
+      }
+    ]
   },
   {
     "char": "勋",
@@ -21819,7 +23187,15 @@
     ],
     "frequency": 1636,
     "definition": "quiet, secluded, tranquil; dark",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "幽",
+    "han_viet": "u",
+    "han_viet_examples": [
+      {
+        "zh": "幽灵",
+        "vi": "u linh"
+      }
+    ]
   },
   {
     "char": "钙",
@@ -21839,7 +23215,15 @@
     ],
     "frequency": 3059,
     "definition": "blunt, obtuse; dull; flat; dull-witted",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鈍",
+    "han_viet": "độn",
+    "han_viet_examples": [
+      {
+        "zh": "迟钝",
+        "vi": "trì độn"
+      }
+    ]
   },
   {
     "char": "钞",
@@ -21990,7 +23374,15 @@
     ],
     "frequency": 1218,
     "definition": "do obeisance, bow, kowtow",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "拜",
+    "han_viet": "bái",
+    "han_viet_examples": [
+      {
+        "zh": "崇拜",
+        "vi": "sùng bái"
+      }
+    ]
   },
   {
     "char": "看",
@@ -22000,7 +23392,15 @@
     ],
     "frequency": 76,
     "definition": "look, see; examine, scrutinize",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "看",
+    "han_viet": "khán",
+    "han_viet_examples": [
+      {
+        "zh": "看台",
+        "vi": "khán đài"
+      }
+    ]
   },
   {
     "char": "矩",
@@ -22272,7 +23672,15 @@
     ],
     "frequency": 1574,
     "definition": "two, pair",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "倆",
+    "han_viet": "",
+    "han_viet_examples": [
+      {
+        "zh": "伎俩",
+        "vi": "kĩ lưỡng/kỹ lưỡng"
+      }
+    ]
   },
   {
     "char": "贷",
@@ -22398,7 +23806,15 @@
     ],
     "frequency": 2891,
     "definition": "temperate, frugal, economical",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "儉",
+    "han_viet": "kiệm",
+    "han_viet_examples": [
+      {
+        "zh": "节俭",
+        "vi": "tiết kiệm"
+      }
+    ]
   },
   {
     "char": "俗",
@@ -22527,7 +23943,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "禹",
+    "han_viet": "vũ",
+    "han_viet_examples": [
+      {
+        "zh": "大禹",
+        "vi": "đại vũ"
+      }
+    ]
   },
   {
     "char": "侯",
@@ -22627,7 +24051,15 @@
     ],
     "frequency": 3003,
     "definition": "linger, walk to and fro, hesitain",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "徊",
+    "han_viet": "hồi",
+    "han_viet_examples": [
+      {
+        "zh": "徘徊",
+        "vi": "bồi hồi"
+      }
+    ]
   },
   {
     "char": "衍",
@@ -22700,7 +24132,15 @@
     ],
     "frequency": 869,
     "definition": "sword, dagger, saber",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "劍",
+    "han_viet": "kiếm",
+    "han_viet_examples": [
+      {
+        "zh": "宝剑",
+        "vi": "bảo kiếm"
+      }
+    ]
   },
   {
     "char": "逃",
@@ -22881,7 +24321,15 @@
     ],
     "frequency": 2078,
     "definition": "endeavor, make effort; urge",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "勉",
+    "han_viet": "miễn",
+    "han_viet_examples": [
+      {
+        "zh": "勉强",
+        "vi": "miễn cưỡng"
+      }
+    ]
   },
   {
     "char": "狭",
@@ -22901,7 +24349,15 @@
     ],
     "frequency": 2211,
     "definition": "lion",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "獅",
+    "han_viet": "sư",
+    "han_viet_examples": [
+      {
+        "zh": "狮子",
+        "vi": "sư tử"
+      }
+    ]
   },
   {
     "char": "独",
@@ -23123,7 +24579,15 @@
     ],
     "frequency": 1233,
     "definition": "prize, reward; give award to",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "獎",
+    "han_viet": "tưởng",
+    "han_viet_examples": [
+      {
+        "zh": "奖赏",
+        "vi": "tưởng thưởng"
+      }
+    ]
   },
   {
     "char": "哀",
@@ -23691,7 +25155,15 @@
     ],
     "frequency": 228,
     "definition": "collect; overall, altogether",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "總",
+    "han_viet": "tổng",
+    "han_viet_examples": [
+      {
+        "zh": "总统",
+        "vi": "tổng thống"
+      }
+    ]
   },
   {
     "char": "炼",
@@ -23701,7 +25173,15 @@
     ],
     "frequency": 1763,
     "definition": "smelt, refine; distill, condense",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "煉",
+    "han_viet": "luyện",
+    "han_viet_examples": [
+      {
+        "zh": "修炼",
+        "vi": "tu luyện"
+      }
+    ]
   },
   {
     "char": "炸",
@@ -23776,7 +25256,15 @@
     ],
     "frequency": 1754,
     "definition": "rotten, spoiled, decayed",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "爛",
+    "han_viet": "lạn",
+    "han_viet_examples": [
+      {
+        "zh": "灿烂",
+        "vi": "xán lạn"
+      }
+    ]
   },
   {
     "char": "剃",
@@ -23806,7 +25294,15 @@
     ],
     "frequency": 1531,
     "definition": "clean, purify, pure",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "潔",
+    "han_viet": "khiết",
+    "han_viet_examples": [
+      {
+        "zh": "纯洁",
+        "vi": "thuần khiết"
+      }
+    ]
   },
   {
     "char": "洪",
@@ -23888,7 +25384,15 @@
     ],
     "frequency": 1015,
     "definition": "cave, grotto; ravine; hole",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "洞",
+    "han_viet": "động",
+    "han_viet_examples": [
+      {
+        "zh": "洞房",
+        "vi": "động phòng"
+      }
+    ]
   },
   {
     "char": "测",
@@ -24022,7 +25526,15 @@
     ],
     "frequency": 360,
     "definition": "help, aid, relieve; ferry, cross",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "濟",
+    "han_viet": "tế",
+    "han_viet_examples": [
+      {
+        "zh": "经济",
+        "vi": "kinh tế"
+      }
+    ]
   },
   {
     "char": "洋",
@@ -24112,7 +25624,15 @@
     ],
     "frequency": 1764,
     "definition": "constant, regular, persistent",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "恆",
+    "han_viet": "hằng",
+    "han_viet_examples": [
+      {
+        "zh": "永恒",
+        "vi": "vĩnh hằng"
+      }
+    ]
   },
   {
     "char": "恢",
@@ -24121,7 +25641,15 @@
     ],
     "frequency": 1364,
     "definition": "restore; big, great, immense, vast",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "恢",
+    "han_viet": "khôi",
+    "han_viet_examples": [
+      {
+        "zh": "恢复",
+        "vi": "khôi phục"
+      }
+    ]
   },
   {
     "char": "恍",
@@ -24148,7 +25676,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "恬",
+    "han_viet": "điềm",
+    "han_viet_examples": [
+      {
+        "zh": "恬静",
+        "vi": "điềm tĩnh"
+      }
+    ]
   },
   {
     "char": "恤",
@@ -24239,7 +25775,15 @@
     ],
     "frequency": 327,
     "definition": "to wake up from sleep; conscious",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "覺",
+    "han_viet": "giác",
+    "han_viet_examples": [
+      {
+        "zh": "感觉",
+        "vi": "cảm giác"
+      }
+    ]
   },
   {
     "char": "宣",
@@ -24248,7 +25792,15 @@
     ],
     "frequency": 770,
     "definition": "declare, announce, proclaim",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "宣",
+    "han_viet": "tuyên",
+    "han_viet_examples": [
+      {
+        "zh": "宣传",
+        "vi": "tuyên truyền"
+      }
+    ]
   },
   {
     "char": "宦",
@@ -24343,7 +25895,15 @@
     ],
     "frequency": 785,
     "definition": "penetrate, pierce, drill; wear",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "穿",
+    "han_viet": "xuyên",
+    "han_viet_examples": [
+      {
+        "zh": "穿过",
+        "vi": "xuyên qua"
+      }
+    ]
   },
   {
     "char": "窃",
@@ -24408,7 +25968,15 @@
     ],
     "frequency": 3069,
     "definition": "make false accusation; defame",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "誣",
+    "han_viet": "vu",
+    "han_viet_examples": [
+      {
+        "zh": "诬告",
+        "vi": "vu cáo"
+      }
+    ]
   },
   {
     "char": "语",
@@ -24515,7 +26083,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "祠",
+    "han_viet": "từ",
+    "han_viet_examples": [
+      {
+        "zh": "祠堂",
+        "vi": "từ đường"
+      }
+    ]
   },
   {
     "char": "误",
@@ -24583,7 +26159,15 @@
     ],
     "frequency": 2557,
     "definition": "recite, chant, repeat",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "誦",
+    "han_viet": "tụng",
+    "han_viet_examples": [
+      {
+        "zh": "诵经",
+        "vi": "tụng kinh"
+      }
+    ]
   },
   {
     "char": "垦",
@@ -24610,7 +26194,15 @@
     ],
     "frequency": 723,
     "definition": "step back, retreat, withdraw",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "退",
+    "han_viet": "thoái",
+    "han_viet_examples": [
+      {
+        "zh": "撤退",
+        "vi": "triệt thoái"
+      }
+    ]
   },
   {
     "char": "既",
@@ -24712,7 +26304,15 @@
     ],
     "frequency": 1697,
     "definition": "humble, modest; yield",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "遜",
+    "han_viet": "tốn",
+    "han_viet_examples": [
+      {
+        "zh": "谦逊",
+        "vi": "khiêm tốn"
+      }
+    ]
   },
   {
     "char": "眉",
@@ -24783,7 +26383,15 @@
     ],
     "frequency": 672,
     "definition": "narrow pass, strategic point",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "險",
+    "han_viet": "hiểm",
+    "han_viet_examples": [
+      {
+        "zh": "危险",
+        "vi": "nguy hiểm"
+      }
+    ]
   },
   {
     "char": "院",
@@ -25108,7 +26716,15 @@
     ],
     "frequency": 1809,
     "definition": "draw, sketch, paint",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "繪",
+    "han_viet": "hội",
+    "han_viet_examples": [
+      {
+        "zh": "绘画",
+        "vi": "hội họa"
+      }
+    ]
   },
   {
     "char": "给",
@@ -25302,7 +26918,15 @@
     ],
     "frequency": 2104,
     "definition": "beautiful, sexy, voluptuous",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "豔",
+    "han_viet": "diễm",
+    "han_viet_examples": [
+      {
+        "zh": "艳丽",
+        "vi": "diễm lệ"
+      }
+    ]
   },
   {
     "char": "泰",
@@ -25311,7 +26935,15 @@
     ],
     "frequency": 1318,
     "definition": "great, exalted, superior; big",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "泰",
+    "han_viet": "thái",
+    "han_viet_examples": [
+      {
+        "zh": "泰山",
+        "vi": "thái sơn"
+      }
+    ]
   },
   {
     "char": "秦",
@@ -25435,7 +27067,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "匪",
+    "han_viet": "phỉ",
+    "han_viet_examples": [
+      {
+        "zh": "土匪",
+        "vi": "thổ phỉ"
+      }
+    ]
   },
   {
     "char": "捞",
@@ -25612,7 +27252,15 @@
     ],
     "frequency": 1822,
     "definition": "grasp, clutch; catch, seize",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "捉",
+    "han_viet": "tróc",
+    "han_viet_examples": [
+      {
+        "zh": "捉拿",
+        "vi": "tróc nã"
+      }
+    ]
   },
   {
     "char": "捆",
@@ -25631,7 +27279,15 @@
     ],
     "frequency": 2235,
     "definition": "contribute; give up, renounce",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "捐",
+    "han_viet": "quyên",
+    "han_viet_examples": [
+      {
+        "zh": "捐赠",
+        "vi": "quyên tặng"
+      }
+    ]
   },
   {
     "char": "损",
@@ -25758,7 +27414,15 @@
     ],
     "frequency": 2222,
     "definition": "pull; pull back, draw back",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "挽",
+    "han_viet": "vãn",
+    "han_viet_examples": [
+      {
+        "zh": "挽回",
+        "vi": "vãn hồi"
+      }
+    ]
   },
   {
     "char": "挚",
@@ -25939,7 +27603,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "莽",
+    "han_viet": "mãng",
+    "han_viet_examples": [
+      {
+        "zh": "鲁莽",
+        "vi": "lỗ mãng"
+      }
+    ]
   },
   {
     "char": "莱",
@@ -25967,7 +27639,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "蓮",
+    "han_viet": "liên",
+    "han_viet_examples": [
+      {
+        "zh": "莲花",
+        "vi": "liên hoa"
+      }
+    ]
   },
   {
     "char": "莫",
@@ -26044,7 +27724,15 @@
     ],
     "frequency": 792,
     "definition": "evil, wicked, bad, foul",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "惡",
+    "han_viet": "ác",
+    "han_viet_examples": [
+      {
+        "zh": "邪恶",
+        "vi": "tà ác"
+      }
+    ]
   },
   {
     "char": "莹",
@@ -26164,7 +27852,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "桐",
+    "han_viet": "đồng",
+    "han_viet_examples": [
+      {
+        "zh": "梧桐",
+        "vi": "ngô đồng"
+      }
+    ]
   },
   {
     "char": "株",
@@ -26292,7 +27988,15 @@
     ],
     "frequency": 88,
     "definition": "shape, form, pattern, style",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "樣",
+    "han_viet": "dạng",
+    "han_viet_examples": [
+      {
+        "zh": "同样",
+        "vi": "đồng dạng"
+      }
+    ]
   },
   {
     "char": "根",
@@ -26574,7 +28278,15 @@
     ],
     "frequency": 954,
     "definition": "chase, expel; one by one",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "逐",
+    "han_viet": "trục",
+    "han_viet_examples": [
+      {
+        "zh": "驱逐",
+        "vi": "khu trục"
+      }
+    ]
   },
   {
     "char": "烈",
@@ -26600,7 +28312,15 @@
     ],
     "frequency": 1191,
     "definition": "different, special, unusual",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "殊",
+    "han_viet": "thù",
+    "han_viet_examples": [
+      {
+        "zh": "特殊",
+        "vi": "đặc thù"
+      }
+    ]
   },
   {
     "char": "殉",
@@ -26637,7 +28357,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "轎",
+    "han_viet": "kiệu",
+    "han_viet_examples": [
+      {
+        "zh": "轿夫",
+        "vi": "kiệu phu"
+      }
+    ]
   },
   {
     "char": "较",
@@ -26824,7 +28552,15 @@
     ],
     "frequency": 1357,
     "definition": "dawn, daybreak; clear, explicit",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "曉",
+    "han_viet": "hiểu",
+    "han_viet_examples": [
+      {
+        "zh": "通晓",
+        "vi": "thông hiểu"
+      }
+    ]
   },
   {
     "char": "哮",
@@ -26984,7 +28720,15 @@
     ],
     "frequency": 2383,
     "definition": "whistle, blow whistle; chirp",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "哨",
+    "han_viet": "tiêu",
+    "han_viet_examples": [
+      {
+        "zh": "前哨",
+        "vi": "tiền tiêu"
+      }
+    ]
   },
   {
     "char": "哩",
@@ -27189,7 +28933,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "峨",
+    "han_viet": "nga",
+    "han_viet_examples": [
+      {
+        "zh": "巍峨",
+        "vi": "nguy nga"
+      }
+    ]
   },
   {
     "char": "峰",
@@ -27199,7 +28951,15 @@
     ],
     "frequency": 1473,
     "definition": "peak, summit; hump of camel",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "峰",
+    "han_viet": "phong",
+    "han_viet_examples": [
+      {
+        "zh": "高峰",
+        "vi": "cao phong"
+      }
+    ]
   },
   {
     "char": "圆",
@@ -27209,7 +28969,15 @@
     ],
     "frequency": 1145,
     "definition": "circle; round, circular; complete",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "圓",
+    "han_viet": "viên",
+    "han_viet_examples": [
+      {
+        "zh": "圆满",
+        "vi": "viên mãn"
+      }
+    ]
   },
   {
     "char": "峻",
@@ -27282,7 +29050,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "贓",
+    "han_viet": "tang",
+    "han_viet_examples": [
+      {
+        "zh": "赃物",
+        "vi": "tang vật"
+      }
+    ]
   },
   {
     "char": "钱",
@@ -27292,7 +29068,15 @@
     ],
     "frequency": 603,
     "definition": "money, currency, coins",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "錢",
+    "han_viet": "tiền",
+    "han_viet_examples": [
+      {
+        "zh": "金钱",
+        "vi": "kim tiền"
+      }
+    ]
   },
   {
     "char": "钳",
@@ -27302,7 +29086,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "拑",
+    "han_viet": "kiềm",
+    "han_viet_examples": [
+      {
+        "zh": "钳制",
+        "vi": "kiềm chế"
+      }
+    ]
   },
   {
     "char": "钻",
@@ -27313,7 +29105,15 @@
     ],
     "frequency": 1724,
     "definition": "drill, bore; pierce; diamond",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鑽",
+    "han_viet": "toàn",
+    "han_viet_examples": [
+      {
+        "zh": "钻心",
+        "vi": "toàn tâm"
+      }
+    ]
   },
   {
     "char": "钾",
@@ -27333,7 +29133,15 @@
     ],
     "frequency": 779,
     "definition": "iron; strong, solid, firm",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "鐵",
+    "han_viet": "thiết",
+    "han_viet_examples": [
+      {
+        "zh": "铁血",
+        "vi": "thiết huyết"
+      }
+    ]
   },
   {
     "char": "铃",
@@ -27363,7 +29171,15 @@
     ],
     "frequency": 875,
     "definition": "be short of, lack; gap, deficit",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "缺",
+    "han_viet": "khuyết",
+    "han_viet_examples": [
+      {
+        "zh": "缺点",
+        "vi": "khuyết điểm"
+      }
+    ]
   },
   {
     "char": "氧",
@@ -27372,7 +29188,15 @@
     ],
     "frequency": 1863,
     "definition": "oxygen",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "氧",
+    "han_viet": "dưỡng",
+    "han_viet_examples": [
+      {
+        "zh": "氧气",
+        "vi": "dưỡng khí"
+      }
+    ]
   },
   {
     "char": "氨",
@@ -27408,7 +29232,15 @@
     ],
     "frequency": 1814,
     "definition": "sacrifice, give up; sacrificial",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "犧",
+    "han_viet": "",
+    "han_viet_examples": [
+      {
+        "zh": "牺牲",
+        "vi": "hi sinh/hy sinh"
+      }
+    ]
   },
   {
     "char": "造",
@@ -27436,7 +29268,15 @@
     ],
     "frequency": 1231,
     "definition": "ride, ascend; avail oneself of; numerary adjunct for vehicles",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "乘",
+    "han_viet": "thừa",
+    "han_viet_examples": [
+      {
+        "zh": "乘机",
+        "vi": "thừa cơ"
+      }
+    ]
   },
   {
     "char": "敌",
@@ -27472,7 +29312,15 @@
     ],
     "frequency": 1397,
     "definition": "rent, lease; rental; tax",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "租",
+    "han_viet": "tô",
+    "han_viet_examples": [
+      {
+        "zh": "租界",
+        "vi": "tô giới"
+      }
+    ]
   },
   {
     "char": "积",
@@ -27563,7 +29411,15 @@
     ],
     "frequency": 1077,
     "definition": "penetrate, pass through",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "透",
+    "han_viet": "thấu",
+    "han_viet_examples": [
+      {
+        "zh": "穿透",
+        "vi": "xuyên thấu"
+      }
+    ]
   },
   {
     "char": "笔",
@@ -27966,7 +29822,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "徐",
+    "han_viet": "từ",
+    "han_viet_examples": [
+      {
+        "zh": "徐徐",
+        "vi": "từ từ"
+      }
+    ]
   },
   {
     "char": "殷",
@@ -27977,7 +29841,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "殷",
+    "han_viet": "ân",
+    "han_viet_examples": [
+      {
+        "zh": "殷勤",
+        "vi": "ân cần"
+      }
+    ]
   },
   {
     "char": "舰",
@@ -28065,7 +29937,15 @@
     ],
     "frequency": 645,
     "definition": "take, hold, grasp; bring; with",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "拿",
+    "han_viet": "nã",
+    "han_viet_examples": [
+      {
+        "zh": "捉拿",
+        "vi": "tróc nã"
+      }
+    ]
   },
   {
     "char": "耸",
@@ -28120,7 +30000,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "豺",
+    "han_viet": "sài",
+    "han_viet_examples": [
+      {
+        "zh": "豺狼",
+        "vi": "sài lang"
+      }
+    ]
   },
   {
     "char": "豹",
@@ -28286,7 +30174,15 @@
     ],
     "frequency": 646,
     "definition": "brain",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "腦",
+    "han_viet": "não",
+    "han_viet_examples": [
+      {
+        "zh": "大脑",
+        "vi": "đại não"
+      }
+    ]
   },
   {
     "char": "脓",
@@ -28383,7 +30279,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "鴕",
+    "han_viet": "đà",
+    "han_viet_examples": [
+      {
+        "zh": "鸵鸟",
+        "vi": "đà điểu"
+      }
+    ]
   },
   {
     "char": "留",
@@ -28458,7 +30362,15 @@
     ],
     "frequency": 1731,
     "definition": "pure; virtuous; insult; maltreat",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "凌",
+    "han_viet": "lăng",
+    "han_viet_examples": [
+      {
+        "zh": "凌辱",
+        "vi": "lăng nhục"
+      }
+    ]
   },
   {
     "char": "凄",
@@ -28515,7 +30427,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "漿",
+    "han_viet": "tương",
+    "han_viet_examples": [
+      {
+        "zh": "血浆",
+        "vi": "huyết tương"
+      }
+    ]
   },
   {
     "char": "衰",
@@ -28675,7 +30595,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "齋",
+    "han_viet": "trai",
+    "han_viet_examples": [
+      {
+        "zh": "斋戒",
+        "vi": "trai giới"
+      }
+    ]
   },
   {
     "char": "疹",
@@ -28721,7 +30649,15 @@
     ],
     "frequency": 551,
     "definition": "result, effect; effectiveness",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "效",
+    "han_viet": "hiệu",
+    "han_viet_examples": [
+      {
+        "zh": "效果",
+        "vi": "hiệu quả"
+      }
+    ]
   },
   {
     "char": "离",
@@ -28980,7 +30916,15 @@
     ],
     "frequency": 1784,
     "definition": "fist; various forms of boxing",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "拳",
+    "han_viet": "quyền",
+    "han_viet_examples": [
+      {
+        "zh": "拳脚",
+        "vi": "quyền cước"
+      }
+    ]
   },
   {
     "char": "粉",
@@ -28989,7 +30933,15 @@
     ],
     "frequency": 1498,
     "definition": "powder, face powder; plaster",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "粉",
+    "han_viet": "phấn",
+    "han_viet_examples": [
+      {
+        "zh": "粉红",
+        "vi": "phấn hồng"
+      }
+    ]
   },
   {
     "char": "料",
@@ -29094,7 +31046,15 @@
     ],
     "frequency": 1201,
     "definition": "burn; bake; heat; roast",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "燒",
+    "han_viet": "thiêu",
+    "han_viet_examples": [
+      {
+        "zh": "火烧",
+        "vi": "hỏa thiêu"
+      }
+    ]
   },
   {
     "char": "烛",
@@ -29213,7 +31173,15 @@
     ],
     "frequency": 797,
     "definition": "wine, spirits, liquor, alcoholic beverage",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "酒",
+    "han_viet": "tửu",
+    "han_viet_examples": [
+      {
+        "zh": "酒馆",
+        "vi": "tửu quán"
+      }
+    ]
   },
   {
     "char": "涉",
@@ -29222,7 +31190,15 @@
     ],
     "frequency": 1239,
     "definition": "ford stream, wade across",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "涉",
+    "han_viet": "thiệp",
+    "han_viet_examples": [
+      {
+        "zh": "干涉",
+        "vi": "can thiệp"
+      }
+    ]
   },
   {
     "char": "消",
@@ -29503,7 +31479,15 @@
     ],
     "frequency": 1668,
     "definition": "to apprehend, realize, become aware",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "悟",
+    "han_viet": "ngộ",
+    "han_viet_examples": [
+      {
+        "zh": "觉悟",
+        "vi": "giác ngộ"
+      }
+    ]
   },
   {
     "char": "悄",
@@ -29523,7 +31507,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "悍",
+    "han_viet": "hãn",
+    "han_viet_examples": [
+      {
+        "zh": "凶悍",
+        "vi": "hung hãn"
+      }
+    ]
   },
   {
     "char": "悔",
@@ -29586,7 +31578,15 @@
     ],
     "frequency": 1155,
     "definition": "broad, wide; spacious, vast",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "寬",
+    "han_viet": "khoan",
+    "han_viet_examples": [
+      {
+        "zh": "宽容",
+        "vi": "khoan dung"
+      }
+    ]
   },
   {
     "char": "家",
@@ -29650,7 +31650,15 @@
     ],
     "frequency": 1534,
     "definition": "guest, visitor; surname; submit",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "賓",
+    "han_viet": "tân",
+    "han_viet_examples": [
+      {
+        "zh": "罗宾",
+        "vi": "la tân"
+      }
+    ]
   },
   {
     "char": "窍",
@@ -29730,7 +31738,15 @@
     ],
     "frequency": 421,
     "definition": "ask, request; invite; please",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "請",
+    "han_viet": "thỉnh",
+    "han_viet_examples": [
+      {
+        "zh": "请求",
+        "vi": "thỉnh cầu"
+      }
+    ]
   },
   {
     "char": "朗",
@@ -29778,7 +31794,15 @@
     ],
     "frequency": 752,
     "definition": "read, study; pronounce",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "讀",
+    "han_viet": "độc",
+    "han_viet_examples": [
+      {
+        "zh": "读者",
+        "vi": "độc giả"
+      }
+    ]
   },
   {
     "char": "扇",
@@ -29799,7 +31823,15 @@
     ],
     "frequency": 3541,
     "definition": "slander, vilify, condemn",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "誹",
+    "han_viet": "phỉ",
+    "han_viet_examples": [
+      {
+        "zh": "诽谤",
+        "vi": "phỉ báng"
+      }
+    ]
   },
   {
     "char": "袜",
@@ -30166,7 +32198,15 @@
     ],
     "frequency": 1262,
     "definition": "submerge, sink, plunge; trap",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "陷",
+    "han_viet": "hãm",
+    "han_viet_examples": [
+      {
+        "zh": "陷害",
+        "vi": "hãm hại"
+      }
+    ]
   },
   {
     "char": "陪",
@@ -30374,7 +32414,15 @@
     ],
     "frequency": 534,
     "definition": "test, examine, inspect; verify",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "驗",
+    "han_viet": "nghiệm",
+    "han_viet_examples": [
+      {
+        "zh": "经验",
+        "vi": "kinh nghiệm"
+      }
+    ]
   },
   {
     "char": "继",
@@ -30384,7 +32432,15 @@
     ],
     "frequency": 655,
     "definition": "continue, maintain, carry on",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "繼",
+    "han_viet": "kế",
+    "han_viet_examples": [
+      {
+        "zh": "继续",
+        "vi": "kế tục"
+      }
+    ]
   },
   {
     "char": "骏",
@@ -30394,7 +32450,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "駿",
+    "han_viet": "tuấn",
+    "han_viet_examples": [
+      {
+        "zh": "骏马",
+        "vi": "tuấn mã"
+      }
+    ]
   },
   {
     "char": "球",
@@ -30545,7 +32609,15 @@
     ],
     "frequency": 1514,
     "definition": "to cover (with the hand); shut, conceal; ambush",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "掩",
+    "han_viet": "yểm",
+    "han_viet_examples": [
+      {
+        "zh": "掩护",
+        "vi": "yểm hộ"
+      }
+    ]
   },
   {
     "char": "捷",
@@ -30759,7 +32831,15 @@
     ],
     "frequency": 1152,
     "definition": "bank up with dirt; cultivate",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "培",
+    "han_viet": "bồi",
+    "han_viet_examples": [
+      {
+        "zh": "培养",
+        "vi": "bồi dưỡng"
+      }
+    ]
   },
   {
     "char": "接",
@@ -30831,7 +32911,15 @@
     ],
     "frequency": 313,
     "definition": "to occupy, take possession of; a base, position",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "據",
+    "han_viet": "cứ",
+    "han_viet_examples": [
+      {
+        "zh": "根据",
+        "vi": "căn cứ"
+      }
+    ]
   },
   {
     "char": "掘",
@@ -30840,7 +32928,15 @@
     ],
     "frequency": 2212,
     "definition": "dig, excavate; excavate cave",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "掘",
+    "han_viet": "quật",
+    "han_viet_examples": [
+      {
+        "zh": "开掘",
+        "vi": "khai quật"
+      }
+    ]
   },
   {
     "char": "掺",
@@ -30979,7 +33075,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "勒",
+    "han_viet": "lặc",
+    "han_viet_examples": [
+      {
+        "zh": "贝勒",
+        "vi": "bối lặc"
+      }
+    ]
   },
   {
     "char": "黄",
@@ -31150,7 +33254,15 @@
     ],
     "frequency": 536,
     "definition": "encampment, barracks; manage",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "營",
+    "han_viet": "doanh",
+    "han_viet_examples": [
+      {
+        "zh": "经营",
+        "vi": "kinh doanh"
+      }
+    ]
   },
   {
     "char": "乾",
@@ -31196,7 +33308,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "薩",
+    "han_viet": "tát",
+    "han_viet_examples": [
+      {
+        "zh": "菩萨",
+        "vi": "bồ tát"
+      }
+    ]
   },
   {
     "char": "菇",
@@ -31259,7 +33379,15 @@
     ],
     "frequency": 3112,
     "definition": "covet; covetous, avaricious",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "婪",
+    "han_viet": "lam",
+    "han_viet_examples": [
+      {
+        "zh": "贪婪",
+        "vi": "tham lam"
+      }
+    ]
   },
   {
     "char": "梗",
@@ -31322,7 +33450,15 @@
     ],
     "frequency": 731,
     "definition": "check; examine",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "檢",
+    "han_viet": "kiểm",
+    "han_viet_examples": [
+      {
+        "zh": "检查",
+        "vi": "kiểm tra"
+      }
+    ]
   },
   {
     "char": "梳",
@@ -31385,7 +33521,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "曹",
+    "han_viet": "tào",
+    "han_viet_examples": [
+      {
+        "zh": "曹操",
+        "vi": "tào tháo"
+      }
+    ]
   },
   {
     "char": "副",
@@ -31484,7 +33628,15 @@
     ],
     "frequency": 2304,
     "definition": "great, eminent; large, big",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "碩",
+    "han_viet": "thạc",
+    "han_viet_examples": [
+      {
+        "zh": "硕士",
+        "vi": "thạc sĩ"
+      }
+    ]
   },
   {
     "char": "奢",
@@ -31510,7 +33662,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "盔",
+    "han_viet": "khôi",
+    "han_viet_examples": [
+      {
+        "zh": "盔甲",
+        "vi": "khôi giáp"
+      }
+    ]
   },
   {
     "char": "爽",
@@ -31519,7 +33679,15 @@
     ],
     "frequency": 2378,
     "definition": "happy, cheerful; refreshing",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "爽",
+    "han_viet": "sảng",
+    "han_viet_examples": [
+      {
+        "zh": "爽快",
+        "vi": "sảng khoái"
+      }
+    ]
   },
   {
     "char": "聋",
@@ -31600,7 +33768,15 @@
     ],
     "frequency": 2033,
     "definition": "cheek bone; protective; assist",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "輔",
+    "han_viet": "phụ",
+    "han_viet_examples": [
+      {
+        "zh": "辅导",
+        "vi": "phụ đạo"
+      }
+    ]
   },
   {
     "char": "辆",
@@ -31844,7 +34020,15 @@
     ],
     "frequency": 641,
     "definition": "night, evening; late",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "晚",
+    "han_viet": "vãn",
+    "han_viet_examples": [
+      {
+        "zh": "晚辈",
+        "vi": "vãn bối"
+      }
+    ]
   },
   {
     "char": "啄",
@@ -31963,7 +34147,15 @@
     ],
     "frequency": 1689,
     "definition": "snake",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "蛇",
+    "han_viet": "xà",
+    "han_viet_examples": [
+      {
+        "zh": "毒蛇",
+        "vi": "độc xà"
+      }
+    ]
   },
   {
     "char": "唬",
@@ -32028,7 +34220,15 @@
     ],
     "frequency": 1249,
     "definition": "suffer, worry about; suffering",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "患",
+    "han_viet": "hoạn",
+    "han_viet_examples": [
+      {
+        "zh": "患难",
+        "vi": "hoạn nạn"
+      }
+    ]
   },
   {
     "char": "啰",
@@ -32186,7 +34386,15 @@
     ],
     "frequency": 1482,
     "definition": "esteem, honor, revere, venerate",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "崇",
+    "han_viet": "sùng",
+    "han_viet_examples": [
+      {
+        "zh": "崇拜",
+        "vi": "sùng bái"
+      }
+    ]
   },
   {
     "char": "崛",
@@ -32371,7 +34579,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "穢",
+    "han_viet": "uế",
+    "han_viet_examples": [
+      {
+        "zh": "污秽",
+        "vi": "ô uế"
+      }
+    ]
   },
   {
     "char": "移",
@@ -32408,7 +34624,15 @@
     ],
     "frequency": 1928,
     "definition": "cage; cage-like basket",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "籠",
+    "han_viet": "lung",
+    "han_viet_examples": [
+      {
+        "zh": "笼络",
+        "vi": "lung lạc"
+      }
+    ]
   },
   {
     "char": "笛",
@@ -32435,7 +34659,15 @@
     ],
     "frequency": 1205,
     "definition": "i.d. tag, tally, symbol, charm",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "符",
+    "han_viet": "phù",
+    "han_viet_examples": [
+      {
+        "zh": "符合",
+        "vi": "phù hợp"
+      }
+    ]
   },
   {
     "char": "第",
@@ -32496,7 +34728,15 @@
     ],
     "frequency": 2055,
     "definition": "long, far, remote, distant; liesurely",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "悠",
+    "han_viet": "du",
+    "han_viet_examples": [
+      {
+        "zh": "悠扬",
+        "vi": "du dương"
+      }
+    ]
   },
   {
     "char": "偿",
@@ -32506,7 +34746,15 @@
     "frequency": 1329,
     "traditional": "償",
     "definition": "repay, recompense; restitution",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "償",
+    "han_viet": "thường",
+    "han_viet_examples": [
+      {
+        "zh": "赔偿",
+        "vi": "bồi thường"
+      }
+    ]
   },
   {
     "char": "偶",
@@ -32560,7 +34808,15 @@
     ],
     "frequency": 1114,
     "definition": "sell",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "售",
+    "han_viet": "thụ",
+    "han_viet_examples": [
+      {
+        "zh": "销售",
+        "vi": "tiêu thụ"
+      }
+    ]
   },
   {
     "char": "停",
@@ -32633,7 +34889,15 @@
     ],
     "frequency": 636,
     "definition": "falsehood, deception; vacation",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "假",
+    "han_viet": "giả",
+    "han_viet_examples": [
+      {
+        "zh": "假如",
+        "vi": "giá như/giả như"
+      }
+    ]
   },
   {
     "char": "衅",
@@ -32660,7 +34924,15 @@
     ],
     "frequency": 3084,
     "definition": "walk back and forth, hesitate",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "徘",
+    "han_viet": "bồi",
+    "han_viet_examples": [
+      {
+        "zh": "徘徊",
+        "vi": "bồi hồi"
+      }
+    ]
   },
   {
     "char": "徙",
@@ -32851,7 +35123,15 @@
     ],
     "frequency": 1177,
     "definition": "hue, color; variegated colors",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "彩",
+    "han_viet": "thái",
+    "han_viet_examples": [
+      {
+        "zh": "色彩",
+        "vi": "sắc thái"
+      }
+    ]
   },
   {
     "char": "领",
@@ -33384,7 +35664,15 @@
     ],
     "frequency": 1383,
     "definition": "revolve, move in orbit; return",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "旋",
+    "han_viet": "toàn",
+    "han_viet_examples": [
+      {
+        "zh": "周旋",
+        "vi": "chu toàn"
+      }
+    ]
   },
   {
     "char": "望",
@@ -33467,7 +35755,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "羚",
+    "han_viet": "linh",
+    "han_viet_examples": [
+      {
+        "zh": "羚羊",
+        "vi": "linh dương"
+      }
+    ]
   },
   {
     "char": "盖",
@@ -33523,7 +35819,15 @@
     ],
     "frequency": 1414,
     "definition": "rough, thick, course; rude",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "粗",
+    "han_viet": "thô",
+    "han_viet_examples": [
+      {
+        "zh": "粗暴",
+        "vi": "thô bạo"
+      }
+    ]
   },
   {
     "char": "粒",
@@ -33569,7 +35873,15 @@
     ],
     "frequency": 1602,
     "definition": "beast, animal; bestial",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "獸",
+    "han_viet": "thú",
+    "han_viet_examples": [
+      {
+        "zh": "野兽",
+        "vi": "dã thú"
+      }
+    ]
   },
   {
     "char": "焊",
@@ -33698,7 +36010,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "淑",
+    "han_viet": "thục",
+    "han_viet_examples": [
+      {
+        "zh": "淑女",
+        "vi": "thục nữ"
+      }
+    ]
   },
   {
     "char": "淌",
@@ -33735,7 +36055,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "淮",
+    "han_viet": "hoài",
+    "han_viet_examples": [
+      {
+        "zh": "淮南",
+        "vi": "hoài nam"
+      }
+    ]
   },
   {
     "char": "淆",
@@ -33754,7 +36082,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "淵",
+    "han_viet": "uyên",
+    "han_viet_examples": [
+      {
+        "zh": "渊博",
+        "vi": "uyên bác"
+      }
+    ]
   },
   {
     "char": "淫",
@@ -33782,7 +36118,15 @@
     ],
     "frequency": 1770,
     "definition": "to fish; seize; pursue; surname",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "漁",
+    "han_viet": "ngư",
+    "han_viet_examples": [
+      {
+        "zh": "渔民",
+        "vi": "ngư dân"
+      }
+    ]
   },
   {
     "char": "淘",
@@ -33827,7 +36171,15 @@
     ],
     "frequency": 1451,
     "definition": "sap, juice, liquid, fluid",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "液",
+    "han_viet": "dịch",
+    "han_viet_examples": [
+      {
+        "zh": "精液",
+        "vi": "tinh dịch"
+      }
+    ]
   },
   {
     "char": "淤",
@@ -33996,7 +36348,15 @@
     ],
     "frequency": 2963,
     "definition": "grieve, mourn, lament; grieved",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "悼",
+    "han_viet": "điệu",
+    "han_viet_examples": [
+      {
+        "zh": "追悼",
+        "vi": "truy điệu"
+      }
+    ]
   },
   {
     "char": "惧",
@@ -34113,7 +36473,15 @@
     ],
     "frequency": 1226,
     "definition": "habit, custom; habitually, usual",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "慣",
+    "han_viet": "quán",
+    "han_viet_examples": [
+      {
+        "zh": "习惯",
+        "vi": "tập quán"
+      }
+    ]
   },
   {
     "char": "寇",
@@ -34268,7 +36636,15 @@
     ],
     "frequency": 2416,
     "definition": "harmonize, agree; joke, jest",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "諧",
+    "han_viet": "hài",
+    "han_viet_examples": [
+      {
+        "zh": "诙谐",
+        "vi": "khôi hài"
+      }
+    ]
   },
   {
     "char": "袱",
@@ -34315,7 +36691,15 @@
     ],
     "frequency": 945,
     "definition": "say, tell; call, name; be called",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "謂",
+    "han_viet": "vị",
+    "han_viet_examples": [
+      {
+        "zh": "无谓",
+        "vi": "vô vị"
+      }
+    ]
   },
   {
     "char": "谚",
@@ -34325,7 +36709,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "諺",
+    "han_viet": "ngạn",
+    "han_viet_examples": [
+      {
+        "zh": "谚语",
+        "vi": "ngạn ngữ"
+      }
+    ]
   },
   {
     "char": "谜",
@@ -34389,7 +36781,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "屠",
+    "han_viet": "đồ",
+    "han_viet_examples": [
+      {
+        "zh": "屠宰",
+        "vi": "đồ tể"
+      }
+    ]
   },
   {
     "char": "弹",
@@ -34400,7 +36800,15 @@
     ],
     "frequency": 632,
     "definition": "pellet, bullet, shot, shell",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "彈",
+    "han_viet": "đạn",
+    "han_viet_examples": [
+      {
+        "zh": "弹药",
+        "vi": "đạn dược"
+      }
+    ]
   },
   {
     "char": "隋",
@@ -34474,7 +36882,15 @@
     ],
     "frequency": 1400,
     "definition": "prosperous, plentiful, abundant",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "隆",
+    "han_viet": "long",
+    "han_viet_examples": [
+      {
+        "zh": "隆重",
+        "vi": "long trọng"
+      }
+    ]
   },
   {
     "char": "隐",
@@ -34485,7 +36901,15 @@
     ],
     "frequency": 1034,
     "definition": "hide, conceal; hidden, secret",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "隱",
+    "han_viet": "ẩn",
+    "han_viet_examples": [
+      {
+        "zh": "隐居",
+        "vi": "ẩn cư"
+      }
+    ]
   },
   {
     "char": "婚",
@@ -34512,7 +36936,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "嬸",
+    "han_viet": "thẩm",
+    "han_viet_examples": [
+      {
+        "zh": "婶婶",
+        "vi": "thẩm thẩm"
+      }
+    ]
   },
   {
     "char": "婉",
@@ -34521,7 +36953,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "婉",
+    "han_viet": "uyển",
+    "han_viet_examples": [
+      {
+        "zh": "婉转",
+        "vi": "uyển chuyển"
+      }
+    ]
   },
   {
     "char": "颇",
@@ -34570,7 +37010,15 @@
     ],
     "frequency": 1413,
     "definition": "end of thread; thread, clue",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "緒",
+    "han_viet": "tự",
+    "han_viet_examples": [
+      {
+        "zh": "光绪",
+        "vi": "quang tự"
+      }
+    ]
   },
   {
     "char": "续",
@@ -34580,7 +37028,15 @@
     ],
     "frequency": 552,
     "definition": "continue, carry on; succeed",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "續",
+    "han_viet": "tục",
+    "han_viet_examples": [
+      {
+        "zh": "继续",
+        "vi": "kế tục"
+      }
+    ]
   },
   {
     "char": "骑",
@@ -34590,7 +37046,15 @@
     ],
     "frequency": 1398,
     "definition": "ride horseback; mount; cavalry",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "騎",
+    "han_viet": "kỵ",
+    "han_viet_examples": [
+      {
+        "zh": "骑士",
+        "vi": "kị sĩ/kỵ sĩ"
+      }
+    ]
   },
   {
     "char": "绰",
@@ -34728,7 +37192,15 @@
     ],
     "frequency": 2298,
     "definition": "nest, living quarter in tree",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "巢",
+    "han_viet": "sào",
+    "han_viet_examples": [
+      {
+        "zh": "巢穴",
+        "vi": "sào huyệt"
+      }
+    ]
   },
   {
     "char": "琴",
@@ -34793,7 +37265,15 @@
     ],
     "frequency": 1079,
     "definition": "change, replace, substitute for",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "替",
+    "han_viet": "thế",
+    "han_viet_examples": [
+      {
+        "zh": "替身",
+        "vi": "thế thân"
+      }
+    ]
   },
   {
     "char": "揍",
@@ -35069,7 +37549,15 @@
     ],
     "frequency": 1495,
     "definition": "insert, stick into; plant",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "插",
+    "han_viet": "sáp",
+    "han_viet_examples": [
+      {
+        "zh": "插入",
+        "vi": "sáp nhập"
+      }
+    ]
   },
   {
     "char": "揪",
@@ -35088,7 +37576,15 @@
     ],
     "frequency": 1564,
     "definition": "search, seek; investigate",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "搜",
+    "han_viet": "sưu",
+    "han_viet_examples": [
+      {
+        "zh": "搜集",
+        "vi": "sưu tập"
+      }
+    ]
   },
   {
     "char": "煮",
@@ -35228,7 +37724,15 @@
     ],
     "frequency": 168,
     "definition": "this, thus, such; to lop off; emphatic particle",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "斯",
+    "han_viet": "tư",
+    "han_viet_examples": [
+      {
+        "zh": "波斯",
+        "vi": "ba tư"
+      }
+    ]
   },
   {
     "char": "期",
@@ -35265,7 +37769,15 @@
     ],
     "frequency": 356,
     "definition": "connect, join; associate, ally",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "聯",
+    "han_viet": "liên",
+    "han_viet_examples": [
+      {
+        "zh": "联系",
+        "vi": "liên hệ"
+      }
+    ]
   },
   {
     "char": "葫",
@@ -35274,7 +37786,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "葫",
+    "han_viet": "hồ",
+    "han_viet_examples": [
+      {
+        "zh": "葫芦",
+        "vi": "hồ lô"
+      }
+    ]
   },
   {
     "char": "散",
@@ -35564,7 +38084,15 @@
     ],
     "frequency": 1124,
     "definition": "plant, trees, plants; grow",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "植",
+    "han_viet": "thực",
+    "han_viet_examples": [
+      {
+        "zh": "植物",
+        "vi": "thực vật"
+      }
+    ]
   },
   {
     "char": "森",
@@ -35675,7 +38203,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "棺",
+    "han_viet": "quan",
+    "han_viet_examples": [
+      {
+        "zh": "棺材",
+        "vi": "quan tài"
+      }
+    ]
   },
   {
     "char": "榔",
@@ -35712,7 +38248,15 @@
     ],
     "frequency": 1524,
     "definition": "favor, benefit, confer kindness",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "惠",
+    "han_viet": "huệ",
+    "han_viet_examples": [
+      {
+        "zh": "惠州",
+        "vi": "huệ châu"
+      }
+    ]
   },
   {
     "char": "惑",
@@ -35891,7 +38435,15 @@
     ],
     "frequency": 1438,
     "definition": "breed, spawn; increase; prosper",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "殖",
+    "han_viet": "thực",
+    "han_viet_examples": [
+      {
+        "zh": "殖民",
+        "vi": "thực dân"
+      }
+    ]
   },
   {
     "char": "裂",
@@ -35956,7 +38508,15 @@
     ],
     "frequency": 1325,
     "definition": "temporary",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "暫",
+    "han_viet": "tạm",
+    "han_viet_examples": [
+      {
+        "zh": "暂时",
+        "vi": "tạm thời"
+      }
+    ]
   },
   {
     "char": "雅",
@@ -36261,7 +38821,15 @@
     ],
     "frequency": 1725,
     "definition": "crystal; clear, bright; radiant",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "晶",
+    "han_viet": "tinh",
+    "han_viet_examples": [
+      {
+        "zh": "水晶",
+        "vi": "thủy tinh"
+      }
+    ]
   },
   {
     "char": "喇",
@@ -36625,7 +39193,15 @@
     ],
     "frequency": 1747,
     "definition": "tax; give; endow; army; diffuse",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "賦",
+    "han_viet": "phú",
+    "han_viet_examples": [
+      {
+        "zh": "天赋",
+        "vi": "thiên phú"
+      }
+    ]
   },
   {
     "char": "赌",
@@ -36673,7 +39249,15 @@
     ],
     "frequency": 1734,
     "definition": "indemnify, suffer loss",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "賠",
+    "han_viet": "bồi",
+    "han_viet_examples": [
+      {
+        "zh": "赔偿",
+        "vi": "bồi thường"
+      }
+    ]
   },
   {
     "char": "黑",
@@ -36682,7 +39266,15 @@
     ],
     "frequency": 519,
     "definition": "black; dark; evil, sinister",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "黑",
+    "han_viet": "hắc",
+    "han_viet_examples": [
+      {
+        "zh": "黑暗",
+        "vi": "hắc ám"
+      }
+    ]
   },
   {
     "char": "铸",
@@ -36703,7 +39295,15 @@
     ],
     "frequency": 1613,
     "definition": "shop, store; place sleep, bed",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鋪",
+    "han_viet": "phô",
+    "han_viet_examples": [
+      {
+        "zh": "铺张",
+        "vi": "phô trương"
+      }
+    ]
   },
   {
     "char": "链",
@@ -36844,7 +39444,15 @@
     ],
     "frequency": 889,
     "definition": "short; brief; deficient, lacking",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "短",
+    "han_viet": "đoản",
+    "han_viet_examples": [
+      {
+        "zh": "短命",
+        "vi": "đoản mệnh"
+      }
+    ]
   },
   {
     "char": "智",
@@ -36898,7 +39506,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "鵝",
+    "han_viet": "nga",
+    "han_viet_examples": [
+      {
+        "zh": "天鹅",
+        "vi": "thiên nga"
+      }
+    ]
   },
   {
     "char": "剩",
@@ -36907,7 +39523,15 @@
     ],
     "frequency": 1446,
     "definition": "leftovers, residue, remains",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "剩",
+    "han_viet": "thặng",
+    "han_viet_examples": [
+      {
+        "zh": "剩余",
+        "vi": "thặng dư"
+      }
+    ]
   },
   {
     "char": "稍",
@@ -37005,7 +39629,15 @@
     ],
     "frequency": 1130,
     "definition": "ancient lute; build",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "築",
+    "han_viet": "trúc",
+    "han_viet_examples": [
+      {
+        "zh": "建筑",
+        "vi": "kiến trúc"
+      }
+    ]
   },
   {
     "char": "策",
@@ -37292,7 +39924,15 @@
     ],
     "frequency": 1821,
     "definition": "punish, reprimand; warn",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "懲",
+    "han_viet": "trừng",
+    "han_viet_examples": [
+      {
+        "zh": "惩罚",
+        "vi": "trừng phạt"
+      }
+    ]
   },
   {
     "char": "御",
@@ -37319,7 +39959,15 @@
     ],
     "frequency": 1744,
     "definition": "obey, comply with, follow",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "循",
+    "han_viet": "tuần",
+    "han_viet_examples": [
+      {
+        "zh": "循环",
+        "vi": "tuần hoàn"
+      }
+    ]
   },
   {
     "char": "艇",
@@ -37356,7 +40004,15 @@
     ],
     "frequency": 1452,
     "definition": "to take turns; a turn, a time; to repeat",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "番",
+    "han_viet": "phiên",
+    "han_viet_examples": [
+      {
+        "zh": "轮番",
+        "vi": "luân phiên"
+      }
+    ]
   },
   {
     "char": "释",
@@ -37366,7 +40022,15 @@
     ],
     "frequency": 813,
     "definition": "interprete, elucidate; release",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "釋",
+    "han_viet": "thích",
+    "han_viet_examples": [
+      {
+        "zh": "解释",
+        "vi": "giải thích"
+      }
+    ]
   },
   {
     "char": "禽",
@@ -37393,7 +40057,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "臘",
+    "han_viet": "",
+    "han_viet_examples": [
+      {
+        "zh": "希腊",
+        "vi": "hi lạp/hy lạp"
+      }
+    ]
   },
   {
     "char": "脾",
@@ -37439,7 +40111,15 @@
     ],
     "frequency": 898,
     "definition": "foolish, stupid, rash; vulgar",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "魯",
+    "han_viet": "lỗ",
+    "han_viet_examples": [
+      {
+        "zh": "粗鲁",
+        "vi": "thô lỗ"
+      }
+    ]
   },
   {
     "char": "猩",
@@ -37448,7 +40128,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "猩",
+    "han_viet": "tinh",
+    "han_viet_examples": [
+      {
+        "zh": "猩猩",
+        "vi": "tinh tinh"
+      }
+    ]
   },
   {
     "char": "猬",
@@ -37967,7 +40655,15 @@
     ],
     "frequency": 1972,
     "definition": "thirsty, parched; yearn, pine",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "渴",
+    "han_viet": "khát",
+    "han_viet_examples": [
+      {
+        "zh": "渴望",
+        "vi": "khát vọng"
+      }
+    ]
   },
   {
     "char": "溃",
@@ -38165,7 +40861,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "愕",
+    "han_viet": "ngạc",
+    "han_viet_examples": [
+      {
+        "zh": "惊愕",
+        "vi": "kinh ngạc"
+      }
+    ]
   },
   {
     "char": "愣",
@@ -38183,7 +40887,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "惶",
+    "han_viet": "hoàng",
+    "han_viet_examples": [
+      {
+        "zh": "惊惶",
+        "vi": "kinh hoàng"
+      }
+    ]
   },
   {
     "char": "愧",
@@ -38515,7 +41227,15 @@
     ],
     "frequency": 2345,
     "definition": "humble, modest",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "謙",
+    "han_viet": "khiêm",
+    "han_viet_examples": [
+      {
+        "zh": "谦逊",
+        "vi": "khiêm tốn"
+      }
+    ]
   },
   {
     "char": "犀",
@@ -38679,7 +41399,15 @@
     ],
     "frequency": 2142,
     "definition": "",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "嫂",
+    "han_viet": "tẩu",
+    "han_viet_examples": [
+      {
+        "zh": "大嫂",
+        "vi": "đại tẩu"
+      }
+    ]
   },
   {
     "char": "媚",
@@ -38746,7 +41474,15 @@
     ],
     "frequency": 3165,
     "definition": "to sew in close stitches",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "緝",
+    "han_viet": "tập",
+    "han_viet_examples": [
+      {
+        "zh": "缉拿",
+        "vi": "tập nã"
+      }
+    ]
   },
   {
     "char": "缎",
@@ -38851,7 +41587,15 @@
     ],
     "frequency": 1274,
     "definition": "hem, margin; reason, cause; fate",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "緣",
+    "han_viet": "duyên",
+    "han_viet_examples": [
+      {
+        "zh": "缘分",
+        "vi": "duyên phận"
+      }
+    ]
   },
   {
     "char": "瑟",
@@ -39381,7 +42125,15 @@
     ],
     "frequency": 859,
     "definition": "name of feudal state; clear",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "楚",
+    "han_viet": "sở",
+    "han_viet_examples": [
+      {
+        "zh": "苦楚",
+        "vi": "khổ sở"
+      }
+    ]
   },
   {
     "char": "楷",
@@ -39490,7 +42242,15 @@
     ],
     "frequency": 1365,
     "definition": "rely, depend on; accuse falsely",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "賴",
+    "han_viet": "lại",
+    "han_viet_examples": [
+      {
+        "zh": "依赖",
+        "vi": "ỷ lại"
+      }
+    ]
   },
   {
     "char": "酪",
@@ -39707,7 +42467,15 @@
     ],
     "frequency": 1362,
     "definition": "gather up, collect; edit, compile",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "輯",
+    "han_viet": "tập",
+    "han_viet_examples": [
+      {
+        "zh": "编辑",
+        "vi": "biên tập"
+      }
+    ]
   },
   {
     "char": "输",
@@ -39745,7 +42513,15 @@
     ],
     "frequency": 1535,
     "definition": "frequently, again and again",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "頻",
+    "han_viet": "tần",
+    "han_viet_examples": [
+      {
+        "zh": "频率",
+        "vi": "tần suất"
+      }
+    ]
   },
   {
     "char": "龄",
@@ -39765,7 +42541,15 @@
     ],
     "frequency": 1655,
     "definition": "mirror, looking glass; reflect",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "鑑",
+    "han_viet": "giám",
+    "han_viet_examples": [
+      {
+        "zh": "鉴定",
+        "vi": "giám định"
+      }
+    ]
   },
   {
     "char": "睛",
@@ -39882,7 +42666,15 @@
     ],
     "frequency": 1895,
     "definition": "stupid, doltish, foolish",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "愚",
+    "han_viet": "ngu",
+    "han_viet_examples": [
+      {
+        "zh": "愚蠢",
+        "vi": "ngu xuẩn"
+      }
+    ]
   },
   {
     "char": "暖",
@@ -40266,7 +43058,15 @@
     ],
     "frequency": 638,
     "definition": "error, blunder, mistake; wrong",
-    "hsk_level": 2
+    "hsk_level": 2,
+    "ja": "錯",
+    "han_viet": "thác",
+    "han_viet_examples": [
+      {
+        "zh": "错乱",
+        "vi": "thác loạn"
+      }
+    ]
   },
   {
     "char": "锚",
@@ -40563,7 +43363,15 @@
     ],
     "frequency": 294,
     "definition": "a picture, image, figure; to resemble",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "像",
+    "han_viet": "tượng",
+    "han_viet_examples": [
+      {
+        "zh": "想像",
+        "vi": "tưởng tượng"
+      }
+    ]
   },
   {
     "char": "躲",
@@ -40931,7 +43739,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "痴",
+    "han_viet": "si",
+    "han_viet_examples": [
+      {
+        "zh": "痴迷",
+        "vi": "si mê"
+      }
+    ]
   },
   {
     "char": "痰",
@@ -41138,7 +43954,15 @@
     ],
     "frequency": 436,
     "definition": "fill; full, satisfied",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "滿",
+    "han_viet": "mãn",
+    "han_viet_examples": [
+      {
+        "zh": "不满",
+        "vi": "bất mãn"
+      }
+    ]
   },
   {
     "char": "漠",
@@ -41201,7 +44025,15 @@
     ],
     "frequency": 2282,
     "definition": "flood, overflow; excessive",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "濫",
+    "han_viet": "lạm",
+    "han_viet_examples": [
+      {
+        "zh": "滥用",
+        "vi": "lạm dụng"
+      }
+    ]
   },
   {
     "char": "滔",
@@ -41630,7 +44462,15 @@
     ],
     "frequency": 2271,
     "definition": "pile; be piled up; fold up",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "疊",
+    "han_viet": "điệp",
+    "han_viet_examples": [
+      {
+        "zh": "重叠",
+        "vi": "trùng điệp"
+      }
+    ]
   },
   {
     "char": "缚",
@@ -41816,7 +44656,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "赫",
+    "han_viet": "hách",
+    "han_viet_examples": [
+      {
+        "zh": "显赫",
+        "vi": "hiển hách"
+      }
+    ]
   },
   {
     "char": "截",
@@ -41869,7 +44717,15 @@
     ],
     "frequency": 2026,
     "definition": "pluck, pick; select; specify",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "摘",
+    "han_viet": "trích",
+    "han_viet_examples": [
+      {
+        "zh": "指摘",
+        "vi": "chỉ trích"
+      }
+    ]
   },
   {
     "char": "摔",
@@ -41940,7 +44796,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "摹",
+    "han_viet": "mô",
+    "han_viet_examples": [
+      {
+        "zh": "摹仿",
+        "vi": "mô phỏng"
+      }
+    ]
   },
   {
     "char": "蔓",
@@ -42232,7 +45096,15 @@
     ],
     "frequency": 1771,
     "definition": "magnetic; magnetism; porcelain",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "磁",
+    "han_viet": "từ",
+    "han_viet_examples": [
+      {
+        "zh": "磁性",
+        "vi": "từ tính"
+      }
+    ]
   },
   {
     "char": "愿",
@@ -42277,7 +45149,15 @@
     ],
     "frequency": 1643,
     "definition": "linchpin of wheel; control",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "轄",
+    "han_viet": "hạt",
+    "han_viet_examples": [
+      {
+        "zh": "管辖",
+        "vi": "quản hạt"
+      }
+    ]
   },
   {
     "char": "辗",
@@ -42538,7 +45418,15 @@
     ],
     "frequency": 1055,
     "definition": "stable, firm, solid, steady",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "穩",
+    "han_viet": "ổn",
+    "han_viet_examples": [
+      {
+        "zh": "稳定",
+        "vi": "ổn định"
+      }
+    ]
   },
   {
     "char": "熏",
@@ -42689,7 +45577,15 @@
     ],
     "frequency": 2511,
     "definition": "vigor; body; dark part of moon",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "魄",
+    "han_viet": "phách",
+    "han_viet_examples": [
+      {
+        "zh": "气魄",
+        "vi": "khí phách"
+      }
+    ]
   },
   {
     "char": "魅",
@@ -42709,7 +45605,15 @@
     ],
     "frequency": 1595,
     "definition": "countenance, appearance",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "貌",
+    "han_viet": "mạo",
+    "han_viet_examples": [
+      {
+        "zh": "面貌",
+        "vi": "diện mạo"
+      }
+    ]
   },
   {
     "char": "膜",
@@ -42747,7 +45651,15 @@
     ],
     "frequency": 1941,
     "definition": "upper arm; shoulder; wing",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "膀",
+    "han_viet": "bàng",
+    "han_viet_examples": [
+      {
+        "zh": "膀胱",
+        "vi": "bàng quang"
+      }
+    ]
   },
   {
     "char": "鲜",
@@ -43030,7 +45942,15 @@
     ],
     "frequency": 1736,
     "definition": "pure; unadulterated; select",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "粹",
+    "han_viet": "túy",
+    "han_viet_examples": [
+      {
+        "zh": "纯粹",
+        "vi": "thuần túy"
+      }
+    ]
   },
   {
     "char": "歉",
@@ -43125,7 +46045,15 @@
     ],
     "frequency": 1568,
     "definition": "float, drift; tossed about",
-    "hsk_level": 1
+    "hsk_level": 1,
+    "ja": "漂",
+    "han_viet": "phiêu",
+    "han_viet_examples": [
+      {
+        "zh": "漂流",
+        "vi": "phiêu lưu"
+      }
+    ]
   },
   {
     "char": "漫",
@@ -43301,7 +46229,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "寥",
+    "han_viet": "liêu",
+    "han_viet_examples": [
+      {
+        "zh": "寂寥",
+        "vi": "tịch liêu"
+      }
+    ]
   },
   {
     "char": "谭",
@@ -43608,7 +46544,15 @@
     ],
     "frequency": 1270,
     "definition": "omit; remove; withdraw",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "撤",
+    "han_viet": "triệt",
+    "han_viet_examples": [
+      {
+        "zh": "撤退",
+        "vi": "triệt thoái"
+      }
+    ]
   },
   {
     "char": "增",
@@ -43617,7 +46561,15 @@
     ],
     "frequency": 446,
     "definition": "increase, add to, augment",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "增",
+    "han_viet": "tăng",
+    "han_viet_examples": [
+      {
+        "zh": "增长",
+        "vi": "tăng trưởng"
+      }
+    ]
   },
   {
     "char": "撰",
@@ -43644,7 +46596,15 @@
     ],
     "frequency": 1669,
     "definition": "intelligent, clever, bright",
-    "hsk_level": 3
+    "hsk_level": 3,
+    "ja": "聰",
+    "han_viet": "thông",
+    "han_viet_examples": [
+      {
+        "zh": "聪明",
+        "vi": "thông minh"
+      }
+    ]
   },
   {
     "char": "鞋",
@@ -43762,7 +46722,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "櫻",
+    "han_viet": "anh",
+    "han_viet_examples": [
+      {
+        "zh": "樱桃",
+        "vi": "anh đào"
+      }
+    ]
   },
   {
     "char": "橡",
@@ -44163,7 +47131,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "蠍",
+    "han_viet": "hạt",
+    "han_viet_examples": [
+      {
+        "zh": "蝎子",
+        "vi": "hạt tử"
+      }
+    ]
   },
   {
     "char": "蝌",
@@ -44210,7 +47186,15 @@
     ],
     "frequency": 2156,
     "definition": "order, tell, instruct, leave word",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "囑",
+    "han_viet": "chúc",
+    "han_viet_examples": [
+      {
+        "zh": "遗嘱",
+        "vi": "di chúc"
+      }
+    ]
   },
   {
     "char": "幢",
@@ -44410,7 +47394,15 @@
     ],
     "frequency": 2333,
     "definition": "stiff and motionless, stock still",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "殭",
+    "han_viet": "cương",
+    "han_viet_examples": [
+      {
+        "zh": "僵尸",
+        "vi": "cương thi"
+      }
+    ]
   },
   {
     "char": "躺",
@@ -44438,7 +47430,15 @@
     ],
     "frequency": 256,
     "definition": "ethics, morality, virtue",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "德",
+    "han_viet": "đức",
+    "han_viet_examples": [
+      {
+        "zh": "德国",
+        "vi": "đức quốc"
+      }
+    ]
   },
   {
     "char": "艘",
@@ -44521,7 +47521,15 @@
     ],
     "frequency": 1162,
     "definition": "rub, scour, grind; friction",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "摩",
+    "han_viet": "ma",
+    "han_viet_examples": [
+      {
+        "zh": "摩擦",
+        "vi": "ma sát"
+      }
+    ]
   },
   {
     "char": "褒",
@@ -44676,7 +47684,15 @@
     ],
     "frequency": 1112,
     "definition": "hide; hidden, secret, latent",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "潛",
+    "han_viet": "tiềm",
+    "han_viet_examples": [
+      {
+        "zh": "潜力",
+        "vi": "tiềm lực"
+      }
+    ]
   },
   {
     "char": "澎",
@@ -44824,7 +47840,15 @@
     ],
     "frequency": 936,
     "definition": "forehead; tablet, plaque; fixed",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "額",
+    "han_viet": "ngạch",
+    "han_viet_examples": [
+      {
+        "zh": "限额",
+        "vi": "hạn ngạch"
+      }
+    ]
   },
   {
     "char": "翩",
@@ -44915,7 +47939,15 @@
     ],
     "frequency": 1802,
     "definition": "footwear, shoes; walk on, tread",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "履",
+    "han_viet": "",
+    "han_viet_examples": [
+      {
+        "zh": "履历",
+        "vi": "lí lịch/lý lịch"
+      }
+    ]
   },
   {
     "char": "豫",
@@ -44924,7 +47956,15 @@
     ],
     "frequency": 1956,
     "definition": "relaxed, comfortable, at ease",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "豫",
+    "han_viet": "dự",
+    "han_viet_examples": [
+      {
+        "zh": "犹豫",
+        "vi": "do dự"
+      }
+    ]
   },
   {
     "char": "缭",
@@ -44954,7 +47994,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "擂",
+    "han_viet": "lôi",
+    "han_viet_examples": [
+      {
+        "zh": "擂台",
+        "vi": "lôi đài"
+      }
+    ]
   },
   {
     "char": "操",
@@ -45091,7 +48139,15 @@
     ],
     "frequency": 2134,
     "definition": "top, peak, summit; upset",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "顛",
+    "han_viet": "điên",
+    "han_viet_examples": [
+      {
+        "zh": "颠倒",
+        "vi": "điên đảo"
+      }
+    ]
   },
   {
     "char": "翰",
@@ -45364,7 +48420,15 @@
     ],
     "frequency": 2123,
     "definition": "give present; bestow, confer",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "贈",
+    "han_viet": "tặng",
+    "han_viet_examples": [
+      {
+        "zh": "捐赠",
+        "vi": "quyên tặng"
+      }
+    ]
   },
   {
     "char": "默",
@@ -45374,7 +48438,15 @@
     ],
     "frequency": 1031,
     "definition": "silent; quiet, still; dark",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "默",
+    "han_viet": "mặc",
+    "han_viet_examples": [
+      {
+        "zh": "沉默",
+        "vi": "trầm mặc"
+      }
+    ]
   },
   {
     "char": "黔",
@@ -45403,7 +48475,15 @@
     ],
     "frequency": 1179,
     "definition": "help, support, assist, aid",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "贊",
+    "han_viet": "tán",
+    "han_viet_examples": [
+      {
+        "zh": "赞成",
+        "vi": "tán thành"
+      }
+    ]
   },
   {
     "char": "穆",
@@ -45502,7 +48582,15 @@
     ],
     "frequency": 2415,
     "definition": "to swell; swollen, bloated, inflated",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "膨",
+    "han_viet": "bành",
+    "han_viet_examples": [
+      {
+        "zh": "膨胀",
+        "vi": "bành trướng"
+      }
+    ]
   },
   {
     "char": "雕",
@@ -45512,7 +48600,15 @@
     ],
     "frequency": 1829,
     "definition": "engrave, inlay, carve; exhaust; used for鵰an eagle, vulture",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "雕",
+    "han_viet": "điêu",
+    "han_viet_examples": [
+      {
+        "zh": "雕刻",
+        "vi": "điêu khắc"
+      }
+    ]
   },
   {
     "char": "鲸",
@@ -45532,7 +48628,15 @@
     ],
     "frequency": 1537,
     "definition": "grind; polish; rub; wear out; a millstone",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "磨",
+    "han_viet": "ma",
+    "han_viet_examples": [
+      {
+        "zh": "消磨",
+        "vi": "tiêu ma"
+      }
+    ]
   },
   {
     "char": "瘾",
@@ -45650,7 +48754,15 @@
     ],
     "frequency": 1553,
     "definition": "burn; light fire, ignite",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "燃",
+    "han_viet": "nhiên",
+    "han_viet_examples": [
+      {
+        "zh": "燃料",
+        "vi": "nhiên liệu"
+      }
+    ]
   },
   {
     "char": "濒",
@@ -45757,7 +48869,15 @@
     ],
     "frequency": 991,
     "definition": "avoid; turn aside; escape; hide",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "避",
+    "han_viet": "tị",
+    "han_viet_examples": [
+      {
+        "zh": "避难",
+        "vi": "tị nạn"
+      }
+    ]
   },
   {
     "char": "缰",
@@ -45804,7 +48924,15 @@
     ],
     "frequency": 1761,
     "definition": "wipe, scrub, rub, scour; brush",
-    "hsk_level": 4
+    "hsk_level": 4,
+    "ja": "擦",
+    "han_viet": "sát",
+    "han_viet_examples": [
+      {
+        "zh": "摩擦",
+        "vi": "ma sát"
+      }
+    ]
   },
   {
     "char": "藉",
@@ -45849,7 +48977,15 @@
     ],
     "frequency": 907,
     "definition": "hide, conceal; hoard, store up",
-    "hsk_level": 5
+    "hsk_level": 5,
+    "ja": "藏",
+    "han_viet": "tạng",
+    "han_viet_examples": [
+      {
+        "zh": "西藏",
+        "vi": "tây tạng"
+      }
+    ]
   },
   {
     "char": "藐",
@@ -46146,7 +49282,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "徽",
+    "han_viet": "huy",
+    "han_viet_examples": [
+      {
+        "zh": "徽章",
+        "vi": "huy chương"
+      }
+    ]
   },
   {
     "char": "爵",
@@ -46282,7 +49426,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "懦",
+    "han_viet": "nhu",
+    "han_viet_examples": [
+      {
+        "zh": "懦弱",
+        "vi": "nhu nhược"
+      }
+    ]
   },
   {
     "char": "豁",
@@ -46484,7 +49636,15 @@
     "frequency": 3000,
     "traditional": "鷹",
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "鷹",
+    "han_viet": "ưng",
+    "han_viet_examples": [
+      {
+        "zh": "雄鹰",
+        "vi": "hùng ưng"
+      }
+    ]
   },
   {
     "char": "瀑",
@@ -46676,7 +49836,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "蟹",
+    "han_viet": "giải",
+    "han_viet_examples": [
+      {
+        "zh": "巨蟹",
+        "vi": "cự giải"
+      }
+    ]
   },
   {
     "char": "颤",
@@ -46744,7 +49912,15 @@
     ],
     "frequency": 1243,
     "definition": "crackle, pop, burst, explode",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "爆",
+    "han_viet": "bạo",
+    "han_viet_examples": [
+      {
+        "zh": "爆发",
+        "vi": "bạo phát"
+      }
+    ]
   },
   {
     "char": "疆",
@@ -46755,7 +49931,15 @@
     ],
     "frequency": 2036,
     "definition": "boundary, border, frontier",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "疆",
+    "han_viet": "cương",
+    "han_viet_examples": [
+      {
+        "zh": "边疆",
+        "vi": "biên cương"
+      }
+    ]
   },
   {
     "char": "鬓",
@@ -46774,7 +49958,15 @@
     ],
     "frequency": 2412,
     "definition": "soil, loam, earth; rich",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "壤",
+    "han_viet": "nhưỡng",
+    "han_viet_examples": [
+      {
+        "zh": "平壤",
+        "vi": "bình nhưỡng"
+      }
+    ]
   },
   {
     "char": "馨",
@@ -46849,7 +50041,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "巍",
+    "han_viet": "nguy",
+    "han_viet_examples": [
+      {
+        "zh": "巍峨",
+        "vi": "nguy nga"
+      }
+    ]
   },
   {
     "char": "籍",
@@ -46931,7 +50131,15 @@
     ],
     "frequency": 2195,
     "definition": "wriggle; stupid; silly; fat",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "蠢",
+    "han_viet": "xuẩn",
+    "han_viet_examples": [
+      {
+        "zh": "愚蠢",
+        "vi": "ngu xuẩn"
+      }
+    ]
   },
   {
     "char": "霸",
@@ -46940,7 +50148,15 @@
     ],
     "frequency": 1838,
     "definition": "rule by might rather than right",
-    "hsk_level": 6
+    "hsk_level": 6,
+    "ja": "霸",
+    "han_viet": "bá",
+    "han_viet_examples": [
+      {
+        "zh": "霸道",
+        "vi": "bá đạo"
+      }
+    ]
   },
   {
     "char": "露",
@@ -47003,7 +50219,15 @@
     ],
     "frequency": 3000,
     "definition": "",
-    "hsk_level": 7
+    "hsk_level": 7,
+    "ja": "髓",
+    "han_viet": "tủy",
+    "han_viet_examples": [
+      {
+        "zh": "骨髓",
+        "vi": "cốt tủy"
+      }
+    ]
   },
   {
     "char": "赣",
