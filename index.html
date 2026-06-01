@@ -117,6 +117,8 @@
     border-left:1px solid rgba(180,140,60,.2); padding-left:8px;
   }
   .char-pinyin { font-size:22px; color:#d4a840; font-style:italic; letter-spacing:2px; font-family:Georgia,serif; margin-top:8px; animation:fadeIn .3s ease; }
+  .char-hanviet { font-size:22px; color:#d4a840; font-style:italic; letter-spacing:2px; font-family:Georgia,serif; margin-top:8px; animation:fadeIn .3s ease; }
+  .char-hv-example { font-size:14px; color:rgba(180,150,80,.75); margin-top:6px; letter-spacing:.5px; font-family:Georgia,serif; }
   .char-meaning { font-size:13px; color:#8070a0; margin-top:6px; letter-spacing:1px; }
 
   .sparkle {
@@ -155,6 +157,20 @@
     font-size:14px; letter-spacing:1px; font-family:Georgia,serif;
   }
   .next-btn:hover { filter:brightness(1.15); }
+
+  /* Hanviet checkbox */
+  .hanviet-row {
+    display:flex; align-items:center; gap:8px;
+    margin-bottom:10px; padding:2px 4px;
+  }
+  .hanviet-row label {
+    font-size:13px; color:rgba(220,190,120,.7); font-family:Georgia,serif;
+    letter-spacing:.5px; cursor:pointer; user-select:none;
+  }
+  .hanviet-row input[type=checkbox] {
+    width:15px; height:15px; cursor:pointer;
+    accent-color:#d4a840;
+  }
 
   /* Mode toggle */
   .mode-row {
@@ -238,6 +254,12 @@
       </div>
     </div>
 
+    <!-- Hanviet toggle -->
+    <div class="hanviet-row">
+      <input type="checkbox" id="hanviet-check" />
+      <label for="hanviet-check">Hiển thị Hán Việt trên thẻ</label>
+    </div>
+
     <!-- Mode toggle -->
     <div class="mode-row">
       <button class="mode-btn active" data-mode="quiz">Trắc nghiệm</button>
@@ -275,6 +297,11 @@
       <div id="char-glyph" class="char-glyph">
         <span id="char-main" class="char-main"></span>
         <span id="char-trad" class="char-trad" style="display:none"></span>
+      </div>
+      <div id="char-reveal-hanviet" style="display:none">
+        <div id="char-hanviet" class="char-hanviet"></div>
+        <div id="char-hv-example" class="char-hv-example"></div>
+        <div id="char-hv-meaning" class="char-meaning"></div>
       </div>
       <div id="char-reveal" style="display:none">
         <div id="char-pinyin" class="char-pinyin"></div>
@@ -486,7 +513,10 @@ const elMain      = $("char-main");
 const elTrad      = $("char-trad");
 const elReveal    = $("char-reveal");
 const elPinyin    = $("char-pinyin");
-const elMeaning   = $("char-meaning");
+const elHanviet    = $("char-hanviet");
+const elHvExample  = $("char-hv-example");
+const elHvMeaning  = $("char-hv-meaning");
+const elMeaning    = $("char-meaning");
 const elSparkle   = $("sparkle");
 const elHint      = $("hint-text");
 const elOptions   = $("options");
@@ -498,9 +528,11 @@ const elBar       = $("progress-bar");
 const elStreak    = $("streak-badge");
 const elMaxBadge  = $("max-streak-badge");
 const elMaxVal    = $("max-streak-val");
-const elInputArea = $("input-area");
-const elPinyinInp = $("pinyin-input");
-const elSubmitBtn = $("submit-btn");
+const elInputArea    = $("input-area");
+const elPinyinInp    = $("pinyin-input");
+const elSubmitBtn    = $("submit-btn");
+const elRevealHanviet = $("char-reveal-hanviet");
+const elHanvietCheck  = $("hanviet-check");
 
 // ─── Render ───────────────────────────────────────────────────────────────────
 function updateStats() {
@@ -540,10 +572,14 @@ function renderCard() {
 
   elCard.className = "char-card " + (S.result === "correct" ? "correct" : S.result === "wrong" ? "wrong" : "neutral");
 
-  if (S.result === "correct" || (S.mode === 'input' && S.result === 'wrong')) {
+  const showHanviet = elHanvietCheck && elHanvietCheck.checked;
+
+  if (S.phase === 'feedback') {
+    // Always show pinyin + definition after answering (correct or wrong)
     elPinyin.textContent  = Array.isArray(cur.pinyin) ? cur.pinyin.join(' / ') : cur.pinyin;
     elMeaning.textContent = cur.definition || cur.meaning || '';
     elReveal.style.display = "block";
+    elRevealHanviet.style.display = "none";
     if (S.result === 'correct') {
       elSparkle.style.display = "block";
       elSparkle.style.animation = "none";
@@ -552,8 +588,18 @@ function renderCard() {
     } else {
       elSparkle.style.display = "none";
     }
+  } else if (showHanviet && cur.han_viet) {
+    // Question phase with hanviet enabled
+    elHanviet.textContent = cur.han_viet || '';
+    const ex = cur.han_viet_examples && cur.han_viet_examples[0];
+    elHvExample.textContent = ex ? ex.zh + ' ・ ' + ex.vi : '';
+    elHvMeaning.textContent = cur.definition || cur.meaning || '';
+    elRevealHanviet.style.display = "block";
+    elReveal.style.display = "none";
+    elSparkle.style.display = "none";
   } else {
     elReveal.style.display  = "none";
+    elRevealHanviet.style.display = "none";
     elSparkle.style.display = "none";
   }
 }
@@ -697,6 +743,8 @@ function handleInputSubmit() {
   document.querySelectorAll('.mode-btn').forEach(btn =>
     btn.addEventListener('click', () => switchMode(btn.dataset.mode))
   );
+
+  elHanvietCheck.addEventListener('change', () => renderCard());
 
   elSubmitBtn.addEventListener('pointerdown', e => e.preventDefault());
   elSubmitBtn.addEventListener('click', handleInputSubmit);
