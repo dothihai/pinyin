@@ -259,10 +259,24 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = loadVoices;
 }
 
-function speak(char, btn) {
+// Map: pinyin → first char that has ONLY that one reading
+let SINGLE_READING_MAP = {};
+
+function buildSingleReadingMap(data) {
+  const map = {};
+  for (const c of data) {
+    if (c.pinyin && c.pinyin.length === 1) {
+      const py = c.pinyin[0];
+      if (!map[py]) map[py] = c.char;
+    }
+  }
+  SINGLE_READING_MAP = map;
+}
+
+function speak(text, btn) {
   if (!window.speechSynthesis) return;
   speechSynthesis.cancel();
-  const utt = new SpeechSynthesisUtterance(char);
+  const utt = new SpeechSynthesisUtterance(text);
   utt.lang = 'zh-CN';
   utt.rate = 0.85;
   if (voices.length) utt.voice = voices[0];
@@ -271,6 +285,14 @@ function speak(char, btn) {
   utt.onend = () => btn.classList.remove('playing');
   utt.onerror = () => btn.classList.remove('playing');
   speechSynthesis.speak(utt);
+}
+
+// Speak char directly if it has one reading; substitute only if polyphonic
+function speakChar(item, targetPinyin, btn) {
+  const isPolyphonic = item.pinyin && item.pinyin.length > 1;
+  const text = (isPolyphonic && targetPinyin && SINGLE_READING_MAP[targetPinyin])
+    || item.char;
+  speak(text, btn);
 }
 
 // ─── Pinyin helpers ────────────────────────────────────────────────────────────
@@ -283,6 +305,7 @@ function stripTone(s) {
 fetch('all_characters.json')
   .then(r => r.json())
   .then(data => {
+    buildSingleReadingMap(data);
     // Build map: pinyin → [char, ...]
     const map = new Map();
     for (const item of data) {
@@ -332,7 +355,6 @@ fetch('all_characters.json')
   });
 
 // ─── Render ────────────────────────────────────────────────────────────────────
-let ii = 0;
 function makeGroupEl({ py, chars, start, end }) {
   const group = document.createElement('div');
   group.className = 'group';
@@ -341,7 +363,7 @@ function makeGroupEl({ py, chars, start, end }) {
   const header = document.createElement('div');
   header.className = 'group-header';
   header.innerHTML = `
-    <span class="pinyin-label">${ii++}. ${py}</span>
+    <span class="pinyin-label">${py}</span>
     <span class="count-badge">${start}–${end}</span>
     <span class="count-badge">${chars.length} từ</span>
     <span class="collapse-icon">▾</span>
@@ -378,7 +400,7 @@ function makeGroupEl({ py, chars, start, end }) {
       def.textContent = item.definition;
       btn.appendChild(def);
     }
-    btn.addEventListener('click', () => speak(item.char, btn));
+    btn.addEventListener('click', () => speakChar(item, py, btn));
     body.appendChild(btn);
   }
 
