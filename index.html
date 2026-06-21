@@ -55,14 +55,30 @@
   .header { display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; }
   .header-label { font-size:11px; letter-spacing:3px; color:#b8a070; text-transform:uppercase; font-family:Georgia,serif; }
   .header-title { font-size:18px; color:#e8dcc8; font-family:Georgia,serif; }
+  .menu-wrap { position:relative; }
+  .menu-toggle {
+    background:rgba(60,100,160,.15); border:1px solid rgba(80,130,200,.3);
+    border-radius:20px; padding:6px 14px; font-size:12px; color:#8ab8e8;
+    font-family:Georgia,serif; letter-spacing:.5px; cursor:pointer;
+    transition:background .15s, border-color .15s;
+  }
+  .menu-toggle:hover { background:rgba(60,100,160,.28); border-color:rgba(80,130,200,.6); }
+  .menu-panel {
+    position:absolute; top:110%; right:0; min-width:170px;
+    display:none; flex-direction:column; gap:8px; padding:10px;
+    background:rgba(10,12,24,.96); border:1px solid rgba(80,130,200,.35);
+    border-radius:12px; box-shadow:0 14px 30px rgba(0,0,0,.35);
+    z-index:30;
+  }
+  .menu-wrap.open .menu-panel { display:flex; }
   .streak-badge {
     background:rgba(180,140,60,.15); border:1px solid rgba(180,140,60,.3);
     border-radius:20px; padding:4px 14px; font-size:13px; color:#d4a840;
   }
   .nav-link {
-    display:inline-flex; align-items:center; gap:6px;
+    display:inline-flex; align-items:center; justify-content:center; gap:6px;
     background:rgba(60,100,160,.15); border:1px solid rgba(80,130,200,.3);
-    border-radius:20px; padding:4px 14px; font-size:12px; color:#8ab8e8;
+    border-radius:20px; padding:6px 14px; font-size:12px; color:#8ab8e8;
     text-decoration:none; font-family:Georgia,serif; letter-spacing:.5px;
     transition:background .15s, border-color .15s;
   }
@@ -228,13 +244,6 @@
   #mistakes-btn:not(:disabled):hover { background:rgba(248,113,113,.1); color:#f87171; }
   #mistakes-btn.active { background:rgba(248,113,113,.15); border-color:rgba(248,113,113,.6); color:#f87171; }
 
-  /* Max streak */
-  .max-streak {
-    position:fixed; bottom:20px; right:20px;
-    background:rgba(180,140,60,.15); border:1px solid rgba(180,140,60,.3);
-    border-radius:16px; padding:8px 14px; font-size:13px; color:#d4a840;
-    z-index:10; backdrop-filter:blur(10px);
-  }
 </style>
 </head>
 <body>
@@ -248,9 +257,12 @@
         <div class="header-label">拼音学习</div>
         <div class="header-title">Pinyin Trainer</div>
       </div>
-      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-        <div id="streak-badge" class="streak-badge">🔥 0 streak</div>
-        <a href="phatam.html" class="nav-link">发音 · Phát âm →</a>
+      <div id="menu-wrap" class="menu-wrap">
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-haspopup="true" aria-expanded="false">☰ Menu</button>
+        <nav id="menu-panel" class="menu-panel" aria-label="Liên kết nhanh">
+          <a href="phatam.html" class="nav-link">发音 · Phát âm</a>
+          <a href="nguphap.html" class="nav-link">语法 · Ngữ pháp</a>
+        </nav>
       </div>
     </div>
 
@@ -332,7 +344,6 @@
     </div>
   </div>
 
-  <div id="max-streak-badge" class="max-streak" style="display:none">🏆 Kỷ lục: <span id="max-streak-val">0</span></div>
 </div>
 
 <script>
@@ -526,13 +537,13 @@ const elAcc       = $("stat-acc");
 const elProg      = $("stat-prog");
 const elBar       = $("progress-bar");
 const elStreak    = $("streak-badge");
-const elMaxBadge  = $("max-streak-badge");
-const elMaxVal    = $("max-streak-val");
 const elInputArea    = $("input-area");
 const elPinyinInp    = $("pinyin-input");
 const elSubmitBtn    = $("submit-btn");
 const elRevealHanviet = $("char-reveal-hanviet");
 const elHanvietCheck  = $("hanviet-check");
+const elMenuWrap      = $("menu-wrap");
+const elMenuToggle    = $("menu-toggle");
 
 // ─── Render ───────────────────────────────────────────────────────────────────
 function updateStats() {
@@ -541,11 +552,7 @@ function updateStats() {
   elAcc.textContent    = accuracy + "%";
   elProg.textContent   = `${S.currentIndex}/${S.shuffledChars.length}`;
   elBar.style.width    = `${(S.currentIndex / S.shuffledChars.length) * 100}%`;
-  elStreak.textContent = `🔥 ${S.streak} streak`;
-  if (S.maxStreak >= 5) {
-    elMaxBadge.style.display = "block";
-    elMaxVal.textContent = S.maxStreak;
-  }
+  if (elStreak) elStreak.textContent = `🔥 ${S.streak} streak`;
   const elMistakesBtn = $('mistakes-btn');
   if (elMistakesBtn) {
     elMistakesBtn.textContent = `Đã sai (${MISTAKES.size})`;
@@ -756,6 +763,28 @@ function handleInputSubmit() {
   elPinyinInp.addEventListener('keydown', e => {
     if (e.key === 'Enter') handleInputSubmit();
   });
+
+  if (elMenuWrap && elMenuToggle) {
+    const closeMenu = () => {
+      elMenuWrap.classList.remove('open');
+      elMenuToggle.setAttribute('aria-expanded', 'false');
+    };
+
+    elMenuToggle.addEventListener('click', e => {
+      e.stopPropagation();
+      const willOpen = !elMenuWrap.classList.contains('open');
+      elMenuWrap.classList.toggle('open', willOpen);
+      elMenuToggle.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    });
+
+    document.addEventListener('click', e => {
+      if (!elMenuWrap.contains(e.target)) closeMenu();
+    });
+
+    elMenuWrap.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', closeMenu);
+    });
+  }
 
   render();
 })();

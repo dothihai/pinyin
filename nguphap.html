@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Ngữ Pháp HSK 1-6 · 语法手册</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF6EE;
+    --paper-2:#F2ECDD;
+    --ink:#2B2620;
+    --ink-soft:#5B5448;
+    --vermilion:#C8423A;
+    --vermilion-soft:#E8B6B0;
+    --gold:#B8862E;
+    --gold-bg:#F1E3C2;
+    --jade:#4F6F63;
+    --jade-bg:#DCE7E0;
+    --plum:#7A4F6B;
+    --plum-bg:#EBDDE5;
+    --ocean:#3D6B8A;
+    --ocean-bg:#D7E3EA;
+    --ember:#8A4B2E;
+    --ember-bg:#EADBCB;
+    --rule:#DCD3BE;
+    --shadow: 0 1px 0 rgba(43,38,32,0.05);
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Noto Sans','Noto Sans SC',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:64px;
+  }
+
+  /* ---------- Header ---------- */
+  header.top{
+    position:relative;
+    padding:28px 20px 22px;
+    background:
+      radial-gradient(circle at 88% -10%, rgba(200,66,58,0.10), transparent 55%),
+      var(--paper);
+    border-bottom:1px solid var(--rule);
+  }
+  .seal{
+    position:absolute;
+    top:22px;
+    right:20px;
+    width:46px;height:46px;
+    border:2px solid var(--vermilion);
+    border-radius:6px;
+    display:flex;align-items:center;justify-content:center;
+    color:var(--vermilion);
+    font-family:'Noto Serif SC',serif;
+    font-weight:700;
+    font-size:11px;
+    line-height:1.1;
+    text-align:center;
+    transform:rotate(2deg);
+    opacity:0.9;
+  }
+  h1.title{
+    font-family:'Noto Serif SC',serif;
+    font-weight:700;
+    font-size:26px;
+    letter-spacing:0.01em;
+    margin:0 0 4px;
+    color:var(--ink);
+  }
+  h1.title .cn{
+    display:block;
+    font-size:15px;
+    color:var(--ink-soft);
+    font-weight:500;
+    letter-spacing:0.06em;
+    margin-top:3px;
+  }
+  p.subtitle{
+    margin:10px 0 0;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    line-height:1.5;
+    max-width:520px;
+  }
+
+  /* ---------- Search ---------- */
+  .search-wrap{
+    padding:14px 20px 0;
+  }
+  input#searchBox{
+    width:100%;
+    padding:12px 14px;
+    border:1.5px solid var(--rule);
+    border-radius:10px;
+    background:#fff;
+    font-size:15px;
+    color:var(--ink);
+    font-family:inherit;
+  }
+  input#searchBox:focus{
+    outline:none;
+    border-color:var(--vermilion);
+  }
+  input#searchBox::placeholder{ color:#A39A87; }
+
+  /* ---------- Sticky level tabs ---------- */
+  nav.tabs{
+    position:sticky;
+    top:0;
+    z-index:30;
+    background:var(--paper);
+    border-bottom:1px solid var(--rule);
+    padding:12px 16px 10px;
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    scrollbar-width:none;
+  }
+  nav.tabs::-webkit-scrollbar{display:none;}
+  .tab-btn{
+    flex:0 0 auto;
+    padding:9px 16px;
+    border-radius:20px;
+    border:1.5px solid var(--rule);
+    background:#fff;
+    color:var(--ink-soft);
+    font-size:14px;
+    font-weight:600;
+    font-family:inherit;
+    white-space:nowrap;
+  }
+  .tab-btn .count{
+    font-weight:500;
+    opacity:0.65;
+    font-size:12px;
+    margin-left:3px;
+  }
+  .tab-btn.active{
+    background:var(--ink);
+    border-color:var(--ink);
+    color:var(--paper);
+  }
+  .tab-btn.active.lv1{ background:var(--jade); border-color:var(--jade); }
+  .tab-btn.active.lv2{ background:var(--gold); border-color:var(--gold); }
+  .tab-btn.active.lv3{ background:var(--plum); border-color:var(--plum); }
+  .tab-btn.active.lv4{ background:var(--vermilion); border-color:var(--vermilion); }
+  .tab-btn.active.lv5{ background:var(--ocean); border-color:var(--ocean); }
+  .tab-btn.active.lv6{ background:var(--ember); border-color:var(--ember); }
+
+  /* ---------- Level section heading ---------- */
+  .level-section{ padding:18px 16px 6px; }
+  .level-heading{
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+    margin-bottom:2px;
+    padding:0 4px;
+  }
+  .level-heading h2{
+    font-family:'Noto Serif SC',serif;
+    font-size:18px;
+    margin:0;
+    color:var(--ink);
+  }
+  .level-heading .badge{
+    font-size:11.5px;
+    font-weight:700;
+    padding:2px 9px;
+    border-radius:12px;
+    color:#fff;
+  }
+  .badge.lv1{background:var(--jade);}
+  .badge.lv2{background:var(--gold);}
+  .badge.lv3{background:var(--plum);}
+  .badge.lv4{background:var(--vermilion);}
+  .badge.lv5{background:var(--ocean);}
+  .badge.lv6{background:var(--ember);}
+  .level-desc{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    padding:0 4px;
+    margin:2px 0 14px;
+  }
+
+  /* ---------- Card ---------- */
+  .card{
+    background:#fff;
+    border:1px solid var(--rule);
+    border-radius:14px;
+    margin:0 4px 12px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+  }
+  .card-head{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 14px 14px 12px;
+    background:none;
+    border:none;
+    text-align:left;
+    font-family:inherit;
+    cursor:pointer;
+  }
+  .idx-seal{
+    flex:0 0 auto;
+    width:30px;height:30px;
+    border-radius:7px;
+    display:flex;align-items:center;justify-content:center;
+    font-size:12px;
+    font-weight:700;
+    color:#fff;
+  }
+  .idx-seal.lv1{background:var(--jade);}
+  .idx-seal.lv2{background:var(--gold);}
+  .idx-seal.lv3{background:var(--plum);}
+  .idx-seal.lv4{background:var(--vermilion);}
+  .idx-seal.lv5{background:var(--ocean);}
+  .idx-seal.lv6{background:var(--ember);}
+
+  .card-head .titles{ flex:1 1 auto; min-width:0; }
+  .card-head .pattern{
+    font-family:'Noto Serif SC',serif;
+    font-size:17px;
+    font-weight:700;
+    color:var(--ink);
+    line-height:1.3;
+  }
+  .card-head .viname{
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-top:2px;
+    line-height:1.35;
+  }
+  .ref-tag{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    margin-top:5px;
+    font-size:11px;
+    color:var(--ink-soft);
+    background:var(--paper-2);
+    border:1px solid var(--rule);
+    border-radius:6px;
+    padding:2px 7px;
+  }
+  .ref-tag svg{ width:11px; height:11px; flex:0 0 auto; }
+  .ref-tag.approx::after{
+    content:"≈";
+    margin-left:2px;
+    font-style:italic;
+    opacity:0.7;
+  }
+  .chevron{
+    flex:0 0 auto;
+    width:18px;height:18px;
+    color:#A39A87;
+    transition:transform 0.18s ease;
+  }
+  .card.open .chevron{ transform:rotate(180deg); }
+
+  .card-body{
+    display:none;
+    padding:0 16px 18px 16px;
+    border-top:1px solid var(--paper-2);
+  }
+  .card.open .card-body{ display:block; }
+
+  .row-label{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:#A39A87;
+    margin:14px 0 6px;
+  }
+  .structure-box{
+    background:var(--paper-2);
+    border-radius:10px;
+    padding:10px 12px;
+    font-family:'Noto Serif SC',serif;
+    font-size:15px;
+    color:var(--ink);
+    line-height:1.5;
+  }
+  .explain{
+    font-size:14px;
+    color:var(--ink);
+    line-height:1.55;
+    margin-top:6px;
+  }
+  .example{
+    margin-top:8px;
+    padding:10px 12px;
+    background:var(--paper);
+    border-left:3px solid var(--vermilion-soft);
+    border-radius:0 8px 8px 0;
+  }
+  .example .cn{
+    font-family:'Noto Serif SC',serif;
+    font-size:15.5px;
+    color:var(--ink);
+  }
+  .example .py{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    margin-top:2px;
+    font-style:italic;
+  }
+  .example .vi{
+    font-size:13.5px;
+    color:var(--jade);
+    margin-top:3px;
+    font-weight:500;
+  }
+  .note{
+    margin-top:10px;
+    font-size:13px;
+    color:var(--ink-soft);
+    background:var(--gold-bg);
+    border-radius:8px;
+    padding:8px 10px;
+    line-height:1.5;
+  }
+  .note b{ color:var(--ink); }
+
+  .no-result{
+    text-align:center;
+    color:var(--ink-soft);
+    font-size:14px;
+    padding:40px 20px;
+    display:none;
+  }
+
+  footer{
+    text-align:center;
+    font-size:12px;
+    color:#A39A87;
+    padding:28px 20px 8px;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .chevron{ transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="seal">语法<br>手册</div>
+  <h1 class="title">Ngữ Pháp HSK 1–6<span class="cn">汉语语法 · 从入门到高级</span></h1>
+  <p class="subtitle">Tổng hợp các điểm ngữ pháp trọng tâm theo từng cấp độ, kèm ví dụ song ngữ Trung – Việt và vị trí tra cứu trong giáo trình <i>HSK Standard Course</i>.</p>
+</header>
+
+<div class="search-wrap">
+  <input type="text" id="searchBox" placeholder="🔍 Tìm cấu trúc, ví dụ, từ tiếng Việt..." oninput="filterCards()">
+</div>
+
+<nav class="tabs" id="tabs">
+  <button class="tab-btn active" data-level="all" onclick="setLevel('all', this)">Tất cả</button>
+  <button class="tab-btn lv1" data-level="1" onclick="setLevel('1', this)">HSK 1</button>
+  <button class="tab-btn lv2" data-level="2" onclick="setLevel('2', this)">HSK 2</button>
+  <button class="tab-btn lv3" data-level="3" onclick="setLevel('3', this)">HSK 3</button>
+  <button class="tab-btn lv4" data-level="4" onclick="setLevel('4', this)">HSK 4</button>
+  <button class="tab-btn lv5" data-level="5" onclick="setLevel('5', this)">HSK 5</button>
+  <button class="tab-btn lv6" data-level="6" onclick="setLevel('6', this)">HSK 6</button>
+</nav>
+
+<main id="content">
+
+  <!-- ============ HSK 1 ============ -->
+  <section class="level-section" data-level-section="1">
+    <div class="level-heading">
+      <h2>HSK 1</h2>
+      <span class="badge lv1">入门</span>
+    </div>
+    <p class="level-desc">Câu cơ bản nhất: là, có, sở hữu, vị trí, phủ định, câu hỏi đơn giản.</p>
+    <div id="list-1"></div>
+  </section>
+
+  <!-- ============ HSK 2 ============ -->
+  <section class="level-section" data-level-section="2">
+    <div class="level-heading">
+      <h2>HSK 2</h2>
+      <span class="badge lv2">cơ bản</span>
+    </div>
+    <p class="level-desc">Thời gian, trạng thái động từ, so sánh, câu chữ "把" và "被" cơ bản.</p>
+    <div id="list-2"></div>
+  </section>
+
+  <!-- ============ HSK 3 ============ -->
+  <section class="level-section" data-level-section="3">
+    <div class="level-heading">
+      <h2>HSK 3</h2>
+      <span class="badge lv3">trung cấp thấp</span>
+    </div>
+    <p class="level-desc">Bổ ngữ kết quả/xu hướng, câu giả thiết, liên từ kép, kinh nghiệm "过".</p>
+    <div id="list-3"></div>
+  </section>
+
+  <!-- ============ HSK 4 ============ -->
+  <section class="level-section" data-level-section="4">
+    <div class="level-heading">
+      <h2>HSK 4</h2>
+      <span class="badge lv4">trung cấp</span>
+    </div>
+    <p class="level-desc">Bổ ngữ khả năng/trình độ, câu chữ "把" "被" nâng cao, các cấu trúc liên từ phức tạp.</p>
+    <div id="list-4"></div>
+  </section>
+
+  <!-- ============ HSK 5 ============ -->
+  <section class="level-section" data-level-section="5">
+    <div class="level-heading">
+      <h2>HSK 5</h2>
+      <span class="badge lv5">trung cao cấp</span>
+    </div>
+    <p class="level-desc">Cấu trúc văn viết, liên từ trang trọng, bổ ngữ phức tạp, câu nhấn mạnh/đảo ngữ.</p>
+    <div id="list-5"></div>
+  </section>
+
+  <!-- ============ HSK 6 ============ -->
+  <section class="level-section" data-level-section="6">
+    <div class="level-heading">
+      <h2>HSK 6</h2>
+      <span class="badge lv6">cao cấp</span>
+    </div>
+    <p class="level-desc">Thành ngữ, cấu trúc văn chương/học thuật, các mẫu câu hiếm gặp dùng trong văn bản trang trọng.</p>
+    <div id="list-6"></div>
+  </section>
+
+  <p class="no-result" id="noResult">Không tìm thấy ngữ pháp phù hợp. Hãy thử từ khóa khác.</p>
+</main>
+
+<footer>
+  Chạm vào thẻ để mở / đóng · Vuốt ngang thanh cấp độ để chọn nhanh<br>
+  <span style="opacity:0.85">Ký hiệu 📖 = vị trí trong <i>HSK Standard Course</i> (Quyển·Bài). Số trang có dấu ≈ là ước tính trung bình, có thể lệch 1–3 trang tùy bản in — nên dùng số Bài để tra cứu chính xác hơn số trang.</span>
+</footer>
+
+<script>
+function fetchSync(url){
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', url, false); // false for synchronous
+  xhr.send(null);
+  if (xhr.status === 200) {
+    return JSON.parse(xhr.responseText);
+  } else {
+    console.error('Failed to load data:', xhr.status);
+    return [];
+  }
+}
+
+// fetch data synchronously from nguphap-data.json
+const DATA = fetchSync('nguphap-data.json');
+
+/* ---------- Render ---------- */
+const levelMeta = {1:'lv1',2:'lv2',3:'lv3',4:'lv4',5:'lv5',6:'lv6'};
+
+function buildCard(item, idx){
+  const lv = levelMeta[item.level];
+  const examplesHtml = item.examples.map(ex => `
+    <div class="example">
+      <div class="cn">${ex.cn}</div>
+      <div class="py">${ex.py}</div>
+      <div class="vi">${ex.vi}</div>
+    </div>
+  `).join('');
+  const noteHtml = item.note ? `<div class="note"><b>Lưu ý:</b> ${item.note}</div>` : '';
+  const refHtml = item.ref ? `
+      <div class="ref-tag${item.approx ? ' approx' : ''}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+        ${item.ref}
+      </div>` : '';
+
+  return `
+  <div class="card" data-level="${item.level}" data-search="${(item.pattern+' '+item.vi+' '+item.explain+' '+item.examples.map(e=>e.cn+' '+e.vi+' '+e.py).join(' ')+' '+(item.note||'')+' '+(item.ref||'')).toLowerCase()}">
+    <button class="card-head" onclick="toggleCard(this)">
+      <div class="idx-seal ${lv}">${idx}</div>
+      <div class="titles">
+        <div class="pattern">${item.pattern}</div>
+        <div class="viname">${item.vi}</div>
+        ${refHtml}
+      </div>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+    <div class="card-body">
+      <div class="row-label">Cấu trúc</div>
+      <div class="structure-box">${item.structure}</div>
+      <div class="explain">${item.explain}</div>
+      <div class="row-label">Ví dụ</div>
+      ${examplesHtml}
+      ${noteHtml}
+    </div>
+  </div>`;
+}
+
+function formatRef(ref){
+  if (!ref) return '';
+  const parts = ref.match(/(\d+)/g);
+  if(parts && parts.length >= 3){
+    return Number(parts[0]) * 10000 + Number(parts[1]) * 100 + Number(parts[2]);
+  }
+  return 0;
+}
+
+function render(){
+  for(let lv=1; lv<=6; lv++){
+    const items = DATA.filter(d => d.level === lv).sort((a,b) => formatRef(a.ref) - formatRef(b.ref));
+    const container = document.getElementById('list-'+lv);
+    container.innerHTML = items.map((item,i) => buildCard(item, i+1)).join('');
+  }
+  // update counts on tabs
+  document.querySelectorAll('.tab-btn').forEach(btn=>{
+    const lv = btn.dataset.level;
+    if(lv === 'all'){
+      btn.innerHTML = `Tất cả <span class="count">(${DATA.length})</span>`;
+    } else {
+      const c = DATA.filter(d=>d.level==lv).length;
+      btn.innerHTML = `HSK ${lv} <span class="count">(${c})</span>`;
+    }
+  });
+}
+
+function toggleCard(headEl){
+  const card = headEl.closest('.card');
+  card.classList.toggle('open');
+}
+
+let currentLevel = 'all';
+
+function setLevel(level, btnEl){
+  currentLevel = level;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btnEl.classList.add('active');
+  applyFilters();
+}
+
+function filterCards(){
+  applyFilters();
+}
+
+function applyFilters(){
+  const q = document.getElementById('searchBox').value.trim().toLowerCase();
+  let anyVisible = false;
+
+  document.querySelectorAll('.level-section').forEach(section=>{
+    const sectionLevel = section.dataset.levelSection;
+    let sectionHasVisible = false;
+
+    section.querySelectorAll('.card').forEach(card=>{
+      const cardLevel = card.dataset.level;
+      const matchesLevel = (currentLevel === 'all' || cardLevel === currentLevel);
+      const matchesSearch = (q === '' || card.dataset.search.includes(q));
+      const visible = matchesLevel && matchesSearch;
+      card.style.display = visible ? '' : 'none';
+      if(visible){ sectionHasVisible = true; anyVisible = true; }
+    });
+
+    section.style.display = sectionHasVisible ? '' : 'none';
+  });
+
+  document.getElementById('noResult').style.display = anyVisible ? 'none' : 'block';
+}
+
+render();
+</script>
+</body>
+</html>

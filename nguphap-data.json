@@ -1,0 +1,1550 @@
+[
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 1 · tr.15",
+        "approx": true,
+        "pattern": "是 (shì)",
+        "vi": "Động từ \"là\"",
+        "structure": "A + 是 + B",
+        "explain": "Dùng để nối hai danh từ, khẳng định A chính là B. Phủ định thêm 不 trước 是.",
+        "examples": [
+            {
+                "cn": "我是学生。",
+                "py": "Wǒ shì xuésheng.",
+                "vi": "Tôi là học sinh."
+            },
+            {
+                "cn": "他不是老师。",
+                "py": "Tā bú shì lǎoshī.",
+                "vi": "Anh ấy không phải là giáo viên."
+            }
+        ],
+        "note": "Câu hỏi thêm 吗 ở cuối: 你是学生吗？"
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 4 · tr.45",
+        "approx": true,
+        "pattern": "有 (yǒu)",
+        "vi": "Sở hữu / Tồn tại \"có\"",
+        "structure": "A + 有 + B",
+        "explain": "Diễn tả A có B, hoặc nơi nào có vật gì. Phủ định dùng 没有, không dùng 不.",
+        "examples": [
+            {
+                "cn": "我有一本书。",
+                "py": "Wǒ yǒu yì běn shū.",
+                "vi": "Tôi có một cuốn sách."
+            },
+            {
+                "cn": "桌子上没有手机。",
+                "py": "Zhuōzi shàng méiyǒu shǒujī.",
+                "vi": "Trên bàn không có điện thoại."
+            }
+        ],
+        "note": "有 phủ định luôn là 没有, không bao giờ nói 不有."
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 9 · tr.94",
+        "approx": true,
+        "pattern": "在 (zài)",
+        "vi": "Động từ chỉ vị trí \"ở\"",
+        "structure": "A + 在 + địa điểm",
+        "explain": "Diễn tả vị trí của người/vật. Có thể dùng kèm phương vị từ (上/下/里/外...).",
+        "examples": [
+            {
+                "cn": "我在家。",
+                "py": "Wǒ zài jiā.",
+                "vi": "Tôi ở nhà."
+            },
+            {
+                "cn": "猫在桌子下面。",
+                "py": "Māo zài zhuōzi xiàmiàn.",
+                "vi": "Con mèo ở dưới bàn."
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 5 · tr.55",
+        "approx": true,
+        "pattern": "形容词谓语句",
+        "vi": "Câu vị ngữ tính từ",
+        "structure": "Chủ ngữ + (很) + tính từ",
+        "explain": "Tính từ làm vị ngữ trực tiếp, KHÔNG cần 是. 很 ở đây mang nghĩa nhấn nhẹ, không phải \"rất\".",
+        "examples": [
+            {
+                "cn": "今天很热。",
+                "py": "Jīntiān hěn rè.",
+                "vi": "Hôm nay (trời) nóng."
+            },
+            {
+                "cn": "这件衣服很漂亮。",
+                "py": "Zhè jiàn yīfu hěn piàoliang.",
+                "vi": "Cái áo này đẹp."
+            }
+        ],
+        "note": "Lỗi thường gặp: thêm 是 trước tính từ — KHÔNG nói 今天是热."
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 1 · tr.15",
+        "approx": true,
+        "pattern": "不 (bù) — phủ định",
+        "vi": "Phủ định với \"不\"",
+        "structure": "不 + động từ/tính từ",
+        "explain": "不 phủ định hành động, trạng thái thường hoặc trong hiện tại/tương lai. Không dùng với 有 (dùng 没有).",
+        "examples": [
+            {
+                "cn": "我不喝咖啡。",
+                "py": "Wǒ bù hē kāfēi.",
+                "vi": "Tôi không uống cà phê."
+            },
+            {
+                "cn": "她不高。",
+                "py": "Tā bù gāo.",
+                "vi": "Cô ấy không cao."
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 1 · tr.15",
+        "approx": true,
+        "pattern": "吗 (ma) — câu hỏi",
+        "vi": "Câu hỏi đuôi \"吗\"",
+        "structure": "Câu khẳng định + 吗？",
+        "explain": "Thêm 吗 vào cuối câu khẳng định để biến thành câu hỏi có/không, không đổi trật tự từ.",
+        "examples": [
+            {
+                "cn": "你忙吗？",
+                "py": "Nǐ máng ma?",
+                "vi": "Bạn có bận không?"
+            },
+            {
+                "cn": "这是你的杯子吗？",
+                "py": "Zhè shì nǐ de bēizi ma?",
+                "vi": "Đây là cốc của bạn phải không?"
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 5 · tr.55",
+        "approx": true,
+        "pattern": "几 / 多少",
+        "vi": "Hỏi số lượng",
+        "structure": "几ji (số nhỏ, có lượng từ) / 多少 (số lượng bất kỳ)",
+        "explain": "几 dùng khi đoán số nhỏ (dưới 10), luôn đi kèm lượng từ. 多少 dùng cho số lượng lớn hoặc không giới hạn, có thể không cần lượng từ.",
+        "examples": [
+            {
+                "cn": "你家有几个人？",
+                "py": "Nǐ jiā yǒu jǐ ge rén?",
+                "vi": "Nhà bạn có mấy người?"
+            },
+            {
+                "cn": "这本书多少钱？",
+                "py": "Zhè běn shū duōshao qián?",
+                "vi": "Cuốn sách này bao nhiêu tiền?"
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 5 · tr.55",
+        "approx": true,
+        "pattern": "量词",
+        "vi": "Lượng từ (từ chỉ loại)",
+        "structure": "Số từ + lượng từ + danh từ",
+        "explain": "Tiếng Trung bắt buộc có lượng từ giữa số đếm và danh từ. 个 là lượng từ chung phổ biến nhất.",
+        "examples": [
+            {
+                "cn": "一个苹果",
+                "py": "yí ge píngguǒ",
+                "vi": "một quả táo"
+            },
+            {
+                "cn": "三本书",
+                "py": "sān běn shū",
+                "vi": "ba cuốn sách"
+            }
+        ],
+        "note": "Mỗi loại danh từ có lượng từ riêng: 张 (vật phẳng), 杯 (cốc), 件 (áo, việc)..."
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 13 · tr.134",
+        "approx": true,
+        "pattern": "在 + V (đang làm gì)",
+        "vi": "Hành động đang diễn ra",
+        "structure": "在 + động từ",
+        "explain": "在 đặt trước động từ diễn tả hành động đang xảy ra, tương tự \"đang\" trong tiếng Việt.",
+        "examples": [
+            {
+                "cn": "我在吃饭。",
+                "py": "Wǒ zài chīfàn.",
+                "vi": "Tôi đang ăn cơm."
+            },
+            {
+                "cn": "他在看电视。",
+                "py": "Tā zài kàn diànshì.",
+                "vi": "Anh ấy đang xem tivi."
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 8 · tr.84",
+        "approx": true,
+        "pattern": "想 / 要 + V",
+        "vi": "Muốn làm gì",
+        "structure": "想/要 + động từ",
+        "explain": "想 diễn tả mong muốn nhẹ nhàng, 要 mang ý muốn mạnh hơn hoặc nhu cầu thiết yếu.",
+        "examples": [
+            {
+                "cn": "我想喝水。",
+                "py": "Wǒ xiǎng hē shuǐ.",
+                "vi": "Tôi muốn uống nước."
+            },
+            {
+                "cn": "他要去北京。",
+                "py": "Tā yào qù Běijīng.",
+                "vi": "Anh ấy muốn (sẽ) đi Bắc Kinh."
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 4 · tr.45",
+        "approx": true,
+        "pattern": "的 (de) — định ngữ",
+        "vi": "Trợ từ sở hữu/định ngữ",
+        "structure": "Danh từ/Đại từ + 的 + Danh từ",
+        "explain": "的 nối định ngữ với danh từ chính, thường dùng diễn tả sở hữu (giống \"của\").",
+        "examples": [
+            {
+                "cn": "这是我的书。",
+                "py": "Zhè shì wǒ de shū.",
+                "vi": "Đây là sách của tôi."
+            },
+            {
+                "cn": "老师的手机",
+                "py": "lǎoshī de shǒujī",
+                "vi": "điện thoại của giáo viên"
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 6 · tr.64",
+        "approx": true,
+        "pattern": "也 / 都",
+        "vi": "Cũng / Đều",
+        "structure": "Chủ ngữ + 也/都 + vị ngữ",
+        "explain": "也 (cũng) và 都 (đều/tất cả) là phó từ, luôn đứng TRƯỚC động từ/tính từ, không đứng sau.",
+        "examples": [
+            {
+                "cn": "我也喜欢猫。",
+                "py": "Wǒ yě xǐhuan māo.",
+                "vi": "Tôi cũng thích mèo."
+            },
+            {
+                "cn": "我们都是中国人。",
+                "py": "Wǒmen dōu shì Zhōngguórén.",
+                "vi": "Chúng tôi đều là người Trung Quốc."
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 14 · tr.144",
+        "approx": true,
+        "pattern": "了 (le) — hoàn thành",
+        "vi": "Trợ từ chỉ hành động đã xảy ra",
+        "structure": "Động từ + 了",
+        "explain": "了 đặt sau động từ báo hiệu hành động đã hoàn thành hoặc đã xảy ra.",
+        "examples": [
+            {
+                "cn": "我吃了。",
+                "py": "Wǒ chī le.",
+                "vi": "Tôi đã ăn rồi."
+            },
+            {
+                "cn": "他买了一件衣服。",
+                "py": "Tā mǎi le yí jiàn yīfu.",
+                "vi": "Anh ấy đã mua một cái áo."
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "ref": "Quyển 1 · Bài 10 · tr.104",
+        "approx": true,
+        "pattern": "怎么 / 为什么",
+        "vi": "Hỏi cách thức / lý do",
+        "structure": "怎么 (thế nào, bằng cách nào) — 为什么 (vì sao)",
+        "explain": "怎么 hỏi về phương thức, cách làm. 为什么 hỏi nguyên nhân, lý do.",
+        "examples": [
+            {
+                "cn": "这个字怎么读？",
+                "py": "Zhège zì zěnme dú?",
+                "vi": "Chữ này đọc thế nào?"
+            },
+            {
+                "cn": "你为什么不来？",
+                "py": "Nǐ wèishénme bù lái?",
+                "vi": "Sao bạn không đến?"
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 6 · tr.71",
+        "approx": true,
+        "pattern": "了 (le) — biến đổi trạng thái",
+        "vi": "Trợ từ chỉ sự thay đổi",
+        "structure": "Câu + 了 (cuối câu)",
+        "explain": "了 đặt ở CUỐI câu báo hiệu một trạng thái mới đã xuất hiện, khác với 了 sau động từ (chỉ hoàn thành hành động).",
+        "examples": [
+            {
+                "cn": "天气冷了。",
+                "py": "Tiānqì lěng le.",
+                "vi": "Trời trở lạnh rồi."
+            },
+            {
+                "cn": "我女儿三岁了。",
+                "py": "Wǒ nǚ'ér sān suì le.",
+                "vi": "Con gái tôi đã ba tuổi rồi."
+            }
+        ],
+        "note": "So sánh: 我吃了饭 (đã ăn cơm - hành động xong) vs 我不吃饭了 (giờ không ăn cơm nữa - thay đổi trạng thái)."
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 10 · tr.116",
+        "approx": true,
+        "pattern": "在/正在 ... 呢",
+        "vi": "Đang làm gì (nhấn mạnh)",
+        "structure": "(正)在 + động từ + (呢)",
+        "explain": "Thêm 正 trước 在 và 呢 ở cuối câu để nhấn mạnh hành động đang tiếp diễn ngay lúc nói.",
+        "examples": [
+            {
+                "cn": "我正在做作业呢。",
+                "py": "Wǒ zhèngzài zuò zuòyè ne.",
+                "vi": "Tôi đang làm bài tập đây."
+            },
+            {
+                "cn": "他正在睡觉。",
+                "py": "Tā zhèngzài shuìjiào.",
+                "vi": "Anh ấy đang ngủ."
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 14 · tr.161",
+        "approx": true,
+        "pattern": "过 (guo) — kinh nghiệm",
+        "vi": "Đã từng (kinh nghiệm)",
+        "structure": "Động từ + 过",
+        "explain": "过 sau động từ diễn tả đã từng có kinh nghiệm làm việc gì đó trong quá khứ, không quan tâm thời điểm cụ thể.",
+        "examples": [
+            {
+                "cn": "我去过日本。",
+                "py": "Wǒ qùguo Rìběn.",
+                "vi": "Tôi đã từng đi Nhật Bản."
+            },
+            {
+                "cn": "他没吃过臭豆腐。",
+                "py": "Tā méi chīguo chòudòufu.",
+                "vi": "Anh ấy chưa từng ăn đậu phụ thối."
+            }
+        ],
+        "note": "Phủ định: 没 + V + 过 (không dùng 不)."
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 11 · tr.127",
+        "approx": true,
+        "pattern": "比 (bǐ) — so sánh",
+        "vi": "So sánh hơn",
+        "structure": "A + 比 + B + tính từ",
+        "explain": "So sánh A hơn B về một đặc điểm nào đó. Có thể thêm mức độ chênh lệch sau tính từ.",
+        "examples": [
+            {
+                "cn": "今天比昨天热。",
+                "py": "Jīntiān bǐ zuótiān rè.",
+                "vi": "Hôm nay nóng hơn hôm qua."
+            },
+            {
+                "cn": "他比我高五厘米。",
+                "py": "Tā bǐ wǒ gāo wǔ límǐ.",
+                "vi": "Anh ấy cao hơn tôi 5cm."
+            }
+        ],
+        "note": "Phủ định dùng 没有, không dùng 不比: 弟弟没有哥哥高 (em không cao bằng anh)."
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 4 · tr.49",
+        "approx": true,
+        "pattern": "把 (bǎ) — câu chữ Bả",
+        "vi": "Đem/lấy ... làm gì",
+        "structure": "A + 把 + B + động từ + thành phần khác",
+        "explain": "Đưa tân ngữ (B) lên trước động từ để nhấn mạnh kết quả xử lý B. Động từ không thể đứng trơ trọi, cần thêm bổ ngữ/了/着.",
+        "examples": [
+            {
+                "cn": "我把书放在桌子上了。",
+                "py": "Wǒ bǎ shū fàng zài zhuōzi shang le.",
+                "vi": "Tôi đã để cuốn sách lên bàn."
+            },
+            {
+                "cn": "请把门关上。",
+                "py": "Qǐng bǎ mén guānshàng.",
+                "vi": "Làm ơn đóng cửa lại."
+            }
+        ],
+        "note": "B trong câu 把 phải là vật cụ thể, đã được xác định (không nói chung)."
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 10 · tr.116",
+        "approx": true,
+        "pattern": "被 (bèi) — câu bị động",
+        "vi": "Bị/được",
+        "structure": "B (tân ngữ) + 被 + A (chủ thể) + động từ + thành phần khác",
+        "explain": "Diễn tả B bị/được A tác động. Thường dùng khi nói về việc không mong muốn, nhưng không tuyệt đối.",
+        "examples": [
+            {
+                "cn": "我的手机被他拿走了。",
+                "py": "Wǒ de shǒujī bèi tā ná zǒu le.",
+                "vi": "Điện thoại của tôi bị anh ta lấy đi rồi."
+            },
+            {
+                "cn": "杯子被打破了。",
+                "py": "Bēizi bèi dǎ pò le.",
+                "vi": "Cái cốc đã bị làm vỡ."
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 8 · tr.93",
+        "approx": true,
+        "pattern": "要是...就... ",
+        "vi": "Nếu... thì...",
+        "structure": "要是 + điều kiện + (的话), 就 + kết quả",
+        "explain": "Câu giả thiết đơn giản, dùng nhiều trong văn nói. 的话 có thể thêm vào sau điều kiện để nhấn mạnh.",
+        "examples": [
+            {
+                "cn": "要是明天下雨, 我们就不去了。",
+                "py": "Yàoshi míngtiān xiàyǔ, wǒmen jiù bú qù le.",
+                "vi": "Nếu ngày mai mưa, chúng ta sẽ không đi nữa."
+            },
+            {
+                "cn": "要是你忙的话, 就别来了。",
+                "py": "Yàoshi nǐ máng de huà, jiù bié lái le.",
+                "vi": "Nếu bạn bận thì đừng đến nữa."
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 6 · tr.71",
+        "approx": true,
+        "pattern": "虽然...但是...",
+        "vi": "Mặc dù... nhưng...",
+        "structure": "虽然 + A, 但是/可是 + B",
+        "explain": "Liên từ kép diễn tả sự tương phản, nhượng bộ. Hai vế đều giữ nguyên vị trí, không đảo.",
+        "examples": [
+            {
+                "cn": "虽然很累, 但是他还是来了。",
+                "py": "Suīrán hěn lèi, dànshì tā háishi lái le.",
+                "vi": "Mặc dù rất mệt nhưng anh ấy vẫn đến."
+            },
+            {
+                "cn": "虽然下雨, 可是我们还去公园。",
+                "py": "Suīrán xiàyǔ, kěshì wǒmen hái qù gōngyuán.",
+                "vi": "Mặc dù mưa nhưng chúng tôi vẫn đi công viên."
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 9 · tr.105",
+        "approx": true,
+        "pattern": "先...然后...",
+        "vi": "Trước... sau đó...",
+        "structure": "先 + hành động 1, 然后 + hành động 2",
+        "explain": "Diễn tả thứ tự thực hiện hai hành động liên tiếp.",
+        "examples": [
+            {
+                "cn": "我们先吃饭, 然后看电影。",
+                "py": "Wǒmen xiān chīfàn, ránhòu kàn diànyǐng.",
+                "vi": "Chúng ta ăn cơm trước, sau đó xem phim."
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 12 · tr.138",
+        "approx": true,
+        "pattern": "动词 + 得 + 补语",
+        "vi": "Bổ ngữ trình độ với \"得\"",
+        "structure": "Động từ + 得 + tính từ/cụm miêu tả",
+        "explain": "得 nối động từ với phần bổ sung mô tả mức độ/kết quả của hành động, thường trả lời \"làm như thế nào\".",
+        "examples": [
+            {
+                "cn": "他说得很快。",
+                "py": "Tā shuō de hěn kuài.",
+                "vi": "Anh ấy nói rất nhanh."
+            },
+            {
+                "cn": "她唱歌唱得真好听。",
+                "py": "Tā chànggē chàng de zhēn hǎotīng.",
+                "vi": "Cô ấy hát rất hay."
+            }
+        ],
+        "note": "Nếu có tân ngữ, động từ phải lặp lại trước 得: 唱歌唱得..."
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 15 · tr.172",
+        "approx": true,
+        "pattern": "快...了 / 要...了",
+        "vi": "Sắp... rồi",
+        "structure": "快/要 + động từ/tính từ + 了",
+        "explain": "Diễn tả việc sắp xảy ra trong tương lai gần.",
+        "examples": [
+            {
+                "cn": "快要下雨了。",
+                "py": "Kuàiyào xiàyǔ le.",
+                "vi": "Trời sắp mưa rồi."
+            },
+            {
+                "cn": "火车要开了, 快上车！",
+                "py": "Huǒchē yào kāi le, kuài shàngchē!",
+                "vi": "Tàu sắp chạy rồi, nhanh lên tàu!"
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 2 · tr.26",
+        "approx": true,
+        "pattern": "一边...一边...",
+        "vi": "Vừa... vừa...",
+        "structure": "一边 + hành động 1, 一边 + hành động 2",
+        "explain": "Diễn tả hai hành động xảy ra đồng thời.",
+        "examples": [
+            {
+                "cn": "他一边听音乐一边写作业。",
+                "py": "Tā yìbiān tīng yīnyuè yìbiān xiě zuòyè.",
+                "vi": "Anh ấy vừa nghe nhạc vừa làm bài tập."
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "ref": "Quyển 2 · Bài 1 · tr.15",
+        "approx": true,
+        "pattern": "又...又...",
+        "vi": "Vừa... vừa... (đặc điểm)",
+        "structure": "又 + tính từ/động từ 1 + 又 + tính từ/động từ 2",
+        "explain": "Liệt kê hai đặc điểm hoặc trạng thái cùng tồn tại trên một chủ thể.",
+        "examples": [
+            {
+                "cn": "这个苹果又大又甜。",
+                "py": "Zhège píngguǒ yòu dà yòu tián.",
+                "vi": "Quả táo này vừa to vừa ngọt."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 19 · tr.192",
+        "approx": true,
+        "pattern": "结果补语",
+        "vi": "Bổ ngữ kết quả",
+        "structure": "Động từ + Động từ/Tính từ bổ ngữ",
+        "explain": "Một động từ ngắn hoặc tính từ đứng ngay sau động từ chính để chỉ rõ kết quả của hành động.",
+        "examples": [
+            {
+                "cn": "我听懂了老师的话。",
+                "py": "Wǒ tīngdǒng le lǎoshī de huà.",
+                "vi": "Tôi đã nghe hiểu lời thầy nói."
+            },
+            {
+                "cn": "作业写完了吗？",
+                "py": "Zuòyè xiěwán le ma?",
+                "vi": "Bài tập viết xong chưa?"
+            }
+        ],
+        "note": "Bổ ngữ kết quả thường gặp: 懂 (hiểu), 完 (xong), 见 (thấy), 到 (đạt được), 错 (sai)."
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 14 · tr.143",
+        "approx": true,
+        "pattern": "趋向补语",
+        "vi": "Bổ ngữ xu hướng",
+        "structure": "Động từ + 来/去/上/下/进/出...",
+        "explain": "Diễn tả hướng di chuyển của hành động, thường kết hợp 来 (về phía người nói) hoặc 去 (xa người nói).",
+        "examples": [
+            {
+                "cn": "他走进教室来了。",
+                "py": "Tā zǒu jìn jiàoshì lái le.",
+                "vi": "Anh ấy đi vào lớp học (về phía đây)."
+            },
+            {
+                "cn": "请把行李拿出去。",
+                "py": "Qǐng bǎ xínglǐ ná chūqù.",
+                "vi": "Làm ơn mang hành lý ra ngoài."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 18 · tr.182",
+        "approx": true,
+        "pattern": "如果...就...",
+        "vi": "Nếu... thì... (giả thiết)",
+        "structure": "如果 + điều kiện, 就 + kết quả",
+        "explain": "Tương tự 要是...就..., nhưng 如果 trang trọng hơn, dùng nhiều trong văn viết.",
+        "examples": [
+            {
+                "cn": "如果你有问题, 就给我打电话。",
+                "py": "Rúguǒ nǐ yǒu wèntí, jiù gěi wǒ dǎ diànhuà.",
+                "vi": "Nếu bạn có vấn đề gì, hãy gọi điện cho tôi."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 16 · tr.162",
+        "approx": true,
+        "pattern": "因为...所以...",
+        "vi": "Vì... nên...",
+        "structure": "因为 + nguyên nhân, 所以 + kết quả",
+        "explain": "Liên từ kép chỉ quan hệ nhân quả, có thể dùng một trong hai từ nếu ngữ cảnh đã rõ.",
+        "examples": [
+            {
+                "cn": "因为下雨, 所以我们没去爬山。",
+                "py": "Yīnwèi xiàyǔ, suǒyǐ wǒmen méi qù páshān.",
+                "vi": "Vì trời mưa nên chúng tôi không đi leo núi."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 15 · tr.153",
+        "approx": true,
+        "pattern": "不但...而且...",
+        "vi": "Không những... mà còn...",
+        "structure": "不但 + A, 而且 + B (mức độ tăng tiến)",
+        "explain": "Diễn tả ý tăng tiến, B thường có mức độ cao hơn hoặc bổ sung thêm cho A. Nếu chủ ngữ giống nhau, 不但 đứng sau chủ ngữ.",
+        "examples": [
+            {
+                "cn": "她不但漂亮, 而且很聪明。",
+                "py": "Tā búdàn piàoliang, érqiě hěn cōngming.",
+                "vi": "Cô ấy không những đẹp mà còn rất thông minh."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 5 · tr.56",
+        "approx": true,
+        "pattern": "越...越...",
+        "vi": "Càng... càng...",
+        "structure": "越 + A, 越 + B",
+        "explain": "Diễn tả mức độ B tăng theo mức độ A. Cũng có dạng 越来越 (ngày càng).",
+        "examples": [
+            {
+                "cn": "雨越下越大。",
+                "py": "Yǔ yuè xià yuè dà.",
+                "vi": "Mưa càng lúc càng to."
+            },
+            {
+                "cn": "天气越来越冷了。",
+                "py": "Tiānqì yuè lái yuè lěng le.",
+                "vi": "Thời tiết ngày càng lạnh."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 17 · tr.172",
+        "approx": true,
+        "pattern": "为了",
+        "vi": "Để (mục đích)",
+        "structure": "为了 + mục đích, ... ",
+        "explain": "为了 đặt ở đầu câu, nêu mục đích của hành động được nói tới sau đó.",
+        "examples": [
+            {
+                "cn": "为了健康, 他每天跑步。",
+                "py": "Wèile jiànkāng, tā měitiān pǎobù.",
+                "vi": "Để có sức khỏe, anh ấy chạy bộ mỗi ngày."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 15 · tr.153",
+        "approx": true,
+        "pattern": "除了...还/都...",
+        "vi": "Ngoài... còn / đều...",
+        "structure": "除了 + A, 还 + B (bổ sung) | 除了 + A, 都 + B (loại trừ)",
+        "explain": "还 nghĩa là ngoài A ra còn có thêm B. 都 nghĩa là ngoại trừ A, tất cả những thứ khác đều B.",
+        "examples": [
+            {
+                "cn": "除了英语, 他还会说法语。",
+                "py": "Chúle Yīngyǔ, tā hái huì shuō Fǎyǔ.",
+                "vi": "Ngoài tiếng Anh, anh ấy còn biết nói tiếng Pháp."
+            },
+            {
+                "cn": "除了小李, 大家都去了。",
+                "py": "Chúle Xiǎo Lǐ, dàjiā dōu qù le.",
+                "vi": "Ngoại trừ Tiểu Lý, mọi người đều đã đi."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 6 · tr.66",
+        "approx": true,
+        "pattern": "一...就...",
+        "vi": "Vừa... là... (liền)",
+        "structure": "一 + hành động 1, 就 + hành động 2",
+        "explain": "Hành động 2 xảy ra ngay sau khi hành động 1 vừa kết thúc.",
+        "examples": [
+            {
+                "cn": "他一到家就睡觉了。",
+                "py": "Tā yí dào jiā jiù shuìjiào le.",
+                "vi": "Anh ấy vừa về đến nhà là đi ngủ ngay."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 13 · tr.133",
+        "approx": true,
+        "pattern": "是...的",
+        "vi": "Nhấn mạnh thời gian/cách thức/nơi đã xảy ra",
+        "structure": "是 + (thời gian/nơi/cách thức) + động từ + 的",
+        "explain": "Dùng để nhấn mạnh chi tiết (khi nào, ở đâu, bằng cách nào) của một việc đã xảy ra trong quá khứ, không nhấn mạnh hành động.",
+        "examples": [
+            {
+                "cn": "我是昨天来的。",
+                "py": "Wǒ shì zuótiān lái de.",
+                "vi": "Tôi đến (vào) hôm qua."
+            },
+            {
+                "cn": "他是坐飞机来的。",
+                "py": "Tā shì zuò fēijī lái de.",
+                "vi": "Anh ấy đến bằng máy bay."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 3 · tr.36",
+        "approx": true,
+        "pattern": "着 (zhe) — trạng thái tiếp diễn",
+        "vi": "Đang ở trạng thái...",
+        "structure": "Động từ + 着",
+        "explain": "着 diễn tả một trạng thái đang duy trì, thường dùng cho động từ tĩnh hoặc miêu tả cảnh.",
+        "examples": [
+            {
+                "cn": "门开着呢。",
+                "py": "Mén kāizhe ne.",
+                "vi": "Cửa đang mở."
+            },
+            {
+                "cn": "他坐着看书。",
+                "py": "Tā zuòzhe kànshū.",
+                "vi": "Anh ấy ngồi đọc sách."
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "ref": "Quyển 3 · Bài 19 · tr.192",
+        "approx": true,
+        "pattern": "连...都/也...",
+        "vi": "Ngay cả... cũng...",
+        "structure": "连 + đối tượng + 都/也 + vị ngữ",
+        "explain": "Nhấn mạnh trường hợp cực đoan để làm nổi bật mức độ của sự việc.",
+        "examples": [
+            {
+                "cn": "他连一个字都不认识。",
+                "py": "Tā lián yí ge zì dōu bú rènshi.",
+                "vi": "Anh ấy ngay cả một chữ cũng không biết."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Thượng · Bài 7 · tr.99",
+        "approx": true,
+        "pattern": "可能补语 (得/不 + 了/动)",
+        "vi": "Bổ ngữ khả năng",
+        "structure": "Động từ + 得/不 + bổ ngữ (了, 动, 完...)",
+        "explain": "Diễn tả khả năng (hoặc không có khả năng) hoàn thành hành động. 得 = có thể, 不 = không thể.",
+        "examples": [
+            {
+                "cn": "这么多菜, 我们吃得完吗？",
+                "py": "Zhème duō cài, wǒmen chīdewán ma?",
+                "vi": "Nhiều món thế này, chúng ta ăn hết được không?"
+            },
+            {
+                "cn": "声音太小, 我听不见。",
+                "py": "Shēngyīn tài xiǎo, wǒ tīngbujiàn.",
+                "vi": "Âm thanh quá nhỏ, tôi không nghe thấy."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 14 · tr.200",
+        "approx": true,
+        "pattern": "把 + 结果/方式 nâng cao",
+        "vi": "Câu chữ Bả mở rộng",
+        "structure": "把 + O + V + 成/给/到 + bổ ngữ phức tạp",
+        "explain": "Ở HSK4, câu 把 mở rộng với các bổ ngữ phức tạp hơn để diễn tả sự biến đổi, chuyển giao.",
+        "examples": [
+            {
+                "cn": "他把这篇文章翻译成英文了。",
+                "py": "Tā bǎ zhè piān wénzhāng fānyì chéng Yīngwén le.",
+                "vi": "Anh ấy đã dịch bài viết này thành tiếng Anh."
+            },
+            {
+                "cn": "我把钱包丢在出租车上了。",
+                "py": "Wǒ bǎ qiánbāo diū zài chūzūchē shàng le.",
+                "vi": "Tôi đã để quên ví trên taxi."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 20 · tr.287",
+        "approx": true,
+        "pattern": "被 + động từ nâng cao",
+        "vi": "Câu bị động mở rộng",
+        "structure": "主语 + 被 + (Agent) + V + bổ ngữ",
+        "explain": "Cấp 4 sử dụng câu 被 với cấu trúc câu phức hơn, có thể không nêu rõ chủ thể gây ra hành động.",
+        "examples": [
+            {
+                "cn": "这个消息已经被大家知道了。",
+                "py": "Zhège xiāoxi yǐjīng bèi dàjiā zhīdào le.",
+                "vi": "Tin này đã được mọi người biết rồi."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 17 · tr.243",
+        "approx": true,
+        "pattern": "无论...都...",
+        "vi": "Bất kể... đều...",
+        "structure": "无论 + điều kiện bất kỳ, 都 + kết quả",
+        "explain": "Diễn tả kết quả không thay đổi dù điều kiện là gì, thường đi với 谁/什么/怎么/多么.",
+        "examples": [
+            {
+                "cn": "无论多忙, 他都会回家吃饭。",
+                "py": "Wúlùn duō máng, tā dōu huì huí jiā chīfàn.",
+                "vi": "Dù bận đến mấy, anh ấy vẫn về nhà ăn cơm."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 18 · tr.258",
+        "approx": true,
+        "pattern": "即使...也...",
+        "vi": "Cho dù... cũng...",
+        "structure": "即使 + giả thiết cực đoan, 也 + kết quả",
+        "explain": "Câu nhượng bộ giả định, diễn tả kết quả vẫn giữ nguyên dù tình huống giả định có xảy ra hay không.",
+        "examples": [
+            {
+                "cn": "即使下大雨, 他也会来。",
+                "py": "Jíshǐ xià dàyǔ, tā yě huì lái.",
+                "vi": "Cho dù mưa to anh ấy cũng sẽ đến."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Thượng · Bài 6 · tr.85",
+        "approx": true,
+        "pattern": "不仅...还...",
+        "vi": "Không chỉ... còn...",
+        "structure": "不仅 + A, 还 + B",
+        "explain": "Tương tự 不但...而且..., diễn tả ý bổ sung tăng tiến, phổ biến trong văn viết trang trọng.",
+        "examples": [
+            {
+                "cn": "这家餐厅不仅便宜, 还很好吃。",
+                "py": "Zhè jiā cāntīng bùjǐn piányi, hái hěn hǎochī.",
+                "vi": "Quán ăn này không chỉ rẻ mà còn rất ngon."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 16 · tr.229",
+        "approx": true,
+        "pattern": "尽管...但是...",
+        "vi": "Dù cho... nhưng...",
+        "structure": "尽管 + thực tế đã biết, 但是 + kết quả",
+        "explain": "Khác 虽然 ở sắc thái: 尽管 nhấn mạnh thực tế khách quan rõ ràng hơn, thường có sắc thái nhượng bộ mạnh.",
+        "examples": [
+            {
+                "cn": "尽管很努力, 他还是没考上。",
+                "py": "Jǐnguǎn hěn nǔlì, tā háishi méi kǎoshàng.",
+                "vi": "Dù đã rất cố gắng, anh ấy vẫn không thi đỗ."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 19 · tr.272",
+        "approx": true,
+        "pattern": "宁可...也不...",
+        "vi": "Thà... còn hơn không...",
+        "structure": "宁可 + lựa chọn A, 也不 + lựa chọn B",
+        "explain": "Diễn tả ưu tiên lựa chọn A (dù không tốt) hơn là chấp nhận B.",
+        "examples": [
+            {
+                "cn": "我宁可走路, 也不愿意挤公交车。",
+                "py": "Wǒ nìngkě zǒulù, yě bú yuànyì jǐ gōngjiāochē.",
+                "vi": "Tôi thà đi bộ còn hơn chen chúc trên xe buýt."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 17 · tr.243",
+        "approx": true,
+        "pattern": "不管...都/也...",
+        "vi": "Không quan tâm... đều/cũng...",
+        "structure": "不管 + điều kiện bất kỳ, 都/也 + kết quả",
+        "explain": "Gần giống 无论, mang sắc thái thông tục hơn, hay dùng trong văn nói.",
+        "examples": [
+            {
+                "cn": "不管你信不信, 这是真的。",
+                "py": "Bùguǎn nǐ xìn bu xìn, zhè shì zhēn de.",
+                "vi": "Bất kể bạn tin hay không, đây là sự thật."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Thượng · Bài 9 · tr.128",
+        "approx": true,
+        "pattern": "动词 + 起来",
+        "vi": "Bắt đầu... (xu hướng/đánh giá)",
+        "structure": "动词 + 起来",
+        "explain": "起来 sau động từ có thể chỉ bắt đầu một hành động, hoặc dùng để đưa ra nhận xét/đánh giá (nghĩa: \"xét về...\" ).",
+        "examples": [
+            {
+                "cn": "大家都笑起来了。",
+                "py": "Dàjiā dōu xiào qǐlái le.",
+                "vi": "Mọi người đều bật cười."
+            },
+            {
+                "cn": "这件事说起来容易, 做起来难。",
+                "py": "Zhè jiàn shì shuō qǐlái róngyì, zuò qǐlái nán.",
+                "vi": "Việc này nói thì dễ, làm thì khó."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 15 · tr.215",
+        "approx": true,
+        "pattern": "非...不可",
+        "vi": "Nhất định phải... mới được",
+        "structure": "非 + hành động + 不可",
+        "explain": "Cấu trúc nhấn mạnh tính tất yếu, dứt khoát của hành động, dùng nhiều trong văn nói có sắc thái mạnh.",
+        "examples": [
+            {
+                "cn": "这件事我非做不可。",
+                "py": "Zhè jiàn shì wǒ fēi zuò bùkě.",
+                "vi": "Việc này tôi nhất định phải làm."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Thượng · Bài 4 · tr.56",
+        "approx": true,
+        "pattern": "动词/形容词 + 极了",
+        "vi": "Cực kỳ...",
+        "structure": "形容词/动词 + 极了",
+        "explain": "极了 sau tính từ (hoặc một số động từ chỉ cảm xúc) nhấn mạnh mức độ cao nhất.",
+        "examples": [
+            {
+                "cn": "今天热极了。",
+                "py": "Jīntiān rè jí le.",
+                "vi": "Hôm nay nóng kinh khủng."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 12 · tr.171",
+        "approx": true,
+        "pattern": "由 (yóu)",
+        "vi": "Do (chủ thể thực hiện)",
+        "structure": "事情 + 由 + người/tổ chức + 负责/决定...",
+        "explain": "由 chỉ ra chủ thể chịu trách nhiệm hoặc thực hiện một việc, hay dùng trong văn phong trang trọng, công việc.",
+        "examples": [
+            {
+                "cn": "这件事由你负责。",
+                "py": "Zhè jiàn shì yóu nǐ fùzé.",
+                "vi": "Việc này do bạn chịu trách nhiệm."
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "ref": "Quyển 4 Hạ · Bài 13 · tr.186",
+        "approx": true,
+        "pattern": "以...为...",
+        "vi": "Lấy... làm...",
+        "structure": "以 + A + 为 + B",
+        "explain": "Cấu trúc trang trọng diễn tả lấy A làm B (cơ sở, trung tâm, mục tiêu...).",
+        "examples": [
+            {
+                "cn": "我们要以学习为重。",
+                "py": "Wǒmen yào yǐ xuéxí wéi zhòng.",
+                "vi": "Chúng ta cần coi việc học là trọng tâm."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 3 · tr.36",
+        "approx": true,
+        "pattern": "一切 / 一旦",
+        "vi": "Tất cả / Một khi",
+        "structure": "一切 + danh từ (tất cả) | 一旦 + điều kiện, ... (một khi)",
+        "explain": "一切 chỉ toàn bộ sự vật, mang sắc thái khái quát trang trọng. 一旦 nêu điều kiện giả định mang tính bước ngoặt, thường kéo theo hệ quả lớn.",
+        "examples": [
+            {
+                "cn": "一切都会好起来的。",
+                "py": "Yíqiè dōu huì hǎo qǐlái de.",
+                "vi": "Mọi thứ rồi sẽ tốt lên."
+            },
+            {
+                "cn": "一旦决定了, 就不要后悔。",
+                "py": "Yídàn juédìng le, jiù bú yào hòuhuǐ.",
+                "vi": "Một khi đã quyết định thì đừng hối hận."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 5 · tr.58",
+        "approx": true,
+        "pattern": "动词 + 之 + 动词",
+        "vi": "Cấu trúc văn viết với 之",
+        "structure": "总之 / 之所以...是因为... / 反之",
+        "explain": "之 là trợ từ văn viết cổ, xuất hiện trong các cụm cố định: 总之 (tóm lại), 之所以 (lý do mà), 反之 (ngược lại).",
+        "examples": [
+            {
+                "cn": "他之所以成功, 是因为他从不放弃。",
+                "py": "Tā zhī suǒyǐ chénggōng, shì yīnwèi tā cóng bù fàngqì.",
+                "vi": "Sở dĩ anh ấy thành công là vì không bao giờ bỏ cuộc."
+            },
+            {
+                "cn": "总之, 这件事不能再拖了。",
+                "py": "Zǒngzhī, zhè jiàn shì bùnéng zài tuō le.",
+                "vi": "Tóm lại, việc này không thể trì hoãn thêm nữa."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 6 · tr.69",
+        "approx": true,
+        "pattern": "不仅仅 / 不只是",
+        "vi": "Không chỉ riêng...",
+        "structure": "不仅仅/不只是 + A, (更/还) + B",
+        "explain": "Nhấn mạnh sắc thái 'không chỉ dừng ở A' mạnh hơn 不但, thường dùng trong văn nghị luận, kèm 更 hoặc 还 ở vế sau.",
+        "examples": [
+            {
+                "cn": "这不仅仅是钱的问题, 更是原则问题。",
+                "py": "Zhè bùjǐnjǐn shì qián de wèntí, gèng shì yuánzé wèntí.",
+                "vi": "Đây không chỉ là vấn đề tiền bạc, mà còn là vấn đề nguyên tắc."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 8 · tr.91",
+        "approx": true,
+        "pattern": "动词 + 下去",
+        "vi": "Tiếp tục... (xu hướng kéo dài)",
+        "structure": "动词 + 下去",
+        "explain": "下去 sau động từ diễn tả hành động tiếp tục diễn ra từ hiện tại trở về sau, khác với 下来 (hoàn thành/dừng lại).",
+        "examples": [
+            {
+                "cn": "请你继续说下去。",
+                "py": "Qǐng nǐ jìxù shuō xiàqù.",
+                "vi": "Xin bạn hãy tiếp tục nói."
+            },
+            {
+                "cn": "这样的生活, 我再也过不下去了。",
+                "py": "Zhèyàng de shēnghuó, wǒ zài yě guò bú xiàqù le.",
+                "vi": "Cuộc sống như thế này, tôi không thể tiếp tục chịu đựng được nữa."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 10 · tr.113",
+        "approx": true,
+        "pattern": "在...看来 / 据...",
+        "vi": "Theo... thì / Theo như...",
+        "structure": "在 + người + 看来, ... | 据 + nguồn tin, ...",
+        "explain": "Hai cách diễn đạt quan điểm/nguồn tin trang trọng, hay dùng trong văn bản nghị luận hoặc tin tức.",
+        "examples": [
+            {
+                "cn": "在我看来, 这是一个很好的机会。",
+                "py": "Zài wǒ kànlái, zhè shì yí ge hěn hǎo de jīhuì.",
+                "vi": "Theo tôi, đây là một cơ hội rất tốt."
+            },
+            {
+                "cn": "据报道, 今年经济会有所好转。",
+                "py": "Jù bàodào, jīnnián jīngjì huì yǒusuǒ hǎozhuǎn.",
+                "vi": "Theo báo cáo, kinh tế năm nay sẽ có chuyển biến tốt."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 11 · tr.124",
+        "approx": true,
+        "pattern": "无论如何 / 不管怎样",
+        "vi": "Dù thế nào cũng...",
+        "structure": "无论如何/不管怎样, ... 都/也 + kết quả",
+        "explain": "Cụm cố định mang tính nhấn mạnh tuyệt đối, không cần nêu cụ thể điều kiện vì đã bao hàm 'mọi trường hợp'.",
+        "examples": [
+            {
+                "cn": "无论如何, 我们都要完成任务。",
+                "py": "Wúlùn rúhé, wǒmen dōu yào wánchéng rènwù.",
+                "vi": "Dù thế nào chúng ta cũng phải hoàn thành nhiệm vụ."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 13 · tr.146",
+        "approx": true,
+        "pattern": "动词 + 来 + 动词 (强调反复)",
+        "vi": "Lặp lại nhiều lần (说来说去...)",
+        "structure": "动词 + 来 + 动词 + 去",
+        "explain": "Cấu trúc lặp động từ với 来...去 diễn tả hành động được làm đi làm lại nhiều lần.",
+        "examples": [
+            {
+                "cn": "他说来说去还是那句话。",
+                "py": "Tā shuō lái shuō qù háishi nà jù huà.",
+                "vi": "Anh ấy nói đi nói lại vẫn là câu đó."
+            },
+            {
+                "cn": "我们讨论来讨论去, 也没有结果。",
+                "py": "Wǒmen tǎolùn lái tǎolùn qù, yě méiyǒu jiéguǒ.",
+                "vi": "Chúng tôi bàn đi bàn lại mà vẫn không có kết quả."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Thượng · Bài 15 · tr.168",
+        "approx": true,
+        "pattern": "凡是...都...",
+        "vi": "Hễ... đều...",
+        "structure": "凡是 + phạm vi, 都 + kết quả",
+        "explain": "凡是 nêu một phạm vi tổng quát, khẳng định mọi đối tượng/trường hợp trong phạm vi đó đều có cùng kết quả.",
+        "examples": [
+            {
+                "cn": "凡是来这里的人, 都喜欢这里的安静。",
+                "py": "Fánshì lái zhèlǐ de rén, dōu xǐhuan zhèlǐ de ānjìng.",
+                "vi": "Hễ ai đến đây đều thích sự yên tĩnh ở đây."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Hạ · Bài 20 · tr.211",
+        "approx": true,
+        "pattern": "宁愿...也不...",
+        "vi": "Thà... còn hơn...",
+        "structure": "宁愿 + lựa chọn A, 也不 + lựa chọn B",
+        "explain": "Tương tự 宁可...也不..., diễn tả ưu tiên rõ ràng giữa hai lựa chọn, A thường là việc khó/thiệt nhưng vẫn được chọn.",
+        "examples": [
+            {
+                "cn": "我宁愿一个人, 也不愿勉强自己。",
+                "py": "Wǒ nìngyuàn yí ge rén, yě bú yuàn miǎnqiǎng zìjǐ.",
+                "vi": "Tôi thà ở một mình còn hơn ép buộc bản thân."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Hạ · Bài 23 · tr.244",
+        "approx": true,
+        "pattern": "adj + 是 + adj, 但/可是...",
+        "vi": "Tuy... nhưng... (nhấn mạnh lặp tính từ)",
+        "structure": "A是A, 但/可是 + ý kiến khác",
+        "explain": "Cấu trúc lặp tính từ ở đầu để công nhận một điểm, sau đó đưa ra ý kiến trái ngược hoặc bổ sung.",
+        "examples": [
+            {
+                "cn": "便宜是便宜, 可是质量不太好。",
+                "py": "Piányi shì piányi, kěshì zhìliàng bú tài hǎo.",
+                "vi": "Rẻ thì rẻ thật, nhưng chất lượng không tốt lắm."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Hạ · Bài 26 · tr.277",
+        "approx": true,
+        "pattern": "再怎么...也...",
+        "vi": "Dù có... đến đâu cũng...",
+        "structure": "再怎么 + tính từ/động từ, 也 + kết quả",
+        "explain": "Nhấn mạnh dù mức độ của vế đầu cao đến đâu, kết quả ở vế sau vẫn không thay đổi.",
+        "examples": [
+            {
+                "cn": "再怎么忙, 也要按时吃饭。",
+                "py": "Zài zěnme máng, yě yào ànshí chīfàn.",
+                "vi": "Dù bận đến đâu cũng phải ăn đúng giờ."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Hạ · Bài 29 · tr.310",
+        "approx": true,
+        "pattern": "S + 倒是 + ...",
+        "vi": "Lại là... (chuyển ý)",
+        "structure": "主语 + 倒是 + nhận xét bất ngờ",
+        "explain": "倒是 dùng để nêu lên một nhận xét hơi ngược với kỳ vọng hoặc bổ sung góc nhìn khác, mang sắc thái nói chuyện tự nhiên.",
+        "examples": [
+            {
+                "cn": "这个办法倒是不错, 可以试试。",
+                "py": "Zhège bànfǎ dàoshì búcuò, kěyǐ shìshi.",
+                "vi": "Cách này thì cũng không tệ, có thể thử xem."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Hạ · Bài 33 · tr.354",
+        "approx": true,
+        "pattern": "由于",
+        "vi": "Do vì (nguyên nhân, trang trọng)",
+        "structure": "由于 + nguyên nhân, (因此/所以) + kết quả",
+        "explain": "由于 trang trọng hơn 因为, thường dùng trong văn viết, báo cáo, văn bản học thuật.",
+        "examples": [
+            {
+                "cn": "由于天气原因, 比赛被推迟了。",
+                "py": "Yóuyú tiānqì yuányīn, bǐsài bèi tuīchí le.",
+                "vi": "Do nguyên nhân thời tiết, trận thi đấu bị trì hoãn."
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "ref": "Quyển 5 Hạ · Bài 35 · tr.376",
+        "approx": true,
+        "pattern": "动词 + 个 + 形容词/结果",
+        "vi": "Bổ ngữ thông tục với 个",
+        "structure": "动词 + 个 + 痛快/明白/够...",
+        "explain": "个 trong văn nói có thể chêm vào trước bổ ngữ để tăng sắc thái thân mật, thông tục.",
+        "examples": [
+            {
+                "cn": "今天我们要玩个痛快！",
+                "py": "Jīntiān wǒmen yào wán ge tòngkuài!",
+                "vi": "Hôm nay chúng ta phải chơi cho thật thoải mái!"
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 2 · tr.36",
+        "approx": true,
+        "pattern": "之 + 际 / 之 + 时",
+        "vi": "Vào lúc... (văn viết)",
+        "structure": "在...之际 / 在...之时",
+        "explain": "Cụm cố định mang tính trang trọng, văn chương, thường thấy trong diễn văn, bài viết học thuật, chỉ một thời điểm quan trọng.",
+        "examples": [
+            {
+                "cn": "在新年来临之际, 向大家表示祝贺。",
+                "py": "Zài xīnnián láilín zhī jì, xiàng dàjiā biǎoshì zhùhè.",
+                "vi": "Vào lúc năm mới sắp đến, xin gửi lời chúc mừng đến mọi người."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 4 · tr.58",
+        "approx": true,
+        "pattern": "不免 / 难免",
+        "vi": "Khó tránh khỏi...",
+        "structure": "主语 + 不免/难免 + (会) + động từ/tính từ",
+        "explain": "Diễn tả một kết quả tiêu cực nhẹ là điều khó tránh khỏi trong tình huống nào đó, sắc thái văn viết.",
+        "examples": [
+            {
+                "cn": "第一次上台演讲, 他难免有些紧张。",
+                "py": "Dì-yī cì shàngtái yǎnjiǎng, tā nánmiǎn yǒuxiē jǐnzhāng.",
+                "vi": "Lần đầu lên diễn đàn phát biểu, anh ấy khó tránh khỏi hơi căng thẳng."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 6 · tr.79",
+        "approx": true,
+        "pattern": "何况 / 更何况",
+        "vi": "Huống chi / Huống gì...",
+        "structure": "连A都/也..., 何况B呢？",
+        "explain": "Dùng để tăng tiến lập luận: nếu trường hợp dễ hơn (A) đã như vậy, thì trường hợp khó hơn (B) càng chắc chắn như vậy.",
+        "examples": [
+            {
+                "cn": "连小孩都能做到, 更何况我们大人呢？",
+                "py": "Lián xiǎohái dōu néng zuòdào, gèng hékuàng wǒmen dàren ne?",
+                "vi": "Ngay cả trẻ con cũng làm được, huống chi người lớn chúng ta?"
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 8 · tr.101",
+        "approx": true,
+        "pattern": "未免 / 不至于",
+        "vi": "Không tránh khỏi (mang sắc thái phê phán) / Chưa đến mức...",
+        "structure": "未免 + tính từ (đánh giá hơi quá) | 不至于 + kết quả (chưa đến mức nghiêm trọng)",
+        "explain": "未免 dùng để nhận xét nhẹ nhàng rằng việc gì đó hơi quá đáng. 不至于 phủ định mức độ nghiêm trọng của một khả năng.",
+        "examples": [
+            {
+                "cn": "这样做未免太过分了。",
+                "py": "Zhèyàng zuò wèimiǎn tài guòfèn le.",
+                "vi": "Làm như vậy thì hơi quá đáng."
+            },
+            {
+                "cn": "事情还不至于那么糟。",
+                "py": "Shìqing hái bú zhìyú nàme zāo.",
+                "vi": "Tình hình chưa đến mức tồi tệ như thế."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 11 · tr.134",
+        "approx": true,
+        "pattern": "莫过于 / 莫如",
+        "vi": "Không gì hơn / Chẳng gì bằng...",
+        "structure": "S + 莫过于/莫如 + đối tượng được so sánh",
+        "explain": "Cấu trúc văn viết khẳng định đối tượng nêu sau là lựa chọn/tình huống tốt nhất, không gì sánh được.",
+        "examples": [
+            {
+                "cn": "人生最大的幸福莫过于家庭和睦。",
+                "py": "Rénshēng zuìdà de xìngfú mòguòyú jiātíng hémù.",
+                "vi": "Hạnh phúc lớn nhất của đời người không gì hơn gia đình hòa thuận."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 13 · tr.156",
+        "approx": true,
+        "pattern": "是否",
+        "vi": "Có... hay không (văn viết)",
+        "structure": "主语 + 是否 + động từ/tính từ",
+        "explain": "是否 là cách hỏi trang trọng tương đương 是不是, thường dùng trong văn viết, báo cáo, câu hỏi gián tiếp.",
+        "examples": [
+            {
+                "cn": "我们需要确认他是否同意这个方案。",
+                "py": "Wǒmen xūyào quèrèn tā shìfǒu tóngyì zhège fāng'àn.",
+                "vi": "Chúng ta cần xác nhận liệu anh ấy có đồng ý phương án này hay không."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 15 · tr.177",
+        "approx": true,
+        "pattern": "鉴于",
+        "vi": "Xét thấy / Căn cứ vào...",
+        "structure": "鉴于 + tình hình thực tế, ... ",
+        "explain": "Cấu trúc rất trang trọng, dùng để đưa ra cơ sở thực tế trước khi nêu kết luận hoặc quyết định, phổ biến trong văn bản hành chính.",
+        "examples": [
+            {
+                "cn": "鉴于目前的情况, 会议决定延期举行。",
+                "py": "Jiànyú mùqián de qíngkuàng, huìyì juédìng yánqī jǔxíng.",
+                "vi": "Xét tình hình hiện tại, cuộc họp quyết định tổ chức muộn hơn."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 17 · tr.199",
+        "approx": true,
+        "pattern": "以便 / 以免",
+        "vi": "Để cho dễ... / Để tránh...",
+        "structure": "... , 以便 + mục đích tích cực | ..., 以免 + mục đích tránh điều xấu",
+        "explain": "以便 nêu mục đích thuận lợi mong muốn đạt được; 以免 nêu điều cần tránh xảy ra. Cả hai đặt ở vế sau của câu.",
+        "examples": [
+            {
+                "cn": "请提前预订, 以便安排座位。",
+                "py": "Qǐng tíqián yùdìng, yǐbiàn ānpái zuòwèi.",
+                "vi": "Xin đặt trước để thuận tiện sắp xếp chỗ ngồi."
+            },
+            {
+                "cn": "出门前关好门窗, 以免发生意外。",
+                "py": "Chūmén qián guānhǎo ménchuāng, yǐmiǎn fāshēng yìwài.",
+                "vi": "Trước khi ra ngoài hãy đóng cửa cẩn thận để tránh xảy ra sự cố."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Thượng · Bài 19 · tr.220",
+        "approx": true,
+        "pattern": "既然...就...",
+        "vi": "Đã... thì...",
+        "structure": "既然 + thực tế đã rõ, 就 + kết luận/hành động",
+        "explain": "既然 nêu một thực tế đã được xác nhận làm tiền đề, vế sau 就 nêu kết luận hợp lý rút ra từ tiền đề đó.",
+        "examples": [
+            {
+                "cn": "既然你已经决定了, 就好好去做吧。",
+                "py": "Jìrán nǐ yǐjīng juédìng le, jiù hǎohāo qù zuò ba.",
+                "vi": "Đã quyết định rồi thì hãy làm cho tốt."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 22 · tr.252",
+        "approx": true,
+        "pattern": "动词 + 以 + 动词",
+        "vi": "Bằng cách... (văn viết cổ)",
+        "structure": "动词1 + 以 + 动词2",
+        "explain": "以 nối hai động từ trong văn viết trang trọng, diễn tả phương tiện/cách thức để đạt được hành động sau, ví dụ 借以, 用以.",
+        "examples": [
+            {
+                "cn": "政府出台新政策, 借以促进就业。",
+                "py": "Zhèngfǔ chūtái xīn zhèngcè, jièyǐ cùjìn jiùyè.",
+                "vi": "Chính phủ ban hành chính sách mới để thúc đẩy việc làm."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 25 · tr.285",
+        "approx": true,
+        "pattern": "之所以...是因为...",
+        "vi": "Sở dĩ... là vì...",
+        "structure": "之所以 + kết quả, 是因为 + nguyên nhân",
+        "explain": "Đảo trật tự nhân-quả: nêu kết quả trước (之所以), rồi giải thích nguyên nhân (是因为), nhấn mạnh nguyên nhân được giải thích.",
+        "examples": [
+            {
+                "cn": "他之所以能成功, 是因为坚持不懈。",
+                "py": "Tā zhī suǒyǐ néng chénggōng, shì yīnwèi jiānchí bú xiè.",
+                "vi": "Sở dĩ anh ấy thành công là vì kiên trì không ngừng."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 28 · tr.318",
+        "approx": true,
+        "pattern": "无所谓 / 无所不...",
+        "vi": "Không quan trọng / Không gì mà không...",
+        "structure": "无所谓 + sự việc (không quan trọng) | 无所不 + động từ (không gì không...)",
+        "explain": "无所谓 diễn tả thái độ thờ ơ, không bận tâm. 无所不 + V là cấu trúc cố định mang nghĩa tuyệt đối, ví dụ 无所不知 (biết hết mọi thứ).",
+        "examples": [
+            {
+                "cn": "去不去都无所谓, 随你吧。",
+                "py": "Qù bú qù dōu wúsuǒwèi, suí nǐ ba.",
+                "vi": "Đi hay không cũng không quan trọng, tùy bạn."
+            },
+            {
+                "cn": "他对历史知识无所不知。",
+                "py": "Tā duì lìshǐ zhīshi wúsuǒbùzhī.",
+                "vi": "Anh ấy biết hết mọi kiến thức lịch sử."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 31 · tr.350",
+        "approx": true,
+        "pattern": "乃至 / 甚至于",
+        "vi": "Thậm chí đến cả...",
+        "structure": "A, 乃至/甚至于 + B (mức độ cực đoan hơn)",
+        "explain": "Cấu trúc văn viết tăng tiến, dùng để liệt kê các trường hợp với mức độ ngày càng nghiêm trọng/cực đoan hơn.",
+        "examples": [
+            {
+                "cn": "这件事影响了公司, 乃至整个行业。",
+                "py": "Zhè jiàn shì yǐngxiǎngle gōngsī, nǎizhì zhěnggè hángyè.",
+                "vi": "Việc này ảnh hưởng đến công ty, thậm chí đến cả toàn ngành."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 34 · tr.383",
+        "approx": true,
+        "pattern": "诸如此类 / 之类",
+        "vi": "Những thứ tương tự như vậy",
+        "structure": "A、B、C 之类的 + danh từ | 诸如此类的 + danh từ",
+        "explain": "之类 đặt sau danh sách liệt kê để chỉ 'và những thứ tương tự'. 诸如此类 là cụm cố định mang nghĩa tương đương, dùng độc lập.",
+        "examples": [
+            {
+                "cn": "水果、蔬菜之类的食物对身体很好。",
+                "py": "Shuǐguǒ, shūcài zhī lèi de shíwù duì shēntǐ hěn hǎo.",
+                "vi": "Những thực phẩm như hoa quả, rau củ rất tốt cho cơ thể."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 37 · tr.415",
+        "approx": true,
+        "pattern": "省得 / 免得",
+        "vi": "Để đỡ phải... / Để khỏi phải...",
+        "structure": "A, 省得/免得 + điều không mong muốn",
+        "explain": "Nêu hành động ở vế trước nhằm tránh điều không mong muốn ở vế sau, sắc thái thông tục hơn 以免.",
+        "examples": [
+            {
+                "cn": "早点出发吧, 免得堵车。",
+                "py": "Zǎodiǎn chūfā ba, miǎnde dǔchē.",
+                "vi": "Đi sớm một chút để khỏi bị tắc đường."
+            }
+        ]
+    },
+    {
+        "level": 6,
+        "ref": "Quyển 6 Hạ · Bài 39 · tr.437",
+        "approx": true,
+        "pattern": "成语结构 (ABAB/AABB)",
+        "vi": "Cấu trúc thành ngữ 4 chữ",
+        "structure": "ABAB (商量商量) / AABB (干干净净) / ABCD cố định",
+        "explain": "HSK6 yêu cầu nhận diện và sử dụng thành ngữ 4 chữ cố định. Một số mẫu lặp âm tăng sắc thái biểu cảm, một số là cụm cố định không thể tách rời.",
+        "examples": [
+            {
+                "cn": "房间打扫得干干净净。",
+                "py": "Fángjiān dǎsǎo de gāngānjìngjìng.",
+                "vi": "Phòng được lau dọn sạch sẽ."
+            },
+            {
+                "cn": "这件事我们再商量商量。",
+                "py": "Zhè jiàn shì wǒmen zài shāngliang shāngliang.",
+                "vi": "Việc này chúng ta bàn bạc thêm nhé."
+            }
+        ]
+    }
+]
