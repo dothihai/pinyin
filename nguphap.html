@@ -456,8 +456,8 @@ function fetchSync(url){
   }
 }
 
-// fetch data synchronously from nguphap-data.json
-const DATA = fetchSync('nguphap-data.json');
+// fetch data synchronously
+const DATA = fetchSync('hsk_grammar_1_6.json');
 
 /* ---------- Render ---------- */
 const levelMeta = {1:'lv1',2:'lv2',3:'lv3',4:'lv4',5:'lv5',6:'lv6'};
@@ -502,6 +502,7 @@ function buildCard(item, idx){
 
 function formatRef(ref){
   if (!ref) return '';
+  ref = ref.replace(' Hạ', '2');
   const parts = ref.match(/(\d+)/g);
   if(parts && parts.length >= 3){
     return Number(parts[0]) * 10000 + Number(parts[1]) * 100 + Number(parts[2]);
